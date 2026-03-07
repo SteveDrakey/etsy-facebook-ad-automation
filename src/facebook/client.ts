@@ -194,14 +194,10 @@ export async function promotePost(
   const adSetId = adSet._data.id;
   console.log(`    Created ad set: ${adSetId}`);
 
-  // 3. Get the post's image, then create ad creative with short ad copy + SHOP_NOW
+  // 3. Get image, upload to ad account for a permanent hash, then create creative
+  //    Prefer Etsy image (permanent public URL) over FB post image (temporary CDN URL)
   const postData = await fbGraphGet(`${postId}?fields=full_picture`);
-  let imageUrl: string | undefined = postData.full_picture;
-
-  if (!imageUrl && fallbackImageUrl) {
-    console.log(`    Post ${postId} has no full_picture, using fallback image`);
-    imageUrl = fallbackImageUrl;
-  }
+  let imageUrl: string | undefined = fallbackImageUrl || postData.full_picture;
 
   if (!imageUrl) {
     throw new Error(
@@ -209,14 +205,40 @@ export async function promotePost(
     );
   }
 
-  console.log(`    Using image: ${imageUrl.substring(0, 80)}...`);
+  if (imageUrl === fallbackImageUrl) {
+    console.log(`    Using Etsy listing image (permanent URL)`);
+  } else {
+    console.log(`    Using FB post image (temporary CDN URL)`);
+  }
+  console.log(`    Image: ${imageUrl.substring(0, 80)}...`);
+
+  // Upload image to ad account — creates a permanent image_hash that won't expire
+  // (FB CDN URLs from full_picture are temporary and can expire before the ad delivers)
+  const imageRes = await fetch(imageUrl);
+  if (!imageRes.ok) {
+    throw new Error(`Failed to download image (${imageRes.status}): ${imageUrl.substring(0, 80)}`);
+  }
+  const imageBytes = Buffer.from(await imageRes.arrayBuffer());
+  const imageBase64 = imageBytes.toString("base64");
+
+  const adImage = await account.createAdImage([], { bytes: imageBase64 });
+  if (!adImage?._data?.images) {
+    throw new Error(`Failed to upload ad image: ${JSON.stringify(adImage?._data)}`);
+  }
+  // Response shape: { images: { bytes: { hash: "...", url: "..." } } }
+  const imageInfo = Object.values(adImage._data.images)[0] as any;
+  const imageHash = imageInfo?.hash;
+  if (!imageHash) {
+    throw new Error(`No image hash returned: ${JSON.stringify(adImage._data)}`);
+  }
+  console.log(`    Uploaded image, hash: ${imageHash}`);
 
   const creative = await account.createAdCreative([], {
     [AdCreative.Fields.name]: `${dateSuffix} - Shop Ad`,
     object_story_spec: {
       page_id: pageId,
       link_data: {
-        picture: imageUrl,
+        image_hash: imageHash,
         link: etsyUrl,
         message: adCopy, // Short ad copy, no raw URL - Shop Now button handles it
         name: "Shop on Etsy",

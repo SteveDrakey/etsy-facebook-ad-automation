@@ -23,6 +23,7 @@ declare module "facebook-nodejs-business-sdk" {
     createAdSet(fields: string[], params: Record<string, any>): Promise<AbstractCrudObject>;
     createAdCreative(fields: string[], params: Record<string, any>): Promise<AbstractCrudObject>;
     createAd(fields: string[], params: Record<string, any>): Promise<AbstractCrudObject>;
+    createAdImage(fields: string[], params: Record<string, any>): Promise<AbstractCrudObject>;
   }
 
   class Campaign extends AbstractCrudObject {
