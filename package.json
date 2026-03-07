@@ -1,0 +1,22 @@
+{
+  "name": "print-shop",
+  "version": "1.0.0",
+  "description": "Automate posting Etsy listings to Facebook Page and promoting with ads",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "tsx src/scripts/setup.ts",
+    "post": "tsx src/scripts/post-weekly.ts",
+    "promote": "tsx src/scripts/promote-weekly.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.4.7",
+    "facebook-nodejs-business-sdk": "^21.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
