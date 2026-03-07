@@ -8,7 +8,7 @@
  */
 import { promotePost } from "../facebook/client.js";
 import { generateAdCopy } from "../ai/copy-generator.js";
-import { getActiveListings } from "../etsy/client.js";
+import { getActiveListings, getImageUrls } from "../etsy/client.js";
 import {
   loadState,
   saveState,
@@ -46,12 +46,22 @@ async function main() {
     : "Check out this 3D printed architectural model. Shop now on Etsy.";
   console.log(`\n  --- Ad Copy ---\n  ${adCopy.replace(/\n/g, "\n  ")}\n  ---`);
 
+  // Get fallback image URL from listing data in case the FB post has no full_picture
+  let fallbackImage: string | undefined;
+  if (listing) {
+    const images = await getImageUrls(listing);
+    fallbackImage = images[0];
+    if (fallbackImage) {
+      console.log(`  Fallback image: ${fallbackImage.substring(0, 80)}...`);
+    }
+  }
+
   if (dryRun) {
     console.log("\n[DRY RUN] Would create ad. Skipping.");
     return;
   }
 
-  const result = await promotePost(entry.postId, entry.etsyUrl, adCopy);
+  const result = await promotePost(entry.postId, entry.etsyUrl, adCopy, AD_BUDGET_PENCE, AD_DURATION_DAYS, fallbackImage);
   console.log(`\n  Campaign: ${result.campaignId} (persistent)`);
   console.log(`  Ad Set:   ${result.adSetId}`);
   console.log(`  Creative: ${result.creativeId}`);

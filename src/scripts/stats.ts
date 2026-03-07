@@ -10,7 +10,13 @@ const accountId = config.facebook.adAccountId();
 
 async function fbGet(path: string): Promise<any> {
   const res = await fetch(`https://graph.facebook.com/v25.0/${path}&access_token=${token}`);
-  return res.json();
+  if (!res.ok) {
+    const body = await res.text();
+    throw new Error(`Facebook API ${res.status}: ${body}`);
+  }
+  const data = await res.json();
+  if (data.error) throw new Error(`Facebook API: ${data.error.message}`);
+  return data;
 }
 
 async function main() {
@@ -55,6 +61,19 @@ async function main() {
         }
       } else {
         console.log(`\n  No data yet - ad may have just started.`);
+      }
+
+      // Get ads under this ad set with delivery status
+      const ads = await fbGet(
+        `${adSet.id}/ads?fields=id,name,status,effective_status,ad_review_feedback`
+      );
+
+      for (const ad of ads.data || []) {
+        console.log(`\n  Ad: ${ad.name}`);
+        console.log(`    Status: ${ad.status} | Effective: ${ad.effective_status}`);
+        if (ad.ad_review_feedback?.global) {
+          console.log(`    Review feedback: ${JSON.stringify(ad.ad_review_feedback.global)}`);
+        }
       }
 
       console.log();

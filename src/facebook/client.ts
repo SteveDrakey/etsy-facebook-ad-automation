@@ -19,6 +19,23 @@ function init() {
   initialized = true;
 }
 
+/** Checked Graph API GET — throws on HTTP errors and API error responses */
+async function fbGraphGet(path: string): Promise<any> {
+  const token = config.facebook.pageAccessToken();
+  const separator = path.includes("?") ? "&" : "?";
+  const url = `https://graph.facebook.com/v25.0/${path}${separator}access_token=${token}`;
+  const res = await fetch(url);
+  if (!res.ok) {
+    const body = await res.text();
+    throw new Error(`Facebook Graph API ${res.status}: ${body}`);
+  }
+  const data = await res.json();
+  if ((data as any).error) {
+    throw new Error(`Facebook Graph API error: ${(data as any).error.message}`);
+  }
+  return data;
+}
+
 // ─── Page Posting ────────────────────────────────────────────
 
 export interface PhotoPostResult {
@@ -94,13 +111,11 @@ export interface PromoteResult {
  */
 async function getOrCreateCampaign(): Promise<string> {
   const accountId = config.facebook.adAccountId();
-  const token = config.facebook.pageAccessToken();
 
   // Check for existing campaign
-  const searchRes = await fetch(
-    `https://graph.facebook.com/v25.0/${accountId}/campaigns?fields=id,name,status&filtering=[{"field":"name","operator":"CONTAIN","value":"Drakey3DPrints Ads"}]&access_token=${token}`
+  const searchData = await fbGraphGet(
+    `${accountId}/campaigns?fields=id,name,status&filtering=[{"field":"name","operator":"CONTAIN","value":"Drakey3DPrints Ads"}]`
   );
-  const searchData = (await searchRes.json()) as any;
   const existing = searchData.data?.find(
     (c: any) => c.name === "Drakey3DPrints Ads" && c.status !== "DELETED"
   );
@@ -116,6 +131,10 @@ async function getOrCreateCampaign(): Promise<string> {
     special_ad_categories: [],
     is_adset_budget_sharing_enabled: false,
   });
+  if (!campaign?._data?.id) {
+    throw new Error(`Failed to create campaign: ${JSON.stringify(campaign?._data)}`);
+  }
+  console.log(`    Created campaign: ${campaign._data.id}`);
   return campaign._data.id;
 }
 
@@ -128,7 +147,8 @@ export async function promotePost(
   etsyUrl: string,
   adCopy: string,
   budgetPence = AD_BUDGET_PENCE,
-  durationDays = AD_DURATION_DAYS
+  durationDays = AD_DURATION_DAYS,
+  fallbackImageUrl?: string
 ): Promise<PromoteResult> {
   init();
   const accountId = config.facebook.adAccountId();
@@ -168,20 +188,35 @@ export async function promotePost(
       },
     },
   });
+  if (!adSet?._data?.id) {
+    throw new Error(`Failed to create ad set: ${JSON.stringify(adSet?._data)}`);
+  }
   const adSetId = adSet._data.id;
+  console.log(`    Created ad set: ${adSetId}`);
 
   // 3. Get the post's image, then create ad creative with short ad copy + SHOP_NOW
-  const postInfo = await fetch(
-    `https://graph.facebook.com/v25.0/${postId}?fields=full_picture&access_token=${config.facebook.pageAccessToken()}`
-  );
-  const postData = (await postInfo.json()) as any;
+  const postData = await fbGraphGet(`${postId}?fields=full_picture`);
+  let imageUrl: string | undefined = postData.full_picture;
+
+  if (!imageUrl && fallbackImageUrl) {
+    console.log(`    Post ${postId} has no full_picture, using fallback image`);
+    imageUrl = fallbackImageUrl;
+  }
+
+  if (!imageUrl) {
+    throw new Error(
+      `Cannot create ad: no image available. Post ${postId} has no full_picture and no fallback was provided.`
+    );
+  }
+
+  console.log(`    Using image: ${imageUrl.substring(0, 80)}...`);
 
   const creative = await account.createAdCreative([], {
     [AdCreative.Fields.name]: `${dateSuffix} - Shop Ad`,
     object_story_spec: {
       page_id: pageId,
       link_data: {
-        picture: postData.full_picture,
+        picture: imageUrl,
         link: etsyUrl,
         message: adCopy, // Short ad copy, no raw URL - Shop Now button handles it
         name: "Shop on Etsy",
@@ -189,7 +224,11 @@ export async function promotePost(
       },
     },
   });
+  if (!creative?._data?.id) {
+    throw new Error(`Failed to create ad creative: ${JSON.stringify(creative?._data)}`);
+  }
   const creativeId = creative._data.id;
+  console.log(`    Created creative: ${creativeId}`);
 
   // 4. Create Ad (ACTIVE - campaign is persistent, ad set has the budget/schedule)
   const ad = await account.createAd([], {
@@ -198,7 +237,11 @@ export async function promotePost(
     [Ad.Fields.creative]: { creative_id: creativeId },
     [Ad.Fields.status]: "ACTIVE",
   });
+  if (!ad?._data?.id) {
+    throw new Error(`Failed to create ad: ${JSON.stringify(ad?._data)}`);
+  }
   const adId = ad._data.id;
+  console.log(`    Created ad: ${adId}`);
 
   return { campaignId, adSetId, creativeId, adId };
 }
@@ -215,11 +258,9 @@ export interface PagePost {
 /** Fetch recent published posts from the page (uses Graph API directly) */
 export async function getPagePosts(limit = 25): Promise<PagePost[]> {
   const pageId = config.facebook.pageId();
-  const token = config.facebook.pageAccessToken();
-  const url = `https://graph.facebook.com/v25.0/${pageId}/published_posts?fields=id,message,created_time,full_picture&limit=${limit}&access_token=${token}`;
-  const res = await fetch(url);
-  const data = (await res.json()) as any;
-  if (data.error) throw new Error(`FB API: ${data.error.message}`);
+  const data = await fbGraphGet(
+    `${pageId}/published_posts?fields=id,message,created_time,full_picture&limit=${limit}`
+  );
   return data.data as PagePost[];
 }
 
