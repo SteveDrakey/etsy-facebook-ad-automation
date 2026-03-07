@@ -126,6 +126,7 @@ async function getOrCreateCampaign(): Promise<string> {
 export async function promotePost(
   postId: string,
   etsyUrl: string,
+  adCopy: string,
   budgetPence = AD_BUDGET_PENCE,
   durationDays = AD_DURATION_DAYS
 ): Promise<PromoteResult> {
@@ -169,9 +170,9 @@ export async function promotePost(
   });
   const adSetId = adSet._data.id;
 
-  // 3. Get the post's image and message, then create creative with SHOP_NOW
+  // 3. Get the post's image, then create ad creative with short ad copy + SHOP_NOW
   const postInfo = await fetch(
-    `https://graph.facebook.com/v25.0/${postId}?fields=full_picture,message&access_token=${config.facebook.pageAccessToken()}`
+    `https://graph.facebook.com/v25.0/${postId}?fields=full_picture&access_token=${config.facebook.pageAccessToken()}`
   );
   const postData = (await postInfo.json()) as any;
 
@@ -182,7 +183,7 @@ export async function promotePost(
       link_data: {
         picture: postData.full_picture,
         link: etsyUrl,
-        message: postData.message,
+        message: adCopy, // Short ad copy, no raw URL - Shop Now button handles it
         name: "Shop on Etsy",
         call_to_action: { type: "SHOP_NOW", value: { link: etsyUrl } },
       },
