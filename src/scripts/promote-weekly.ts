@@ -1,14 +1,14 @@
 /**
- * Promote the latest unpromoted Facebook post as an ad.
+ * Boost the latest unpromoted Facebook post.
  * Uses one persistent campaign, creates a new ad set + ad under it.
+ * The ad uses the original post (object_story_id) so it appears as a
+ * "boosted post" in Facebook Business Suite.
  *
  * Usage:
- *   npx tsx src/scripts/promote-weekly.ts            # create ad (ACTIVE)
+ *   npx tsx src/scripts/promote-weekly.ts            # boost post (ACTIVE)
  *   npx tsx src/scripts/promote-weekly.ts --dry-run   # preview only
  */
 import { promotePost } from "../facebook/client.js";
-import { generateAdCopy } from "../ai/copy-generator.js";
-import { getActiveListings, getImageUrls } from "../etsy/client.js";
 import {
   loadState,
   saveState,
@@ -20,7 +20,7 @@ import { AD_BUDGET_PENCE, AD_DURATION_DAYS } from "../config.js";
 const dryRun = process.argv.includes("--dry-run");
 
 async function main() {
-  console.log(dryRun ? "[DRY RUN] Preview mode\n" : "Creating ad...\n");
+  console.log(dryRun ? "[DRY RUN] Preview mode\n" : "Boosting post...\n");
 
   const state = await loadState();
   const unpromoted = getUnpromotedPosts(state);
@@ -32,46 +32,25 @@ async function main() {
   }
 
   const entry = unpromoted[unpromoted.length - 1];
-  console.log(`\nPromoting post: ${entry.postId}`);
+  console.log(`\nBoosting post: ${entry.postId}`);
   console.log(`  Listing: ${entry.listingId}`);
   console.log(`  Etsy URL: ${entry.etsyUrl}`);
   console.log(`  Budget: £${(AD_BUDGET_PENCE / 100).toFixed(2)} over ${AD_DURATION_DAYS} days`);
 
-  // Generate short ad copy (no URL, no hashtags - Shop Now button handles the link)
-  const { listings } = await getActiveListings();
-  const listing = listings.find((l) => l.listing_id === entry.listingId);
-  console.log("\n  Generating ad copy...");
-  const adCopy = listing
-    ? await generateAdCopy(listing)
-    : "Check out this 3D printed architectural model. Shop now on Etsy.";
-  console.log(`\n  --- Ad Copy ---\n  ${adCopy.replace(/\n/g, "\n  ")}\n  ---`);
-
-  // Get fallback image URL from listing data in case the FB post has no full_picture
-  let fallbackImage: string | undefined;
-  if (listing) {
-    const images = await getImageUrls(listing);
-    fallbackImage = images[0];
-    if (fallbackImage) {
-      console.log(`  Fallback image: ${fallbackImage.substring(0, 80)}...`);
-    }
-  }
-
   if (dryRun) {
-    console.log("\n[DRY RUN] Would create ad. Skipping.");
+    console.log("\n[DRY RUN] Would boost post. Skipping.");
     return;
   }
 
-  const result = await promotePost(entry.postId, entry.etsyUrl, adCopy, AD_BUDGET_PENCE, AD_DURATION_DAYS, fallbackImage);
+  const result = await promotePost(entry.postId, entry.etsyUrl, "", AD_BUDGET_PENCE, AD_DURATION_DAYS);
   console.log(`\n  Campaign: ${result.campaignId} (persistent)`);
   console.log(`  Ad Set:   ${result.adSetId}`);
-  console.log(`  Creative: ${result.creativeId}`);
-  console.log(`  Ad:       ${result.adId} (ACTIVE)`);
-  console.log(`  CTA:      Shop Now -> ${entry.etsyUrl}`);
+  console.log(`  Ad:       ${result.adId} (ACTIVE - boosted post)`);
 
   markAsPromoted(state, entry.postId, result);
   await saveState(state);
 
-  console.log("\nDone! Ad is live with Shop Now button.");
+  console.log("\nDone! Post is now boosted and will appear in Business Suite.");
 }
 
 main().catch((err) => {

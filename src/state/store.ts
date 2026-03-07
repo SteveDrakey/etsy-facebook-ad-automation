@@ -16,7 +16,6 @@ export interface PromotedEntry {
   postId: string;
   campaignId: string;
   adSetId: string;
-  creativeId: string;
   adId: string;
   date: string;
 }
@@ -74,7 +73,7 @@ export function markAsPosted(
 export function markAsPromoted(
   state: State,
   postId: string,
-  ids: { campaignId: string; adSetId: string; creativeId: string; adId: string }
+  ids: { campaignId: string; adSetId: string; adId: string }
 ): void {
   state.promoted.push({
     postId,
