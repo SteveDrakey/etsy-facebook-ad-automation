@@ -10,6 +10,7 @@ import { getActiveListings, getImageUrls } from "../etsy/client.js";
 import {
   postPhotoToPage,
   postMultiplePhotos,
+  commentOnPost,
   getPagePosts,
 } from "../facebook/client.js";
 import { pickBestListing, generatePostCaption } from "../ai/copy-generator.js";
@@ -94,7 +95,11 @@ async function main() {
     console.log(`Posted ${imageUrls.length} photos. Post ID: ${postId}`);
   }
 
-  // 7. Save state
+  // 7. Add Etsy link as first comment (keeps it out of the post for better reach)
+  const commentId = await commentOnPost(postId, `Grab yours here 👇\n${chosen.url}`);
+  console.log(`Added link comment: ${commentId}`);
+
+  // 8. Save state
   markAsPosted(state, chosen.listing_id, postId, chosen.url);
   await saveState(state);
   console.log("State saved.");

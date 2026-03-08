@@ -101,11 +101,11 @@ Now write a post for this product. Rules:
 - Sound like the examples above — first person, casual, genuine
 - Mention what makes this building/model interesting (architecture facts, real-world details)
 - Do NOT include the price (Etsy handles that)
-- MUST end with a clear call to action and the Etsy link on its own line — this drives sales
+- End with a soft call to action like "link in comments" or "details in comments" — do NOT put any URLs in the post
+- Do NOT include any Etsy links or URLs in the post text — the link goes in the comments separately
 - 2-3 short paragraphs max
 - 3-5 hashtags at the end
 - No markdown, no emojis unless natural
-- The Etsy URL MUST appear in the post text (not hidden)
 - NEVER fabricate facts or make up details about the print process, colours, materials, or anything not in the description
 - Only state facts that are in the product description below
 - TIMING: ${isNew ? "This was JUST listed — you may say 'just added' or 'new to the shop'" : "This is NOT a new listing — do NOT say 'just added', 'just listed', 'new', etc."}
@@ -126,10 +126,8 @@ Write the post:`;
   if (block.type !== "text") throw new Error("Unexpected response type");
   let caption = block.text.trim();
 
-  // Guarantee the Etsy URL is in the post — if AI forgot, append it
-  if (!caption.includes(listing.url)) {
-    caption += `\n\nGrab yours here: ${listing.url}`;
-  }
+  // Strip any URLs the AI may have included — link goes in comments only
+  caption = caption.replace(/https?:\/\/\S+/g, "").replace(/\n{3,}/g, "\n\n").trim();
 
   return caption;
 }
