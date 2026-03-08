@@ -36,7 +36,37 @@ async function fbGraphGet(path: string): Promise<any> {
   return data;
 }
 
+/** Checked Graph API POST — throws on HTTP errors and API error responses */
+async function fbGraphPost(path: string, body: Record<string, string>): Promise<any> {
+  const token = config.facebook.pageAccessToken();
+  const url = `https://graph.facebook.com/v25.0/${path}`;
+  const params = new URLSearchParams({ ...body, access_token: token });
+  const res = await fetch(url, { method: "POST", body: params });
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`Facebook Graph API POST ${res.status}: ${text}`);
+  }
+  const data = await res.json();
+  if ((data as any).error) {
+    throw new Error(`Facebook Graph API error: ${(data as any).error.message}`);
+  }
+  return data;
+}
+
 // ─── Page Posting ────────────────────────────────────────────
+
+/**
+ * Share a link on the Facebook Page (like manually sharing an Etsy URL).
+ * Facebook generates the preview card from the page's Open Graph data.
+ */
+export async function shareLink(
+  link: string,
+  message: string
+): Promise<{ id: string }> {
+  const pageId = config.facebook.pageId();
+  const data = await fbGraphPost(`${pageId}/feed`, { link, message });
+  return { id: data.id };
+}
 
 export interface PhotoPostResult {
   id: string;
@@ -222,6 +252,14 @@ export async function promotePost(
   console.log(`    Created ad: ${ad._data.id}`);
 
   return { campaignId, adSetId, adId: ad._data.id };
+}
+
+// ─── Comments ─────────────────────────────────────────────────
+
+/** Add a comment on a page post (used to put the Etsy link in comments) */
+export async function commentOnPost(postId: string, message: string): Promise<string> {
+  const data = await fbGraphPost(`${postId}/comments`, { message });
+  return data.id;
 }
 
 // ─── Page Reading ─────────────────────────────────────────────
