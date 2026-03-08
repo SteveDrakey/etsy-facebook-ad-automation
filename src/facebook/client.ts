@@ -104,27 +104,31 @@ export interface PromoteResult {
   adId: string;
 }
 
+const BOOST_CAMPAIGN_NAME = "Drakey3DPrints Boosts";
+
 /**
- * Get or create the single persistent campaign.
- * One campaign lives forever, ad sets rotate under it.
+ * Get or create the persistent boost campaign.
+ * Uses OUTCOME_ENGAGEMENT objective which is required for boosted posts.
+ * This is separate from the old "Drakey3DPrints Ads" campaign which used
+ * OUTCOME_TRAFFIC and may have caused zero-delivery issues.
  */
 async function getOrCreateCampaign(): Promise<string> {
   const accountId = config.facebook.adAccountId();
 
-  // Check for existing campaign
+  // Check for existing boost campaign
   const searchData = await fbGraphGet(
-    `${accountId}/campaigns?fields=id,name,status&filtering=[{"field":"name","operator":"CONTAIN","value":"Drakey3DPrints Ads"}]`
+    `${accountId}/campaigns?fields=id,name,status&filtering=[{"field":"name","operator":"CONTAIN","value":"Drakey3DPrints Boosts"}]`
   );
   const existing = searchData.data?.find(
-    (c: any) => c.name === "Drakey3DPrints Ads" && c.status !== "DELETED"
+    (c: any) => c.name === BOOST_CAMPAIGN_NAME && c.status !== "DELETED"
   );
 
   if (existing) return existing.id;
 
-  // Create new persistent campaign
+  // Create new boost campaign with OUTCOME_ENGAGEMENT
   const account = new AdAccount(accountId);
   const campaign = await account.createCampaign([], {
-    [Campaign.Fields.name]: "Drakey3DPrints Ads",
+    [Campaign.Fields.name]: BOOST_CAMPAIGN_NAME,
     [Campaign.Fields.objective]: "OUTCOME_ENGAGEMENT",
     [Campaign.Fields.status]: "ACTIVE",
     special_ad_categories: [],
@@ -133,7 +137,7 @@ async function getOrCreateCampaign(): Promise<string> {
   if (!campaign?._data?.id) {
     throw new Error(`Failed to create campaign: ${JSON.stringify(campaign?._data)}`);
   }
-  console.log(`    Created campaign: ${campaign._data.id}`);
+  console.log(`    Created NEW boost campaign: ${campaign._data.id}`);
   return campaign._data.id;
 }
 
