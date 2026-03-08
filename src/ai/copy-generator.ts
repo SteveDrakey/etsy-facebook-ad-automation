@@ -88,8 +88,9 @@ export async function generatePostCaption(
 ): Promise<string> {
   const tone = await getToneExamples();
   const toneBlock = tone.map((t, i) => `Example ${i + 1}: "${t}"`).join("\n\n");
-  const sevenDaysAgo = Date.now() / 1000 - 7 * 24 * 60 * 60;
-  const isNew = listing.creation_timestamp > sevenDaysAgo;
+  // RSS pubDate is unreliable for "new" detection (it's update time, not creation)
+  // Only trust this when source is the Etsy API (TODO: pass source through)
+  const isNew = false;
 
   const prompt = `You are writing a Facebook post for Drakey3DPrints, a 3D printing shop.
 
