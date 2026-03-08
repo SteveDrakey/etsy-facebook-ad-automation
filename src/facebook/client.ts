@@ -138,32 +138,34 @@ async function getOrCreateCampaign(): Promise<string> {
 }
 
 /**
- * Boost an existing page post as a Facebook ad.
- * This creates a "boosted post" that appears in Business Suite,
- * using the original post (object_story_id) instead of a new creative.
+ * Promote an existing page post as a Facebook ad with SHOP_NOW CTA.
+ * Uses object_story_spec (dark post) because object_story_id does not
+ * support CTA buttons on Facebook page posts per the API docs.
+ * Reads the original post's image + message, uploads the image as a
+ * permanent hash, and creates a link-type creative with SHOP_NOW.
  */
 export async function promotePost(
   postId: string,
   etsyUrl: string,
-  _adCopy: string,
+  adCopy: string,
   budgetPence = AD_BUDGET_PENCE,
   durationDays = AD_DURATION_DAYS,
-  _fallbackImageUrl?: string
+  fallbackImageUrl?: string
 ): Promise<PromoteResult> {
   init();
   const accountId = config.facebook.adAccountId();
+  const pageId = config.facebook.pageId();
   const account = new AdAccount(accountId);
 
   const now = new Date();
   const end = new Date(now.getTime() + durationDays * 24 * 60 * 60 * 1000);
   const dateSuffix = now.toISOString().slice(0, 10);
 
-  // 1. Get or create persistent campaign (OUTCOME_ENGAGEMENT for boosted posts)
+  // 1. Get or create persistent campaign
   const campaignId = await getOrCreateCampaign();
   console.log(`    Using campaign: ${campaignId}`);
 
   // 2. Create Ad Set — matches Facebook's own boost settings
-  const pageId = config.facebook.pageId();
   const adSet = await account.createAdSet([], {
     [AdSet.Fields.name]: `Boost ${dateSuffix} - £${(budgetPence / 100).toFixed(2)} - ${durationDays}d`,
     [AdSet.Fields.campaign_id]: campaignId,
@@ -174,6 +176,7 @@ export async function promotePost(
     [AdSet.Fields.billing_event]: "IMPRESSIONS",
     [AdSet.Fields.status]: "ACTIVE",
     bid_strategy: "LOWEST_COST_WITHOUT_CAP",
+    destination_type: "WEBSITE",
     promoted_object: { page_id: pageId },
     [AdSet.Fields.targeting]: {
       age_min: 18,
@@ -197,20 +200,45 @@ export async function promotePost(
   const adSetId = adSet._data.id;
   console.log(`    Created ad set: ${adSetId}`);
 
-  // 3. Create ad creative using the existing post (object_story_id)
-  //    This is what makes it a "boosted post" — it uses the original post
-  //    rather than building a new creative from scratch.
+  // 3. Get post image, upload to ad account, create creative with SHOP_NOW
+  const postData = await fbGraphGet(`${postId}?fields=full_picture,message`);
+  const imageUrl = fallbackImageUrl || postData.full_picture;
+  if (!imageUrl) {
+    throw new Error(`No image found for post ${postId}`);
+  }
+  console.log(`    Image: ${imageUrl.substring(0, 80)}...`);
+
+  // Upload image to ad account for permanent hash
+  const imageRes = await fetch(imageUrl);
+  if (!imageRes.ok) throw new Error(`Failed to download image: ${imageRes.status}`);
+  const imageBase64 = Buffer.from(await imageRes.arrayBuffer()).toString("base64");
+  const adImage = await account.createAdImage([], { bytes: imageBase64 });
+  const imageHash = (Object.values(adImage._data.images)[0] as any)?.hash;
+  if (!imageHash) throw new Error(`No image hash returned`);
+  console.log(`    Image hash: ${imageHash}`);
+
+  // Use ad copy if provided, otherwise use original post message
+  const message = adCopy || postData.message;
+
   const creative = await account.createAdCreative([], {
     [AdCreative.Fields.name]: `Boost ${dateSuffix}`,
-    object_story_id: postId,
-    call_to_action: { type: "SHOP_NOW", value: { link: etsyUrl } },
+    object_story_spec: {
+      page_id: pageId,
+      link_data: {
+        image_hash: imageHash,
+        link: etsyUrl,
+        message,
+        name: "Shop on Etsy",
+        call_to_action: { type: "SHOP_NOW", value: { link: etsyUrl } },
+      },
+    },
   });
   if (!creative?._data?.id) {
-    throw new Error(`Failed to create ad creative: ${JSON.stringify(creative?._data)}`);
+    throw new Error(`Failed to create creative: ${JSON.stringify(creative?._data)}`);
   }
-  console.log(`    Created boost creative: ${creative._data.id} (using post ${postId})`);
+  console.log(`    Created creative: ${creative._data.id} (SHOP_NOW -> ${etsyUrl})`);
 
-  // 4. Create Ad linked to the boost creative
+  // 4. Create Ad
   const ad = await account.createAd([], {
     [Ad.Fields.name]: `Boost ${dateSuffix}`,
     [Ad.Fields.adset_id]: adSetId,
@@ -220,10 +248,9 @@ export async function promotePost(
   if (!ad?._data?.id) {
     throw new Error(`Failed to create ad: ${JSON.stringify(ad?._data)}`);
   }
-  const adId = ad._data.id;
-  console.log(`    Created boosted ad: ${adId}`);
+  console.log(`    Created ad: ${ad._data.id}`);
 
-  return { campaignId, adSetId, adId };
+  return { campaignId, adSetId, adId: ad._data.id };
 }
 
 // ─── Page Reading ─────────────────────────────────────────────

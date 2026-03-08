@@ -1,14 +1,15 @@
 /**
- * Boost the latest unpromoted Facebook post.
- * Uses one persistent campaign, creates a new ad set + ad under it.
- * The ad uses the original post (object_story_id) so it appears as a
- * "boosted post" in Facebook Business Suite.
+ * Promote the latest unpromoted Facebook post as an ad with SHOP_NOW.
+ * Creates a dark post (object_story_spec) mirroring the original,
+ * with proper CTA button and Etsy link.
  *
  * Usage:
- *   npx tsx src/scripts/promote-weekly.ts            # boost post (ACTIVE)
+ *   npx tsx src/scripts/promote-weekly.ts            # create ad (ACTIVE)
  *   npx tsx src/scripts/promote-weekly.ts --dry-run   # preview only
  */
 import { promotePost } from "../facebook/client.js";
+import { generateAdCopy } from "../ai/copy-generator.js";
+import { getActiveListings, getImageUrls } from "../etsy/client.js";
 import {
   loadState,
   saveState,
@@ -20,7 +21,7 @@ import { AD_BUDGET_PENCE, AD_DURATION_DAYS } from "../config.js";
 const dryRun = process.argv.includes("--dry-run");
 
 async function main() {
-  console.log(dryRun ? "[DRY RUN] Preview mode\n" : "Boosting post...\n");
+  console.log(dryRun ? "[DRY RUN] Preview mode\n" : "Creating ad...\n");
 
   const state = await loadState();
   const unpromoted = getUnpromotedPosts(state);
@@ -32,25 +33,47 @@ async function main() {
   }
 
   const entry = unpromoted[unpromoted.length - 1];
-  console.log(`\nBoosting post: ${entry.postId}`);
+  console.log(`\nPromoting post: ${entry.postId}`);
   console.log(`  Listing: ${entry.listingId}`);
   console.log(`  Etsy URL: ${entry.etsyUrl}`);
   console.log(`  Budget: £${(AD_BUDGET_PENCE / 100).toFixed(2)} over ${AD_DURATION_DAYS} days`);
 
+  // Generate short ad copy
+  const { listings } = await getActiveListings();
+  const listing = listings.find((l) => l.listing_id === entry.listingId);
+  console.log("\n  Generating ad copy...");
+  const adCopy = listing
+    ? await generateAdCopy(listing)
+    : "";
+  if (adCopy) {
+    console.log(`\n  --- Ad Copy ---\n  ${adCopy.replace(/\n/g, "\n  ")}\n  ---`);
+  }
+
+  // Get fallback image from listing
+  let fallbackImage: string | undefined;
+  if (listing) {
+    const images = await getImageUrls(listing);
+    fallbackImage = images[0];
+  }
+
   if (dryRun) {
-    console.log("\n[DRY RUN] Would boost post. Skipping.");
+    console.log("\n[DRY RUN] Would create ad. Skipping.");
     return;
   }
 
-  const result = await promotePost(entry.postId, entry.etsyUrl, "", AD_BUDGET_PENCE, AD_DURATION_DAYS);
+  const result = await promotePost(
+    entry.postId, entry.etsyUrl, adCopy,
+    AD_BUDGET_PENCE, AD_DURATION_DAYS, fallbackImage
+  );
   console.log(`\n  Campaign: ${result.campaignId} (persistent)`);
   console.log(`  Ad Set:   ${result.adSetId}`);
-  console.log(`  Ad:       ${result.adId} (ACTIVE - boosted post)`);
+  console.log(`  Ad:       ${result.adId} (ACTIVE)`);
+  console.log(`  CTA:      Shop Now -> ${entry.etsyUrl}`);
 
   markAsPromoted(state, entry.postId, result);
   await saveState(state);
 
-  console.log("\nDone! Post is now boosted and will appear in Business Suite.");
+  console.log("\nDone! Ad is live with Shop Now button.");
 }
 
 main().catch((err) => {
