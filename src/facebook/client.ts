@@ -138,19 +138,19 @@ async function getOrCreateCampaign(): Promise<string> {
 }
 
 /**
- * Promote an existing page post as a Facebook ad with SHOP_NOW CTA.
- * Uses object_story_spec (dark post) because object_story_id does not
- * support CTA buttons on Facebook page posts per the API docs.
- * Reads the original post's image + message, uploads the image as a
- * permanent hash, and creates a link-type creative with SHOP_NOW.
+ * Boost an existing page post.
+ * Uses object_story_id so engagement feeds back to the original post
+ * and it shows as "Boost again" in Business Suite.
+ * CTA will be "Learn More" (API limitation - SHOP_NOW only works with
+ * object_story_spec which creates a dark post instead of a boost).
  */
 export async function promotePost(
   postId: string,
-  etsyUrl: string,
-  adCopy: string,
+  _etsyUrl: string,
+  _adCopy: string,
   budgetPence = AD_BUDGET_PENCE,
   durationDays = AD_DURATION_DAYS,
-  fallbackImageUrl?: string
+  _fallbackImageUrl?: string
 ): Promise<PromoteResult> {
   init();
   const accountId = config.facebook.adAccountId();
@@ -176,7 +176,6 @@ export async function promotePost(
     [AdSet.Fields.billing_event]: "IMPRESSIONS",
     [AdSet.Fields.status]: "ACTIVE",
     bid_strategy: "LOWEST_COST_WITHOUT_CAP",
-    destination_type: "WEBSITE",
     promoted_object: { page_id: pageId },
     [AdSet.Fields.targeting]: {
       age_min: 18,
@@ -200,43 +199,15 @@ export async function promotePost(
   const adSetId = adSet._data.id;
   console.log(`    Created ad set: ${adSetId}`);
 
-  // 3. Get post image, upload to ad account, create creative with SHOP_NOW
-  const postData = await fbGraphGet(`${postId}?fields=full_picture,message`);
-  const imageUrl = fallbackImageUrl || postData.full_picture;
-  if (!imageUrl) {
-    throw new Error(`No image found for post ${postId}`);
-  }
-  console.log(`    Image: ${imageUrl.substring(0, 80)}...`);
-
-  // Upload image to ad account for permanent hash
-  const imageRes = await fetch(imageUrl);
-  if (!imageRes.ok) throw new Error(`Failed to download image: ${imageRes.status}`);
-  const imageBase64 = Buffer.from(await imageRes.arrayBuffer()).toString("base64");
-  const adImage = await account.createAdImage([], { bytes: imageBase64 });
-  const imageHash = (Object.values(adImage._data.images)[0] as any)?.hash;
-  if (!imageHash) throw new Error(`No image hash returned`);
-  console.log(`    Image hash: ${imageHash}`);
-
-  // Use ad copy if provided, otherwise use original post message
-  const message = adCopy || postData.message;
-
+  // 3. Create creative using existing post (object_story_id)
   const creative = await account.createAdCreative([], {
     [AdCreative.Fields.name]: `Boost ${dateSuffix}`,
-    object_story_spec: {
-      page_id: pageId,
-      link_data: {
-        image_hash: imageHash,
-        link: etsyUrl,
-        message,
-        name: "Shop on Etsy",
-        call_to_action: { type: "SHOP_NOW", value: { link: etsyUrl } },
-      },
-    },
+    object_story_id: postId,
   });
   if (!creative?._data?.id) {
     throw new Error(`Failed to create creative: ${JSON.stringify(creative?._data)}`);
   }
-  console.log(`    Created creative: ${creative._data.id} (SHOP_NOW -> ${etsyUrl})`);
+  console.log(`    Created creative: ${creative._data.id} (boosting post ${postId})`);
 
   // 4. Create Ad
   const ad = await account.createAd([], {
