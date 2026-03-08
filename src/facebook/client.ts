@@ -104,32 +104,28 @@ export interface PromoteResult {
   adId: string;
 }
 
-const BOOST_CAMPAIGN_NAME = "Drakey3DPrints Boosts";
+const CAMPAIGN_NAME = "Drakey3DPrints Boosts";
 
 /**
- * Get or create the persistent boost campaign.
- * Uses OUTCOME_ENGAGEMENT objective which is required for boosted posts.
- * This is separate from the old "Drakey3DPrints Ads" campaign which used
- * OUTCOME_TRAFFIC and may have caused zero-delivery issues.
+ * Get or create the persistent campaign.
+ * Uses OUTCOME_TRAFFIC (no pixel needed) with POST_ENGAGEMENT optimisation.
  */
 async function getOrCreateCampaign(): Promise<string> {
   const accountId = config.facebook.adAccountId();
 
-  // Check for existing boost campaign
   const searchData = await fbGraphGet(
-    `${accountId}/campaigns?fields=id,name,status&filtering=[{"field":"name","operator":"CONTAIN","value":"Drakey3DPrints Boosts"}]`
+    `${accountId}/campaigns?fields=id,name,status&filtering=[{"field":"name","operator":"CONTAIN","value":"${CAMPAIGN_NAME}"}]`
   );
   const existing = searchData.data?.find(
-    (c: any) => c.name === BOOST_CAMPAIGN_NAME && c.status !== "DELETED"
+    (c: any) => c.name === CAMPAIGN_NAME && c.status !== "DELETED"
   );
 
   if (existing) return existing.id;
 
-  // Create new boost campaign with OUTCOME_ENGAGEMENT
   const account = new AdAccount(accountId);
   const campaign = await account.createCampaign([], {
-    [Campaign.Fields.name]: BOOST_CAMPAIGN_NAME,
-    [Campaign.Fields.objective]: "OUTCOME_ENGAGEMENT",
+    [Campaign.Fields.name]: CAMPAIGN_NAME,
+    [Campaign.Fields.objective]: "OUTCOME_TRAFFIC",
     [Campaign.Fields.status]: "ACTIVE",
     special_ad_categories: [],
     is_adset_budget_sharing_enabled: false,
@@ -166,17 +162,19 @@ export async function promotePost(
   const campaignId = await getOrCreateCampaign();
   console.log(`    Using campaign: ${campaignId}`);
 
-  // 2. Create Ad Set with lifetime budget
+  // 2. Create Ad Set — matches Facebook's own boost settings
+  const pageId = config.facebook.pageId();
   const adSet = await account.createAdSet([], {
     [AdSet.Fields.name]: `Boost ${dateSuffix} - £${(budgetPence / 100).toFixed(2)} - ${durationDays}d`,
     [AdSet.Fields.campaign_id]: campaignId,
     [AdSet.Fields.lifetime_budget]: String(budgetPence),
     [AdSet.Fields.start_time]: now.toISOString(),
     [AdSet.Fields.end_time]: end.toISOString(),
-    [AdSet.Fields.optimization_goal]: "POST_ENGAGEMENT",
+    [AdSet.Fields.optimization_goal]: "LANDING_PAGE_VIEWS",
     [AdSet.Fields.billing_event]: "IMPRESSIONS",
     [AdSet.Fields.status]: "ACTIVE",
     bid_strategy: "LOWEST_COST_WITHOUT_CAP",
+    promoted_object: { page_id: pageId },
     [AdSet.Fields.targeting]: {
       age_min: 18,
       geo_locations: {
@@ -187,6 +185,9 @@ export async function promotePost(
           "IE", "PL", "PT",
           "JP",
         ],
+      },
+      targeting_automation: {
+        advantage_audience: 1,
       },
     },
   });
