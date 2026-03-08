@@ -144,7 +144,7 @@ async function getOrCreateCampaign(): Promise<string> {
  */
 export async function promotePost(
   postId: string,
-  _etsyUrl: string,
+  etsyUrl: string,
   _adCopy: string,
   budgetPence = AD_BUDGET_PENCE,
   durationDays = AD_DURATION_DAYS,
@@ -203,6 +203,7 @@ export async function promotePost(
   const creative = await account.createAdCreative([], {
     [AdCreative.Fields.name]: `Boost ${dateSuffix}`,
     object_story_id: postId,
+    call_to_action: { type: "SHOP_NOW", value: { link: etsyUrl } },
   });
   if (!creative?._data?.id) {
     throw new Error(`Failed to create ad creative: ${JSON.stringify(creative?._data)}`);
