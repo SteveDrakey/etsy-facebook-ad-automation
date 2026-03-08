@@ -101,8 +101,8 @@ Now write a post for this product. Rules:
 - Sound like the examples above — first person, casual, genuine
 - Mention what makes this building/model interesting (architecture facts, real-world details)
 - Do NOT include the price (Etsy handles that)
-- End with a soft call to action like "link in comments" or "details in comments" — do NOT put any URLs in the post
-- Do NOT include any Etsy links or URLs in the post text — the link goes in the comments separately
+- Do NOT include any URLs or links in the text — the Etsy link is shared separately as the post link
+- End with a short call to action like "Check it out!" or "Have a look!" — the link preview is already visible
 - 2-3 short paragraphs max
 - 3-5 hashtags at the end
 - No markdown, no emojis unless natural

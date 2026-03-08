@@ -6,11 +6,9 @@
  *   npx tsx src/scripts/post-weekly.ts            # post for real
  *   npx tsx src/scripts/post-weekly.ts --dry-run   # preview only
  */
-import { getActiveListings, getImageUrls } from "../etsy/client.js";
+import { getActiveListings } from "../etsy/client.js";
 import {
-  postPhotoToPage,
-  postMultiplePhotos,
-  commentOnPost,
+  shareLink,
   getPagePosts,
 } from "../facebook/client.js";
 import { pickBestListing, generatePostCaption } from "../ai/copy-generator.js";
@@ -20,7 +18,6 @@ import {
   getPostedListingIds,
   markAsPosted,
 } from "../state/store.js";
-import { MAX_PHOTOS_PER_POST } from "../config.js";
 
 const dryRun = process.argv.includes("--dry-run");
 
@@ -69,37 +66,23 @@ async function main() {
   console.log(`Price: £${(chosen.price.amount / chosen.price.divisor).toFixed(2)}`);
   console.log(`URL: ${chosen.url}`);
 
-  // 4. Get images
-  const imageUrls = (await getImageUrls(chosen)).slice(0, MAX_PHOTOS_PER_POST);
-  console.log(`Images: ${imageUrls.length}`);
-
-  // 5. Generate caption (tone from fixed reference, not live posts)
+  // 4. Generate caption (tone from fixed reference, not live posts)
   console.log("\nGenerating caption...");
   const caption = await generatePostCaption(chosen);
   console.log(`\n--- Caption ---\n${caption}\n---\n`);
 
   if (dryRun) {
-    console.log("[DRY RUN] Would post this to Facebook. Skipping.");
+    console.log("[DRY RUN] Would share this link to Facebook. Skipping.");
     return;
   }
 
-  // 6. Post to Facebook
-  let postId: string;
-  if (imageUrls.length === 1) {
-    const result = await postPhotoToPage(imageUrls[0], caption);
-    postId = result.post_id || result.id;
-    console.log(`Posted single photo. Post ID: ${postId}`);
-  } else {
-    const result = await postMultiplePhotos(imageUrls, caption);
-    postId = result.id;
-    console.log(`Posted ${imageUrls.length} photos. Post ID: ${postId}`);
-  }
+  // 5. Share the Etsy link on Facebook (generates preview card like manual sharing)
+  console.log(`Sharing link: ${chosen.url}`);
+  const result = await shareLink(chosen.url, caption);
+  const postId = result.id;
+  console.log(`Shared link. Post ID: ${postId}`);
 
-  // 7. Add Etsy link as first comment (keeps it out of the post for better reach)
-  const commentId = await commentOnPost(postId, `Grab yours here 👇\n${chosen.url}`);
-  console.log(`Added link comment: ${commentId}`);
-
-  // 8. Save state
+  // 6. Save state
   markAsPosted(state, chosen.listing_id, postId, chosen.url);
   await saveState(state);
   console.log("State saved.");

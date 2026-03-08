@@ -55,6 +55,19 @@ async function fbGraphPost(path: string, body: Record<string, string>): Promise<
 
 // ─── Page Posting ────────────────────────────────────────────
 
+/**
+ * Share a link on the Facebook Page (like manually sharing an Etsy URL).
+ * Facebook generates the preview card from the page's Open Graph data.
+ */
+export async function shareLink(
+  link: string,
+  message: string
+): Promise<{ id: string }> {
+  const pageId = config.facebook.pageId();
+  const data = await fbGraphPost(`${pageId}/feed`, { link, message });
+  return { id: data.id };
+}
+
 export interface PhotoPostResult {
   id: string;
   post_id: string;
