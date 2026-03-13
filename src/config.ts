@@ -31,13 +31,13 @@ export const config = {
 export const MONTHLY_AD_BUDGET_PENCE = 5000;
 
 /** Number of ads per month */
-export const ADS_PER_MONTH = 2;
+export const ADS_PER_MONTH = 1;
 
-/** Budget per ad in pence (£25 each) */
-export const AD_BUDGET_PENCE = MONTHLY_AD_BUDGET_PENCE / ADS_PER_MONTH;
+/** Budget per ad in pence (£25 single campaign) */
+export const AD_BUDGET_PENCE = 2500;
 
-/** Duration each ad runs (2 ads × 14 days = full month coverage) */
-export const AD_DURATION_DAYS = 14;
+/** Duration each ad runs (shorter = higher daily spend = better algorithm learning) */
+export const AD_DURATION_DAYS = 7;
 
 /** Max photos per Facebook post */
 export const MAX_PHOTOS_PER_POST = 4;

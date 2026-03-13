@@ -209,15 +209,28 @@ export async function promotePost(
     promoted_object: { page_id: pageId },
     [AdSet.Fields.targeting]: {
       age_min: 18,
+      age_max: 65,
       geo_locations: {
         countries: [
-          "GB", "US", "CA", "AU",
+          "GB", "US", "CA", "AU", "JP",
           "DE", "FR", "IT", "ES", "NL", "BE", "AT",
-          "SE", "NO", "DK", "FI", "CH",
-          "IE", "PL", "PT",
-          "JP",
+          "SE", "NO", "DK", "FI", "CH", "IE",
+          "PL", "PT", "CZ", "GR", "HU", "RO",
+          "LU", "HR", "SI", "SK", "BG", "EE",
+          "LV", "LT", "CY", "MT",
         ],
       },
+      flexible_spec: [
+        {
+          interests: [
+            { id: "6004140335706", name: "Architecture" },
+            { id: "6002969456892", name: "Modern architecture" },
+            { id: "6002920953955", name: "Interior design" },
+            { id: "6003240963010", name: "Scale model" },
+            { id: "6003486530880", name: "Building" },
+          ],
+        },
+      ],
       targeting_automation: {
         advantage_audience: 1,
       },
