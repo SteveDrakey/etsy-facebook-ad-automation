@@ -1,0 +1,5399 @@
+[
+  {
+    "id": "52507091438582",
+    "name": "Post: \"Lotte World Tower is one of those buildings that...\"",
+    "status": "ACTIVE",
+    "objective": "OUTCOME_ENGAGEMENT",
+    "daily_budget": "1600",
+    "budget_remaining": "1261",
+    "created_time": "2026-03-14T09:22:07-0700",
+    "start_time": "2026-03-14T09:22:36-0700",
+    "stop_time": "2026-03-21T09:22:36-0700",
+    "adSets": [
+      {
+        "id": "52507091444182",
+        "name": "Post: \"Lotte World Tower is one of those buildings that...\"",
+        "status": "PAUSED",
+        "budget_remaining": "0",
+        "optimization_goal": "POST_ENGAGEMENT",
+        "billing_event": "IMPRESSIONS",
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "genders": [
+            0
+          ],
+          "geo_locations": {
+            "countries": [
+              "GB"
+            ],
+            "location_types": [
+              "home",
+              "recent"
+            ]
+          },
+          "targeting_automation": {
+            "advantage_audience": 1
+          },
+          "publisher_platforms": [
+            "facebook",
+            "instagram"
+          ]
+        },
+        "promoted_object": {
+          "page_id": "545877971951824",
+          "smart_pse_enabled": false
+        },
+        "start_time": "2026-03-14T09:22:36-0700",
+        "end_time": "2026-03-21T09:22:36-0700",
+        "created_time": "2026-03-14T09:22:08-0700",
+        "insights": [
+          {
+            "impressions": "2948",
+            "reach": "2756",
+            "clicks": "96",
+            "spend": "12.6",
+            "ctr": "3.256445",
+            "cpc": "0.13125",
+            "cpp": "4.571843",
+            "cpm": "4.274084",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "18"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "493"
+              },
+              {
+                "action_type": "onsite_conversion.post_unlike",
+                "value": "11"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "493"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "174"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_like",
+                "value": "163"
+              },
+              {
+                "action_type": "video_view",
+                "value": "301"
+              },
+              {
+                "action_type": "post_reaction",
+                "value": "174"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "video_view",
+                "value": "0.04186"
+              },
+              {
+                "action_type": "link_click",
+                "value": "0.7"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "0.072414"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "0.025558"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "0.025558"
+              }
+            ],
+            "frequency": "1.069666",
+            "date_start": "2026-03-14",
+            "date_stop": "2026-03-15"
+          }
+        ],
+        "ads": []
+      }
+    ],
+    "insights": [
+      {
+        "impressions": "2948",
+        "reach": "2756",
+        "clicks": "96",
+        "spend": "12.6",
+        "ctr": "3.256445",
+        "cpc": "0.13125",
+        "cpp": "4.571843",
+        "cpm": "4.274084",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "18"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "493"
+          },
+          {
+            "action_type": "onsite_conversion.post_unlike",
+            "value": "11"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "493"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "174"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "163"
+          },
+          {
+            "action_type": "video_view",
+            "value": "301"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "174"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "video_view",
+            "value": "0.04186"
+          },
+          {
+            "action_type": "link_click",
+            "value": "0.7"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "0.072414"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.025558"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.025558"
+          }
+        ],
+        "frequency": "1.069666",
+        "date_start": "2026-03-14",
+        "date_stop": "2026-03-15"
+      }
+    ]
+  },
+  {
+    "id": "52504301589982",
+    "name": "Drakey3DPrints Boosts",
+    "status": "ACTIVE",
+    "objective": "OUTCOME_TRAFFIC",
+    "budget_remaining": "0",
+    "created_time": "2026-03-08T15:24:20-0700",
+    "start_time": "2026-03-08T15:24:24-0700",
+    "stop_time": "2026-03-22T15:24:24-0700",
+    "adSets": [
+      {
+        "id": "52506538630582",
+        "name": "Boost 2026-03-13 - £25.00 - 7d",
+        "status": "PAUSED",
+        "daily_budget": "0",
+        "lifetime_budget": "2500",
+        "budget_remaining": "1705",
+        "optimization_goal": "LANDING_PAGE_VIEWS",
+        "billing_event": "IMPRESSIONS",
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "flexible_spec": [
+            {
+              "interests": [
+                {
+                  "id": "6002920953955",
+                  "name": "Interior design (design)"
+                },
+                {
+                  "id": "6002969456892",
+                  "name": "Modern architecture (architecture)"
+                },
+                {
+                  "id": "6003240963010",
+                  "name": "Scale model"
+                },
+                {
+                  "id": "6003486530880",
+                  "name": "Building (architecture)"
+                },
+                {
+                  "id": "6004140335706",
+                  "name": "Architecture (architecture)"
+                }
+              ]
+            }
+          ],
+          "geo_locations": {
+            "countries": [
+              "US",
+              "IE",
+              "IT",
+              "JP",
+              "NL",
+              "NO",
+              "CA",
+              "ES",
+              "SE",
+              "CH",
+              "GB",
+              "FI",
+              "DK",
+              "BE",
+              "GR",
+              "AU",
+              "AT",
+              "HR",
+              "PL",
+              "PT",
+              "LU",
+              "BG",
+              "CZ",
+              "SI",
+              "SK",
+              "LT",
+              "HU",
+              "CY",
+              "RO",
+              "FR",
+              "DE",
+              "MT",
+              "EE",
+              "LV"
+            ],
+            "location_types": [
+              "home",
+              "recent"
+            ]
+          },
+          "targeting_automation": {
+            "advantage_audience": 1
+          }
+        },
+        "promoted_object": {
+          "page_id": "545877971951824",
+          "smart_pse_enabled": false
+        },
+        "start_time": "2026-03-13T00:15:54-0700",
+        "end_time": "2026-03-20T00:15:54-0700",
+        "created_time": "2026-03-13T00:15:53-0700",
+        "insights": [
+          {
+            "impressions": "3658",
+            "reach": "3346",
+            "clicks": "239",
+            "spend": "7.95",
+            "ctr": "6.533625",
+            "cpc": "0.033264",
+            "cpp": "2.375971",
+            "cpm": "2.173319",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "36"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "45"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "20"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "20"
+              },
+              {
+                "action_type": "onsite_conversion.post_unlike",
+                "value": "2"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "45"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "9"
+              },
+              {
+                "action_type": "onsite_conversion.post_save",
+                "value": "1"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_like",
+                "value": "6"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_save",
+                "value": "1"
+              },
+              {
+                "action_type": "post_reaction",
+                "value": "8"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "0.220833"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "0.883333"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "0.176667"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "0.3975"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "0.176667"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "0.3975"
+              }
+            ],
+            "frequency": "1.093246",
+            "date_start": "2026-03-13",
+            "date_stop": "2026-03-15"
+          }
+        ],
+        "ads": []
+      },
+      {
+        "id": "52504301595382",
+        "name": "Boost 2026-03-08 - £25.00 - 14d",
+        "status": "PAUSED",
+        "daily_budget": "0",
+        "lifetime_budget": "2500",
+        "budget_remaining": "1787",
+        "optimization_goal": "LANDING_PAGE_VIEWS",
+        "billing_event": "IMPRESSIONS",
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "geo_locations": {
+            "countries": [
+              "US",
+              "IE",
+              "IT",
+              "JP",
+              "NL",
+              "NO",
+              "CA",
+              "ES",
+              "SE",
+              "CH",
+              "GB",
+              "FI",
+              "DK",
+              "BE",
+              "AU",
+              "AT",
+              "PL",
+              "PT",
+              "FR",
+              "DE"
+            ],
+            "location_types": [
+              "home",
+              "recent"
+            ]
+          },
+          "targeting_automation": {
+            "advantage_audience": 1
+          }
+        },
+        "promoted_object": {
+          "page_id": "545877971951824",
+          "smart_pse_enabled": false
+        },
+        "start_time": "2026-03-08T15:24:24-0700",
+        "end_time": "2026-03-22T15:24:24-0700",
+        "created_time": "2026-03-08T15:24:21-0700",
+        "insights": [
+          {
+            "impressions": "3513",
+            "reach": "3062",
+            "clicks": "207",
+            "spend": "7.13",
+            "ctr": "5.8924",
+            "cpc": "0.034444",
+            "cpp": "2.328543",
+            "cpm": "2.029604",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "55"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "71"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "43"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "43"
+              },
+              {
+                "action_type": "onsite_conversion.post_unlike",
+                "value": "1"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "71"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "16"
+              },
+              {
+                "action_type": "onsite_conversion.post_save",
+                "value": "1"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_like",
+                "value": "14"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_save",
+                "value": "1"
+              },
+              {
+                "action_type": "post_reaction",
+                "value": "15"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "0.129636"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "0.445625"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "0.100423"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "0.165814"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "0.100423"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "0.165814"
+              }
+            ],
+            "frequency": "1.147289",
+            "date_start": "2026-03-08",
+            "date_stop": "2026-03-15"
+          }
+        ],
+        "ads": []
+      }
+    ],
+    "insights": [
+      {
+        "impressions": "7171",
+        "reach": "5910",
+        "clicks": "446",
+        "spend": "15.08",
+        "ctr": "6.219495",
+        "cpc": "0.033812",
+        "cpp": "2.551607",
+        "cpm": "2.102915",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "91"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "116"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "63"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "63"
+          },
+          {
+            "action_type": "onsite_conversion.post_unlike",
+            "value": "3"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "116"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "25"
+          },
+          {
+            "action_type": "onsite_conversion.post_save",
+            "value": "2"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "20"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_save",
+            "value": "2"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "23"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.165714"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "0.6032"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.13"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.239365"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.13"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.239365"
+          }
+        ],
+        "frequency": "1.213367",
+        "date_start": "2026-03-08",
+        "date_stop": "2026-03-15"
+      }
+    ]
+  },
+  {
+    "id": "52504298839982",
+    "name": "Post: \"The Burj Khalifa is in a category of its own —...\"",
+    "status": "ACTIVE",
+    "objective": "OUTCOME_TRAFFIC",
+    "daily_budget": "500",
+    "budget_remaining": "500",
+    "created_time": "2026-03-08T15:15:44-0700",
+    "start_time": "2026-03-08T15:16:11-0700",
+    "adSets": [
+      {
+        "id": "52504298842782",
+        "name": "Post: \"The Burj Khalifa is in a category of its own —...\"",
+        "status": "ACTIVE",
+        "budget_remaining": "0",
+        "optimization_goal": "LANDING_PAGE_VIEWS",
+        "billing_event": "IMPRESSIONS",
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "flexible_spec": [
+            {
+              "interests": [
+                {
+                  "id": "6003486530880",
+                  "name": "Building (architecture)"
+                }
+              ]
+            }
+          ],
+          "genders": [
+            0
+          ],
+          "geo_locations": {
+            "country_groups": [
+              "eea",
+              "euro_area"
+            ],
+            "countries": [
+              "US",
+              "JP",
+              "CH",
+              "AU"
+            ],
+            "location_types": [
+              "home",
+              "recent"
+            ]
+          },
+          "targeting_automation": {
+            "advantage_audience": 1
+          },
+          "publisher_platforms": [
+            "facebook",
+            "instagram",
+            "audience_network",
+            "messenger"
+          ],
+          "facebook_positions": [
+            "feed",
+            "biz_disco_feed",
+            "facebook_reels",
+            "facebook_reels_overlay",
+            "profile_feed",
+            "right_hand_column",
+            "notification",
+            "instream_video",
+            "marketplace",
+            "story",
+            "search"
+          ],
+          "instagram_positions": [
+            "stream",
+            "ig_search",
+            "profile_reels",
+            "story",
+            "explore",
+            "reels",
+            "explore_home",
+            "profile_feed"
+          ],
+          "messenger_positions": [
+            "story"
+          ],
+          "audience_network_positions": [
+            "classic",
+            "rewarded_video"
+          ]
+        },
+        "promoted_object": {
+          "page_id": "545877971951824",
+          "smart_pse_enabled": false
+        },
+        "start_time": "2026-03-08T15:16:11-0700",
+        "created_time": "2026-03-08T15:15:44-0700",
+        "insights": [
+          {
+            "impressions": "7400",
+            "reach": "6468",
+            "clicks": "313",
+            "spend": "8.24",
+            "ctr": "4.22973",
+            "cpc": "0.026326",
+            "cpp": "1.273964",
+            "cpm": "1.113514",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "177"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "180"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "176"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "176"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "180"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "3"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_like",
+                "value": "3"
+              },
+              {
+                "action_type": "post_reaction",
+                "value": "3"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "0.046554"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "2.746667"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "0.045778"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "0.046818"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "0.045778"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "0.046818"
+              }
+            ],
+            "frequency": "1.144094",
+            "date_start": "2026-03-08",
+            "date_stop": "2026-03-15"
+          }
+        ],
+        "ads": [
+          {
+            "id": "52504298854582",
+            "name": "Post: \"The Burj Khalifa is in a category of its own —...\"",
+            "status": "ACTIVE",
+            "creative": {
+              "id": "2150393745772883"
+            },
+            "created_time": "2026-03-08T15:15:46-0700"
+          }
+        ]
+      }
+    ],
+    "insights": [
+      {
+        "impressions": "7400",
+        "reach": "6468",
+        "clicks": "313",
+        "spend": "8.24",
+        "ctr": "4.22973",
+        "cpc": "0.026326",
+        "cpp": "1.273964",
+        "cpm": "1.113514",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "177"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "180"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "176"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "176"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "180"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "3"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "3"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "3"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.046554"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "2.746667"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.045778"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.046818"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.045778"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.046818"
+          }
+        ],
+        "frequency": "1.144094",
+        "date_start": "2026-03-08",
+        "date_stop": "2026-03-15"
+      }
+    ]
+  },
+  {
+    "id": "52504210979182",
+    "name": "Ongoing website promotion for https://www.etsy.com/shop/Drakey3DPrints",
+    "status": "ARCHIVED",
+    "objective": "LINK_CLICKS",
+    "daily_budget": "200",
+    "budget_remaining": "200",
+    "created_time": "2026-03-08T03:42:01-0700",
+    "start_time": "2026-03-08T03:42:31-0700",
+    "stop_time": "2026-03-08T14:36:41-0700",
+    "adSets": [
+      {
+        "id": "52504210980982",
+        "name": "Ongoing website promotion for https://www.etsy.com/shop/Drakey3DPrints",
+        "status": "ARCHIVED",
+        "budget_remaining": "0",
+        "optimization_goal": "LANDING_PAGE_VIEWS",
+        "billing_event": "IMPRESSIONS",
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "genders": [
+            0
+          ],
+          "geo_locations": {
+            "countries": [
+              "GB"
+            ],
+            "location_types": [
+              "home",
+              "recent"
+            ]
+          },
+          "targeting_automation": {
+            "advantage_audience": 1
+          },
+          "publisher_platforms": [
+            "facebook",
+            "instagram",
+            "messenger"
+          ]
+        },
+        "promoted_object": {
+          "page_id": "545877971951824",
+          "smart_pse_enabled": false
+        },
+        "start_time": "2026-03-08T03:42:31-0700",
+        "created_time": "2026-03-08T03:42:01-0700",
+        "insights": [
+          {
+            "impressions": "422",
+            "reach": "407",
+            "clicks": "14",
+            "spend": "0.98",
+            "ctr": "3.317536",
+            "cpc": "0.07",
+            "cpp": "2.407862",
+            "cpm": "2.322275",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "10"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "10"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "12"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "12"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "10"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "0.098"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "0.098"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "0.081667"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "0.098"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "0.081667"
+              }
+            ],
+            "frequency": "1.036855",
+            "date_start": "2026-03-08",
+            "date_stop": "2026-03-15"
+          }
+        ],
+        "ads": [
+          {
+            "id": "52504210984582",
+            "name": "Ongoing website promotion ad",
+            "status": "ARCHIVED",
+            "creative": {
+              "id": "977832831240940"
+            },
+            "created_time": "2026-03-08T03:42:01-0700"
+          }
+        ]
+      }
+    ],
+    "insights": [
+      {
+        "impressions": "422",
+        "reach": "407",
+        "clicks": "14",
+        "spend": "0.98",
+        "ctr": "3.317536",
+        "cpc": "0.07",
+        "cpp": "2.407862",
+        "cpm": "2.322275",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "10"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "10"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "12"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "12"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "10"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.098"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.098"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.081667"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.098"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.081667"
+          }
+        ],
+        "frequency": "1.036855",
+        "date_start": "2026-03-08",
+        "date_stop": "2026-03-15"
+      }
+    ]
+  },
+  {
+    "id": "52504210779382",
+    "name": "Ongoing website promotion for https://www.etsy.com/shop/Drakey3DPrints",
+    "status": "ARCHIVED",
+    "objective": "LINK_CLICKS",
+    "daily_budget": "223",
+    "budget_remaining": "223",
+    "created_time": "2026-03-08T03:39:44-0700",
+    "start_time": "2026-03-08T03:40:14-0700",
+    "stop_time": "2026-03-08T03:40:54-0700",
+    "adSets": [
+      {
+        "id": "52504210780982",
+        "name": "Ongoing website promotion for https://www.etsy.com/shop/Drakey3DPrints",
+        "status": "ARCHIVED",
+        "budget_remaining": "0",
+        "optimization_goal": "LANDING_PAGE_VIEWS",
+        "billing_event": "IMPRESSIONS",
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "genders": [
+            0
+          ],
+          "geo_locations": {
+            "countries": [
+              "GB"
+            ],
+            "location_types": [
+              "home",
+              "recent"
+            ]
+          },
+          "targeting_automation": {
+            "advantage_audience": 1
+          },
+          "publisher_platforms": [
+            "facebook",
+            "instagram",
+            "messenger"
+          ]
+        },
+        "promoted_object": {
+          "page_id": "545877971951824",
+          "smart_pse_enabled": false
+        },
+        "start_time": "2026-03-08T03:40:14-0700",
+        "created_time": "2026-03-08T03:39:44-0700",
+        "insights": [],
+        "ads": [
+          {
+            "id": "52504210781782",
+            "name": "Ongoing website promotion ad",
+            "status": "ARCHIVED",
+            "creative": {
+              "id": "1974059840189422"
+            },
+            "created_time": "2026-03-08T03:39:44-0700"
+          }
+        ]
+      }
+    ],
+    "insights": []
+  },
+  {
+    "id": "52504209866382",
+    "name": "Drakey3DPrints Boosts",
+    "status": "ARCHIVED",
+    "objective": "OUTCOME_TRAFFIC",
+    "budget_remaining": "0",
+    "created_time": "2026-03-08T03:24:04-0700",
+    "start_time": "2026-03-08T03:24:05-0700",
+    "stop_time": "2026-03-08T14:36:50-0700",
+    "adSets": [
+      {
+        "id": "52504209868582",
+        "name": "Boost 2026-03-08 - GBP25.00 - 14d",
+        "status": "ARCHIVED",
+        "daily_budget": "0",
+        "lifetime_budget": "2500",
+        "budget_remaining": "2422",
+        "optimization_goal": "LANDING_PAGE_VIEWS",
+        "billing_event": "IMPRESSIONS",
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "geo_locations": {
+            "countries": [
+              "US",
+              "IE",
+              "IT",
+              "JP",
+              "NL",
+              "NO",
+              "CA",
+              "ES",
+              "SE",
+              "CH",
+              "GB",
+              "FI",
+              "DK",
+              "BE",
+              "AU",
+              "AT",
+              "PL",
+              "PT",
+              "FR",
+              "DE"
+            ],
+            "location_types": [
+              "home",
+              "recent"
+            ]
+          },
+          "targeting_automation": {
+            "advantage_audience": 1
+          }
+        },
+        "promoted_object": {
+          "page_id": "545877971951824",
+          "smart_pse_enabled": false
+        },
+        "start_time": "2026-03-08T03:24:05-0700",
+        "end_time": "2026-03-22T03:24:04-0700",
+        "created_time": "2026-03-08T03:24:05-0700",
+        "insights": [
+          {
+            "impressions": "679",
+            "reach": "679",
+            "clicks": "22",
+            "spend": "0.78",
+            "ctr": "3.240059",
+            "cpc": "0.035455",
+            "cpp": "1.148748",
+            "cpm": "1.148748",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "5"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "9"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "3"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "3"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "9"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "2"
+              },
+              {
+                "action_type": "photo_view",
+                "value": "2"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_like",
+                "value": "2"
+              },
+              {
+                "action_type": "post_reaction",
+                "value": "2"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "0.156"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "0.39"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "0.086667"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "0.26"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "0.086667"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "0.26"
+              }
+            ],
+            "frequency": "1",
+            "date_start": "2026-03-08",
+            "date_stop": "2026-03-15"
+          }
+        ],
+        "ads": [
+          {
+            "id": "52504209880182",
+            "name": "Boost 2026-03-08",
+            "status": "ARCHIVED",
+            "creative": {
+              "id": "1292277239415919"
+            },
+            "created_time": "2026-03-08T03:24:08-0700"
+          }
+        ]
+      }
+    ],
+    "insights": [
+      {
+        "impressions": "679",
+        "reach": "679",
+        "clicks": "22",
+        "spend": "0.78",
+        "ctr": "3.240059",
+        "cpc": "0.035455",
+        "cpp": "1.148748",
+        "cpm": "1.148748",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "5"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "9"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "3"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "3"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "9"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "2"
+          },
+          {
+            "action_type": "photo_view",
+            "value": "2"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "2"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "2"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.156"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "0.39"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.086667"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.26"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.086667"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.26"
+          }
+        ],
+        "frequency": "1",
+        "date_start": "2026-03-08",
+        "date_stop": "2026-03-15"
+      }
+    ]
+  },
+  {
+    "id": "52504204271582",
+    "name": "Drakey3DPrints Boosts",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "budget_remaining": "0",
+    "created_time": "2026-03-08T03:07:42-0700",
+    "start_time": "2026-03-08T03:07:43-0700",
+    "stop_time": "2026-03-08T03:12:15-0700",
+    "adSets": [
+      {
+        "id": "52504204288982",
+        "name": "Boost 2026-03-08 - GBP25.00 - 14d",
+        "status": "DELETED",
+        "daily_budget": "0",
+        "lifetime_budget": "2500",
+        "budget_remaining": "2500",
+        "optimization_goal": "LANDING_PAGE_VIEWS",
+        "billing_event": "IMPRESSIONS",
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "geo_locations": {
+            "countries": [
+              "US",
+              "IE",
+              "IT",
+              "JP",
+              "NL",
+              "NO",
+              "CA",
+              "ES",
+              "SE",
+              "CH",
+              "GB",
+              "FI",
+              "DK",
+              "BE",
+              "AU",
+              "AT",
+              "PL",
+              "PT",
+              "FR",
+              "DE"
+            ],
+            "location_types": [
+              "home",
+              "recent"
+            ]
+          },
+          "targeting_automation": {
+            "advantage_audience": 1
+          }
+        },
+        "promoted_object": {
+          "page_id": "545877971951824",
+          "smart_pse_enabled": false
+        },
+        "start_time": "2026-03-08T03:07:43-0700",
+        "end_time": "2026-03-22T03:07:41-0700",
+        "created_time": "2026-03-08T03:07:42-0700",
+        "insights": [],
+        "ads": []
+      }
+    ],
+    "insights": []
+  },
+  {
+    "id": "52504138583982",
+    "name": "Post: \"Just added the Burj Khalifa to the shop — and...\"",
+    "status": "ARCHIVED",
+    "objective": "OUTCOME_TRAFFIC",
+    "budget_remaining": "0",
+    "created_time": "2026-03-08T01:02:48-0800",
+    "start_time": "2026-03-08T01:02:49-0800",
+    "stop_time": "2026-03-08T14:36:59-0700",
+    "adSets": [
+      {
+        "id": "52504138589182",
+        "name": "Post: \"Just added the Burj Khalifa to the shop — and...\"",
+        "status": "ARCHIVED",
+        "daily_budget": "200",
+        "lifetime_budget": "0",
+        "budget_remaining": "200",
+        "optimization_goal": "LANDING_PAGE_VIEWS",
+        "billing_event": "IMPRESSIONS",
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "geo_locations": {
+            "countries": [
+              "US",
+              "JP",
+              "GB",
+              "AU"
+            ],
+            "location_types": [
+              "home",
+              "recent"
+            ]
+          },
+          "targeting_automation": {
+            "advantage_audience": 1
+          },
+          "publisher_platforms": [
+            "facebook",
+            "instagram",
+            "audience_network",
+            "messenger"
+          ],
+          "facebook_positions": [
+            "feed",
+            "biz_disco_feed",
+            "facebook_reels",
+            "facebook_reels_overlay",
+            "profile_feed",
+            "right_hand_column",
+            "notification",
+            "instream_video",
+            "marketplace",
+            "story",
+            "search"
+          ],
+          "instagram_positions": [
+            "stream",
+            "ig_search",
+            "profile_reels",
+            "story",
+            "explore",
+            "reels",
+            "explore_home",
+            "profile_feed"
+          ],
+          "messenger_positions": [
+            "story"
+          ],
+          "audience_network_positions": [
+            "classic",
+            "rewarded_video"
+          ]
+        },
+        "promoted_object": {
+          "page_id": "545877971951824",
+          "smart_pse_enabled": false
+        },
+        "start_time": "2026-03-08T01:02:49-0800",
+        "created_time": "2026-03-08T01:02:49-0800",
+        "insights": [
+          {
+            "impressions": "383",
+            "reach": "383",
+            "clicks": "22",
+            "spend": "1.15",
+            "ctr": "5.744125",
+            "cpc": "0.052273",
+            "cpp": "3.002611",
+            "cpm": "3.002611",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "4"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "9"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "4"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "4"
+              },
+              {
+                "action_type": "onsite_conversion.post_unlike",
+                "value": "1"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "9"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "4"
+              },
+              {
+                "action_type": "photo_view",
+                "value": "1"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_like",
+                "value": "3"
+              },
+              {
+                "action_type": "post_reaction",
+                "value": "4"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "0.2875"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "0.2875"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "0.127778"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "0.2875"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "0.127778"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "0.2875"
+              }
+            ],
+            "frequency": "1",
+            "date_start": "2026-03-08",
+            "date_stop": "2026-03-15"
+          }
+        ],
+        "ads": [
+          {
+            "id": "52504138597782",
+            "name": "Post: \"Just added the Burj Khalifa to the shop — and...\"",
+            "status": "ARCHIVED",
+            "creative": {
+              "id": "27023824987206557"
+            },
+            "created_time": "2026-03-08T01:02:51-0800"
+          }
+        ]
+      }
+    ],
+    "insights": [
+      {
+        "impressions": "383",
+        "reach": "383",
+        "clicks": "22",
+        "spend": "1.15",
+        "ctr": "5.744125",
+        "cpc": "0.052273",
+        "cpp": "3.002611",
+        "cpm": "3.002611",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "4"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "9"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "4"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "4"
+          },
+          {
+            "action_type": "onsite_conversion.post_unlike",
+            "value": "1"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "9"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "4"
+          },
+          {
+            "action_type": "photo_view",
+            "value": "1"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "3"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "4"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.2875"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "0.2875"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.127778"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.2875"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.127778"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.2875"
+          }
+        ],
+        "frequency": "1",
+        "date_start": "2026-03-08",
+        "date_stop": "2026-03-15"
+      }
+    ]
+  },
+  {
+    "id": "52504138522182",
+    "name": "Post: \"Just added the Burj Khalifa to the shop — and...\"",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "budget_remaining": "0",
+    "created_time": "2026-03-08T01:01:40-0800",
+    "start_time": "1969-12-31T15:59:59-0800",
+    "adSets": [],
+    "insights": []
+  },
+  {
+    "id": "52504138456782",
+    "name": "Post: \"Just added the Burj Khalifa to the shop — and...\"",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "budget_remaining": "0",
+    "created_time": "2026-03-08T01:00:39-0800",
+    "start_time": "1969-12-31T15:59:59-0800",
+    "adSets": [],
+    "insights": []
+  },
+  {
+    "id": "52504136172982",
+    "name": "Ongoing website promotion for https://www.etsy.com/shop/Drakey3DPrints",
+    "status": "DELETED",
+    "objective": "LINK_CLICKS",
+    "daily_budget": "200",
+    "budget_remaining": "200",
+    "created_time": "2026-03-08T00:38:36-0800",
+    "start_time": "2026-03-08T00:39:06-0800",
+    "stop_time": "2026-03-08T03:12:16-0700",
+    "adSets": [
+      {
+        "id": "52504136175182",
+        "name": "Ongoing website promotion for https://www.etsy.com/shop/Drakey3DPrints",
+        "status": "DELETED",
+        "budget_remaining": "0",
+        "optimization_goal": "LANDING_PAGE_VIEWS",
+        "billing_event": "IMPRESSIONS",
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "genders": [
+            0
+          ],
+          "geo_locations": {
+            "countries": [
+              "GB"
+            ],
+            "location_types": [
+              "home",
+              "recent"
+            ]
+          },
+          "targeting_automation": {
+            "advantage_audience": 1
+          },
+          "publisher_platforms": [
+            "facebook",
+            "instagram",
+            "messenger"
+          ]
+        },
+        "promoted_object": {
+          "page_id": "545877971951824",
+          "smart_pse_enabled": false
+        },
+        "start_time": "2026-03-08T00:39:06-0800",
+        "created_time": "2026-03-08T00:38:36-0800",
+        "insights": [
+          {
+            "impressions": "27",
+            "reach": "27",
+            "clicks": "0",
+            "spend": "0.02",
+            "ctr": "0",
+            "cpp": "0.740741",
+            "cpm": "0.740741",
+            "frequency": "1",
+            "date_start": "2026-03-08",
+            "date_stop": "2026-03-15"
+          }
+        ],
+        "ads": [
+          {
+            "id": "52504136176382",
+            "name": "Ongoing website promotion ad",
+            "status": "DELETED",
+            "creative": {
+              "id": "2505427209855631"
+            },
+            "created_time": "2026-03-08T00:38:36-0800"
+          }
+        ]
+      }
+    ],
+    "insights": [
+      {
+        "impressions": "27",
+        "reach": "27",
+        "clicks": "0",
+        "spend": "0.02",
+        "ctr": "0",
+        "cpp": "0.740741",
+        "cpm": "0.740741",
+        "frequency": "1",
+        "date_start": "2026-03-08",
+        "date_stop": "2026-03-15"
+      }
+    ]
+  },
+  {
+    "id": "52504106911582",
+    "name": "Drakey3DPrints Boosts",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "budget_remaining": "0",
+    "created_time": "2026-03-07T23:47:43-0800",
+    "start_time": "2026-03-07T23:47:44-0800",
+    "stop_time": "2026-03-08T00:38:01-0800",
+    "adSets": [
+      {
+        "id": "52504134498982",
+        "name": "Boost 2026-03-08 - £25.00 - 14d",
+        "status": "DELETED",
+        "daily_budget": "0",
+        "lifetime_budget": "2500",
+        "budget_remaining": "2500",
+        "optimization_goal": "LANDING_PAGE_VIEWS",
+        "billing_event": "IMPRESSIONS",
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "geo_locations": {
+            "countries": [
+              "US",
+              "IE",
+              "IT",
+              "JP",
+              "NL",
+              "NO",
+              "CA",
+              "ES",
+              "SE",
+              "CH",
+              "GB",
+              "FI",
+              "DK",
+              "BE",
+              "AU",
+              "AT",
+              "PL",
+              "PT",
+              "FR",
+              "DE"
+            ],
+            "location_types": [
+              "home",
+              "recent"
+            ]
+          },
+          "targeting_automation": {
+            "advantage_audience": 1
+          }
+        },
+        "promoted_object": {
+          "page_id": "545877971951824",
+          "smart_pse_enabled": false
+        },
+        "start_time": "2026-03-08T00:30:33-0800",
+        "end_time": "2026-03-22T01:30:33-0700",
+        "created_time": "2026-03-08T00:30:33-0800",
+        "insights": [],
+        "ads": [
+          {
+            "id": "52504134554782",
+            "name": "Boost 2026-03-08",
+            "status": "DELETED",
+            "creative": {
+              "id": "978029561566077"
+            },
+            "created_time": "2026-03-08T00:30:35-0800"
+          }
+        ]
+      },
+      {
+        "id": "52504113195982",
+        "name": "Boost 2026-03-08 - £25.00 - 14d",
+        "status": "DELETED",
+        "daily_budget": "0",
+        "lifetime_budget": "2500",
+        "budget_remaining": "2500",
+        "optimization_goal": "LANDING_PAGE_VIEWS",
+        "billing_event": "IMPRESSIONS",
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "geo_locations": {
+            "countries": [
+              "US",
+              "IE",
+              "IT",
+              "JP",
+              "NL",
+              "NO",
+              "CA",
+              "ES",
+              "SE",
+              "CH",
+              "GB",
+              "FI",
+              "DK",
+              "BE",
+              "AU",
+              "AT",
+              "PL",
+              "PT",
+              "FR",
+              "DE"
+            ],
+            "location_types": [
+              "home",
+              "recent"
+            ]
+          },
+          "targeting_automation": {
+            "advantage_audience": 1
+          }
+        },
+        "promoted_object": {
+          "page_id": "545877971951824",
+          "smart_pse_enabled": false
+        },
+        "start_time": "2026-03-08T00:18:49-0800",
+        "end_time": "2026-03-22T01:18:48-0700",
+        "created_time": "2026-03-08T00:18:49-0800",
+        "insights": [],
+        "ads": [
+          {
+            "id": "52504113235382",
+            "name": "Boost 2026-03-08",
+            "status": "DELETED",
+            "creative": {
+              "id": "1630995761548880"
+            },
+            "created_time": "2026-03-08T00:18:51-0800"
+          }
+        ]
+      },
+      {
+        "id": "52504108594582",
+        "name": "Boost 2026-03-08 - £25.00 - 14d",
+        "status": "DELETED",
+        "daily_budget": "0",
+        "lifetime_budget": "2500",
+        "budget_remaining": "2500",
+        "optimization_goal": "LANDING_PAGE_VIEWS",
+        "billing_event": "IMPRESSIONS",
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "geo_locations": {
+            "countries": [
+              "US",
+              "IE",
+              "IT",
+              "JP",
+              "NL",
+              "NO",
+              "CA",
+              "ES",
+              "SE",
+              "CH",
+              "GB",
+              "FI",
+              "DK",
+              "BE",
+              "AU",
+              "AT",
+              "PL",
+              "PT",
+              "FR",
+              "DE"
+            ],
+            "location_types": [
+              "home",
+              "recent"
+            ]
+          },
+          "targeting_automation": {
+            "advantage_audience": 1
+          }
+        },
+        "promoted_object": {
+          "page_id": "545877971951824",
+          "smart_pse_enabled": false
+        },
+        "start_time": "2026-03-07T23:57:52-0800",
+        "end_time": "2026-03-22T00:57:52-0700",
+        "created_time": "2026-03-07T23:57:52-0800",
+        "insights": [],
+        "ads": [
+          {
+            "id": "52504108604782",
+            "name": "Boost 2026-03-08",
+            "status": "DELETED",
+            "creative": {
+              "id": "884329024601303"
+            },
+            "created_time": "2026-03-07T23:57:54-0800"
+          }
+        ]
+      },
+      {
+        "id": "52504106916182",
+        "name": "Boost 2026-03-08 - £25.00 - 14d",
+        "status": "DELETED",
+        "daily_budget": "0",
+        "lifetime_budget": "2500",
+        "budget_remaining": "2500",
+        "optimization_goal": "LANDING_PAGE_VIEWS",
+        "billing_event": "IMPRESSIONS",
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "geo_locations": {
+            "countries": [
+              "US",
+              "IE",
+              "IT",
+              "JP",
+              "NL",
+              "NO",
+              "CA",
+              "ES",
+              "SE",
+              "CH",
+              "GB",
+              "FI",
+              "DK",
+              "BE",
+              "AU",
+              "AT",
+              "PL",
+              "PT",
+              "FR",
+              "DE"
+            ],
+            "location_types": [
+              "home",
+              "recent"
+            ]
+          },
+          "targeting_automation": {
+            "advantage_audience": 1
+          }
+        },
+        "promoted_object": {
+          "page_id": "545877971951824",
+          "smart_pse_enabled": false
+        },
+        "start_time": "2026-03-07T23:47:44-0800",
+        "end_time": "2026-03-22T00:47:42-0700",
+        "created_time": "2026-03-07T23:47:43-0800",
+        "insights": [],
+        "ads": [
+          {
+            "id": "52504106927582",
+            "name": "Boost 2026-03-08",
+            "status": "DELETED",
+            "creative": {
+              "id": "2344804636026455"
+            },
+            "created_time": "2026-03-07T23:47:46-0800"
+          }
+        ]
+      }
+    ],
+    "insights": []
+  },
+  {
+    "id": "52504106624982",
+    "name": "Drakey3DPrints Boosts",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "budget_remaining": "0",
+    "created_time": "2026-03-07T23:45:00-0800",
+    "start_time": "2026-03-07T23:45:01-0800",
+    "stop_time": "2026-03-07T23:46:10-0800",
+    "adSets": [
+      {
+        "id": "52504106632782",
+        "name": "Boost 2026-03-08 - £25.00 - 14d",
+        "status": "DELETED",
+        "daily_budget": "0",
+        "lifetime_budget": "2500",
+        "budget_remaining": "2500",
+        "optimization_goal": "LANDING_PAGE_VIEWS",
+        "billing_event": "IMPRESSIONS",
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "geo_locations": {
+            "countries": [
+              "US",
+              "IE",
+              "IT",
+              "JP",
+              "NL",
+              "NO",
+              "CA",
+              "ES",
+              "SE",
+              "CH",
+              "GB",
+              "FI",
+              "DK",
+              "BE",
+              "AU",
+              "AT",
+              "PL",
+              "PT",
+              "FR",
+              "DE"
+            ],
+            "location_types": [
+              "home",
+              "recent"
+            ]
+          },
+          "targeting_automation": {
+            "advantage_audience": 1
+          }
+        },
+        "promoted_object": {
+          "page_id": "545877971951824",
+          "smart_pse_enabled": false
+        },
+        "start_time": "2026-03-07T23:45:01-0800",
+        "end_time": "2026-03-22T00:45:00-0700",
+        "created_time": "2026-03-07T23:45:01-0800",
+        "insights": [],
+        "ads": []
+      }
+    ],
+    "insights": []
+  },
+  {
+    "id": "52504106254182",
+    "name": "Post: \"Just added the Shanghai Tower to the shop — and...\"",
+    "status": "ARCHIVED",
+    "objective": "OUTCOME_TRAFFIC",
+    "daily_budget": "200",
+    "budget_remaining": "200",
+    "created_time": "2026-03-07T23:36:06-0800",
+    "start_time": "2026-03-07T23:36:07-0800",
+    "stop_time": "2026-03-08T14:37:05-0700",
+    "adSets": [
+      {
+        "id": "52504106257782",
+        "name": "Post: \"Just added the Shanghai Tower to the shop — and...\"",
+        "status": "ARCHIVED",
+        "budget_remaining": "0",
+        "optimization_goal": "LANDING_PAGE_VIEWS",
+        "billing_event": "IMPRESSIONS",
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "geo_locations": {
+            "country_groups": [
+              "europe"
+            ],
+            "countries": [
+              "US",
+              "JP",
+              "AU"
+            ],
+            "location_types": [
+              "home",
+              "recent"
+            ]
+          },
+          "targeting_automation": {
+            "advantage_audience": 1
+          },
+          "publisher_platforms": [
+            "facebook",
+            "instagram",
+            "audience_network",
+            "messenger"
+          ],
+          "facebook_positions": [
+            "feed",
+            "biz_disco_feed",
+            "facebook_reels",
+            "facebook_reels_overlay",
+            "profile_feed",
+            "right_hand_column",
+            "notification",
+            "instream_video",
+            "marketplace",
+            "story",
+            "search"
+          ],
+          "instagram_positions": [
+            "stream",
+            "ig_search",
+            "profile_reels",
+            "story",
+            "explore",
+            "reels",
+            "explore_home",
+            "profile_feed"
+          ],
+          "device_platforms": [
+            "mobile",
+            "desktop"
+          ],
+          "messenger_positions": [
+            "story"
+          ],
+          "audience_network_positions": [
+            "classic",
+            "rewarded_video"
+          ]
+        },
+        "promoted_object": {
+          "page_id": "545877971951824",
+          "smart_pse_enabled": false
+        },
+        "start_time": "2026-03-07T23:36:07-0800",
+        "end_time": "2026-03-15T00:36:04-0700",
+        "created_time": "2026-03-07T23:36:07-0800",
+        "insights": [
+          {
+            "impressions": "3007",
+            "reach": "2882",
+            "clicks": "106",
+            "spend": "1.4",
+            "ctr": "3.525108",
+            "cpc": "0.013208",
+            "cpp": "0.485774",
+            "cpm": "0.46558",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "85"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "87"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "66"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "66"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "87"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "2"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_like",
+                "value": "2"
+              },
+              {
+                "action_type": "post_reaction",
+                "value": "2"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "0.016471"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "0.7"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "0.016092"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "0.021212"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "0.016092"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "0.021212"
+              }
+            ],
+            "frequency": "1.043373",
+            "date_start": "2026-03-07",
+            "date_stop": "2026-03-15"
+          }
+        ],
+        "ads": [
+          {
+            "id": "52504106271782",
+            "name": "Post: \"Just added the Shanghai Tower to the shop — and...\"",
+            "status": "ARCHIVED",
+            "creative": {
+              "id": "1258983832225393"
+            },
+            "created_time": "2026-03-07T23:36:08-0800"
+          }
+        ]
+      }
+    ],
+    "insights": [
+      {
+        "impressions": "3007",
+        "reach": "2882",
+        "clicks": "106",
+        "spend": "1.4",
+        "ctr": "3.525108",
+        "cpc": "0.013208",
+        "cpp": "0.485774",
+        "cpm": "0.46558",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "85"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "87"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "66"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "66"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "87"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "2"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "2"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "2"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.016471"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "0.7"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.016092"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.021212"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.016092"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.021212"
+          }
+        ],
+        "frequency": "1.043373",
+        "date_start": "2026-03-07",
+        "date_stop": "2026-03-15"
+      }
+    ]
+  },
+  {
+    "id": "52504105927582",
+    "name": "Drakey3DPrints Boosts",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "budget_remaining": "0",
+    "created_time": "2026-03-07T23:31:54-0800",
+    "start_time": "2026-03-07T23:31:55-0800",
+    "stop_time": "2026-03-07T23:33:31-0800",
+    "adSets": [
+      {
+        "id": "52504105939582",
+        "name": "Boost 2026-03-08 - £25.00 - 14d",
+        "status": "DELETED",
+        "daily_budget": "0",
+        "lifetime_budget": "2500",
+        "budget_remaining": "2500",
+        "optimization_goal": "LINK_CLICKS",
+        "billing_event": "IMPRESSIONS",
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "geo_locations": {
+            "countries": [
+              "US",
+              "IE",
+              "IT",
+              "JP",
+              "NL",
+              "NO",
+              "CA",
+              "ES",
+              "SE",
+              "CH",
+              "GB",
+              "FI",
+              "DK",
+              "BE",
+              "AU",
+              "AT",
+              "PL",
+              "PT",
+              "FR",
+              "DE"
+            ],
+            "location_types": [
+              "home",
+              "recent"
+            ]
+          },
+          "targeting_automation": {
+            "advantage_audience": 1
+          }
+        },
+        "start_time": "2026-03-07T23:31:55-0800",
+        "end_time": "2026-03-22T00:31:53-0700",
+        "created_time": "2026-03-07T23:31:55-0800",
+        "insights": [],
+        "ads": [
+          {
+            "id": "52504105948582",
+            "name": "Boost 2026-03-08",
+            "status": "DELETED",
+            "creative": {
+              "id": "26289304600663343"
+            },
+            "created_time": "2026-03-07T23:31:57-0800"
+          }
+        ]
+      }
+    ],
+    "insights": []
+  },
+  {
+    "id": "52504105770982",
+    "name": "Drakey3DPrints Boosts",
+    "status": "DELETED",
+    "objective": "OUTCOME_ENGAGEMENT",
+    "budget_remaining": "0",
+    "created_time": "2026-03-07T23:29:25-0800",
+    "start_time": "2026-03-07T23:29:26-0800",
+    "stop_time": "2026-03-07T23:30:09-0800",
+    "adSets": [
+      {
+        "id": "52504105772782",
+        "name": "Boost 2026-03-08 - £25.00 - 14d",
+        "status": "DELETED",
+        "daily_budget": "0",
+        "lifetime_budget": "2500",
+        "budget_remaining": "2500",
+        "optimization_goal": "POST_ENGAGEMENT",
+        "billing_event": "IMPRESSIONS",
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "geo_locations": {
+            "countries": [
+              "US",
+              "IE",
+              "IT",
+              "JP",
+              "NL",
+              "NO",
+              "CA",
+              "ES",
+              "SE",
+              "CH",
+              "GB",
+              "FI",
+              "DK",
+              "BE",
+              "AU",
+              "AT",
+              "PL",
+              "PT",
+              "FR",
+              "DE"
+            ],
+            "location_types": [
+              "home",
+              "recent"
+            ]
+          },
+          "targeting_automation": {
+            "advantage_audience": 1
+          }
+        },
+        "start_time": "2026-03-07T23:29:26-0800",
+        "end_time": "2026-03-22T00:29:24-0700",
+        "created_time": "2026-03-07T23:29:25-0800",
+        "insights": [],
+        "ads": []
+      }
+    ],
+    "insights": []
+  },
+  {
+    "id": "52503902892982",
+    "name": "Drakey3DPrints Ads",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "budget_remaining": "0",
+    "created_time": "2026-03-07T03:22:45-0800",
+    "start_time": "2026-03-07T03:22:46-0800",
+    "stop_time": "2026-03-07T23:28:31-0800",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "2512",
+        "reach": "2486",
+        "clicks": "186",
+        "spend": "1.77",
+        "ctr": "7.404459",
+        "cpc": "0.009516",
+        "cpp": "0.711987",
+        "cpm": "0.704618",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "181"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "183"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "42"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "42"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "183"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "2"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "2"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "2"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.009779"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "0.885"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.009672"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.042143"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.009672"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.042143"
+          }
+        ],
+        "frequency": "1.010459",
+        "date_start": "2026-03-07",
+        "date_stop": "2026-03-15"
+      }
+    ]
+  },
+  {
+    "id": "52503793474782",
+    "name": "Print Shop - 2026-03-07 - Post 545877971951824_122222916392829439",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "budget_remaining": "0",
+    "created_time": "2026-03-07T01:28:25-0800",
+    "start_time": "2026-03-07T01:28:26-0800",
+    "stop_time": "2026-03-07T03:20:05-0800",
+    "adSets": [],
+    "insights": []
+  },
+  {
+    "id": "52503793266382",
+    "name": "Print Shop - 2026-03-07 - Post 545877971951824_122222916392829439",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "budget_remaining": "0",
+    "created_time": "2026-03-07T01:27:13-0800",
+    "start_time": "2026-03-07T01:27:15-0800",
+    "stop_time": "2026-03-07T01:27:52-0800",
+    "adSets": [],
+    "insights": []
+  },
+  {
+    "id": "52503793112982",
+    "name": "Print Shop - 2026-03-07 - Post 545877971951824_122222916392829439",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "budget_remaining": "0",
+    "created_time": "2026-03-07T01:26:30-0800",
+    "start_time": "1969-12-31T15:59:59-0800",
+    "adSets": [],
+    "insights": []
+  },
+  {
+    "id": "52503793013982",
+    "name": "Print Shop - 2026-03-07 - Post 545877971951824_122222916392829439",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "budget_remaining": "0",
+    "created_time": "2026-03-07T01:25:42-0800",
+    "start_time": "1969-12-31T15:59:59-0800",
+    "adSets": [],
+    "insights": []
+  },
+  {
+    "id": "52503792861982",
+    "name": "Print Shop - 2026-03-07 - Post 545877971951824_122222916392829439",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "budget_remaining": "0",
+    "created_time": "2026-03-07T01:24:27-0800",
+    "start_time": "1969-12-31T15:59:59-0800",
+    "adSets": [],
+    "insights": []
+  },
+  {
+    "id": "52503792735782",
+    "name": "Print Shop - 2026-03-07 - Post 545877971951824_122222916392829439",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "budget_remaining": "0",
+    "created_time": "2026-03-07T01:23:27-0800",
+    "start_time": "1969-12-31T15:59:59-0800",
+    "adSets": [],
+    "insights": []
+  },
+  {
+    "id": "6998093944578",
+    "name": "Post: \"We have this in larger, we always print the...\"",
+    "status": "DELETED",
+    "objective": "OUTCOME_ENGAGEMENT",
+    "daily_budget": "200",
+    "budget_remaining": "200",
+    "created_time": "2026-02-25T10:41:42-0800",
+    "start_time": "2026-02-25T10:42:10-0800",
+    "stop_time": "2026-03-07T01:27:53-0800",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "5838",
+        "reach": "5041",
+        "clicks": "577",
+        "spend": "18.96",
+        "ctr": "9.883522",
+        "cpc": "0.03286",
+        "cpp": "3.761159",
+        "cpm": "3.247688",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "66"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "593"
+          },
+          {
+            "action_type": "onsite_conversion.post_unlike",
+            "value": "5"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "589"
+          },
+          {
+            "action_type": "comment",
+            "value": "4"
+          },
+          {
+            "action_type": "like",
+            "value": "4"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "523"
+          },
+          {
+            "action_type": "post",
+            "value": "4"
+          },
+          {
+            "action_type": "onsite_conversion.post_save",
+            "value": "1"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "509"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_save",
+            "value": "1"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "514"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.287273"
+          },
+          {
+            "action_type": "like",
+            "value": "4.74"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "0.036252"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.03219"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.031973"
+          }
+        ],
+        "frequency": "1.158104",
+        "date_start": "2026-02-25",
+        "date_stop": "2026-03-15"
+      }
+    ]
+  },
+  {
+    "id": "6995435699578",
+    "name": "Post: \"Just finished a full colour 432 Park Avenue print...\"",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "daily_budget": "200",
+    "budget_remaining": "200",
+    "created_time": "2026-02-21T04:48:26-0800",
+    "start_time": "2026-02-21T04:48:52-0800",
+    "stop_time": "2026-03-07T01:27:54-0800",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "311353",
+        "reach": "247096",
+        "clicks": "26389",
+        "spend": "27.44",
+        "ctr": "8.475589",
+        "cpc": "0.00104",
+        "cpp": "0.11105",
+        "cpm": "0.088131",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "26323"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "26612"
+          },
+          {
+            "action_type": "click_to_call_native_call_placed",
+            "value": "1"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "15153"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "15153"
+          },
+          {
+            "action_type": "onsite_conversion.post_unlike",
+            "value": "67"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "26612"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "273"
+          },
+          {
+            "action_type": "post",
+            "value": "9"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "197"
+          },
+          {
+            "action_type": "video_view",
+            "value": "16"
+          },
+          {
+            "action_type": "click_to_call_call_confirm",
+            "value": "1"
+          },
+          {
+            "action_type": "call_confirm_grouped",
+            "value": "1"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "264"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "call_confirm_grouped",
+            "value": "27.44"
+          },
+          {
+            "action_type": "click_to_call_call_confirm",
+            "value": "27.44"
+          },
+          {
+            "action_type": "video_view",
+            "value": "1.715"
+          },
+          {
+            "action_type": "link_click",
+            "value": "0.001042"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "0.100513"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.001031"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.001811"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.001031"
+          },
+          {
+            "action_type": "click_to_call_native_call_placed",
+            "value": "27.44"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.001811"
+          }
+        ],
+        "frequency": "1.260049",
+        "date_start": "2026-02-21",
+        "date_stop": "2026-03-15"
+      }
+    ]
+  },
+  {
+    "id": "6991227639378",
+    "name": "Post: \"One of London’s most recognisable skylines, now...\"",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "daily_budget": "300",
+    "budget_remaining": "300",
+    "created_time": "2026-02-12T04:54:24-0800",
+    "start_time": "2026-02-12T04:54:53-0800",
+    "stop_time": "2026-02-19T04:54:53-0800",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "217529",
+        "reach": "185683",
+        "clicks": "6693",
+        "spend": "17.64",
+        "ctr": "3.076831",
+        "cpc": "0.002636",
+        "cpp": "0.095001",
+        "cpm": "0.081093",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "6478"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "6628"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "1677"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "1677"
+          },
+          {
+            "action_type": "onsite_conversion.post_unlike",
+            "value": "34"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "6628"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "150"
+          },
+          {
+            "action_type": "post",
+            "value": "5"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "111"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "145"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.002723"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "0.1176"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.002661"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.010519"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.002661"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.010519"
+          }
+        ],
+        "frequency": "1.171507",
+        "date_start": "2026-02-12",
+        "date_stop": "2026-03-15"
+      }
+    ]
+  },
+  {
+    "id": "6986039794978",
+    "name": "Post: \"China Zun (CITIC Tower) is a building you almost...\"",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "daily_budget": "100",
+    "budget_remaining": "100",
+    "created_time": "2026-01-30T10:40:47-0800",
+    "start_time": "2026-01-30T10:40:48-0800",
+    "stop_time": "2026-03-07T01:27:57-0800",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "8376",
+        "reach": "7380",
+        "clicks": "620",
+        "spend": "21.87",
+        "ctr": "7.402101",
+        "cpc": "0.035274",
+        "cpp": "2.963415",
+        "cpm": "2.611032",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "609"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "617"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "511"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "511"
+          },
+          {
+            "action_type": "onsite_conversion.post_unlike",
+            "value": "3"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "617"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "8"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "5"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "8"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.035911"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "2.73375"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.035446"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.042798"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.035446"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.042798"
+          }
+        ],
+        "frequency": "1.134959",
+        "date_start": "2026-01-30",
+        "date_stop": "2026-03-15"
+      }
+    ]
+  },
+  {
+    "id": "6981518848178",
+    "name": "Post: \"China Zun (CITIC Tower) is a building you almost...\"",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "daily_budget": "600",
+    "budget_remaining": "600",
+    "created_time": "2026-01-19T12:29:30-0800",
+    "start_time": "2026-01-19T12:29:58-0800",
+    "stop_time": "2026-03-07T01:27:58-0800",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "1047054",
+        "reach": "735289",
+        "clicks": "18076",
+        "spend": "142.52",
+        "ctr": "1.726368",
+        "cpc": "0.007884",
+        "cpp": "0.193829",
+        "cpm": "0.136115",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "16588"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "17198"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "10529"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "10529"
+          },
+          {
+            "action_type": "onsite_conversion.post_unlike",
+            "value": "126"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "17198"
+          },
+          {
+            "action_type": "comment",
+            "value": "1"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "577"
+          },
+          {
+            "action_type": "post",
+            "value": "9"
+          },
+          {
+            "action_type": "onsite_conversion.post_save",
+            "value": "4"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "437"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_save",
+            "value": "4"
+          },
+          {
+            "action_type": "video_view",
+            "value": "33"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "563"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "video_view",
+            "value": "4.318788"
+          },
+          {
+            "action_type": "link_click",
+            "value": "0.008592"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "0.247002"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.008287"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.013536"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.008287"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.013536"
+          }
+        ],
+        "frequency": "1.424003",
+        "date_start": "2026-01-19",
+        "date_stop": "2026-03-15"
+      }
+    ]
+  },
+  {
+    "id": "6973465287778",
+    "name": "Post: \"The Ryugyong Hotel is brutalism at its most...\"",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "daily_budget": "300",
+    "budget_remaining": "300",
+    "created_time": "2025-12-29T01:58:01-0800",
+    "start_time": "2025-12-29T01:58:29-0800",
+    "stop_time": "2026-03-07T01:27:59-0800",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "702435",
+        "reach": "531841",
+        "clicks": "20161",
+        "spend": "65.69",
+        "ctr": "2.870159",
+        "cpc": "0.003258",
+        "cpp": "0.123514",
+        "cpm": "0.093518",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "13285"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "14003"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "5494"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "5494"
+          },
+          {
+            "action_type": "onsite_conversion.post_unlike",
+            "value": "77"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "13996"
+          },
+          {
+            "action_type": "comment",
+            "value": "10"
+          },
+          {
+            "action_type": "like",
+            "value": "7"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "694"
+          },
+          {
+            "action_type": "post",
+            "value": "22"
+          },
+          {
+            "action_type": "onsite_conversion.post_save",
+            "value": "29"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "556"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_save",
+            "value": "29"
+          },
+          {
+            "action_type": "video_view",
+            "value": "17"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "633"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "video_view",
+            "value": "3.864118"
+          },
+          {
+            "action_type": "link_click",
+            "value": "0.004945"
+          },
+          {
+            "action_type": "like",
+            "value": "9.384286"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "0.094654"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.004693"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.011957"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.004691"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.011957"
+          }
+        ],
+        "frequency": "1.320761",
+        "date_start": "2025-12-29",
+        "date_stop": "2026-03-15"
+      }
+    ]
+  },
+  {
+    "id": "6967946043178",
+    "name": "Post: \"Just finished listing the World Trade Center Twin...\"",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "daily_budget": "200",
+    "budget_remaining": "200",
+    "created_time": "2025-12-18T00:00:36-0800",
+    "start_time": "2025-12-18T00:01:02-0800",
+    "stop_time": "2026-01-01T00:01:02-0800",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "393247",
+        "reach": "329445",
+        "clicks": "6512",
+        "spend": "27.66",
+        "ctr": "1.655957",
+        "cpc": "0.004248",
+        "cpp": "0.083959",
+        "cpm": "0.070337",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "5186"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "5572"
+          },
+          {
+            "action_type": "click_to_call_native_call_placed",
+            "value": "2"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "2985"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "2985"
+          },
+          {
+            "action_type": "onsite_conversion.post_unlike",
+            "value": "58"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "5571"
+          },
+          {
+            "action_type": "comment",
+            "value": "15"
+          },
+          {
+            "action_type": "like",
+            "value": "1"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "356"
+          },
+          {
+            "action_type": "post",
+            "value": "38"
+          },
+          {
+            "action_type": "onsite_conversion.post_save",
+            "value": "10"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "235"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_save",
+            "value": "10"
+          },
+          {
+            "action_type": "video_view",
+            "value": "29"
+          },
+          {
+            "action_type": "click_to_call_call_confirm",
+            "value": "4"
+          },
+          {
+            "action_type": "call_confirm_grouped",
+            "value": "4"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "293"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "call_confirm_grouped",
+            "value": "6.915"
+          },
+          {
+            "action_type": "click_to_call_call_confirm",
+            "value": "6.915"
+          },
+          {
+            "action_type": "video_view",
+            "value": "0.953793"
+          },
+          {
+            "action_type": "link_click",
+            "value": "0.005334"
+          },
+          {
+            "action_type": "like",
+            "value": "27.66"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "0.077697"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.004965"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.009266"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.004964"
+          },
+          {
+            "action_type": "click_to_call_native_call_placed",
+            "value": "13.83"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.009266"
+          }
+        ],
+        "frequency": "1.193665",
+        "date_start": "2025-12-18",
+        "date_stop": "2026-01-29"
+      }
+    ]
+  },
+  {
+    "id": "6964999826178",
+    "name": "Post: \"Jeddah Tower has a presence that’s hard to ignore...\"",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "daily_budget": "500",
+    "budget_remaining": "500",
+    "created_time": "2025-12-13T06:41:13-0800",
+    "start_time": "2025-12-13T06:41:40-0800",
+    "stop_time": "2025-12-20T06:41:40-0800",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "456232",
+        "reach": "359223",
+        "clicks": "6747",
+        "spend": "34.51",
+        "ctr": "1.478853",
+        "cpc": "0.005115",
+        "cpp": "0.096068",
+        "cpm": "0.075641",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "6026"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "6428"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "2479"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "2479"
+          },
+          {
+            "action_type": "onsite_conversion.post_unlike",
+            "value": "69"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "6427"
+          },
+          {
+            "action_type": "comment",
+            "value": "1"
+          },
+          {
+            "action_type": "like",
+            "value": "1"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "401"
+          },
+          {
+            "action_type": "onsite_conversion.post_unsave",
+            "value": "2"
+          },
+          {
+            "action_type": "post",
+            "value": "10"
+          },
+          {
+            "action_type": "onsite_conversion.post_save",
+            "value": "10"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "311"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_save",
+            "value": "8"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "380"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.005727"
+          },
+          {
+            "action_type": "like",
+            "value": "34.51"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "0.08606"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.00537"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.013921"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.005369"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.013921"
+          }
+        ],
+        "frequency": "1.270052",
+        "date_start": "2025-12-13",
+        "date_stop": "2026-01-17"
+      }
+    ]
+  },
+  {
+    "id": "6961596772978",
+    "name": "Post: \"Bring New York’s skyline into your home.\"",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "daily_budget": "600",
+    "budget_remaining": "600",
+    "created_time": "2025-12-08T02:09:16-0800",
+    "start_time": "2025-12-08T02:09:43-0800",
+    "stop_time": "2025-12-15T00:00:00-0800",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "565941",
+        "reach": "454977",
+        "clicks": "9410",
+        "spend": "41.36",
+        "ctr": "1.662717",
+        "cpc": "0.004395",
+        "cpp": "0.090906",
+        "cpm": "0.073082",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "8782"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "9381"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "3744"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "3744"
+          },
+          {
+            "action_type": "onsite_conversion.post_unlike",
+            "value": "80"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "9381"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "577"
+          },
+          {
+            "action_type": "post",
+            "value": "7"
+          },
+          {
+            "action_type": "onsite_conversion.post_save",
+            "value": "12"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "478"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_save",
+            "value": "12"
+          },
+          {
+            "action_type": "video_view",
+            "value": "22"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "558"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "video_view",
+            "value": "1.88"
+          },
+          {
+            "action_type": "link_click",
+            "value": "0.00471"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "0.071681"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.004409"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.011047"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.004409"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.011047"
+          }
+        ],
+        "frequency": "1.243889",
+        "date_start": "2025-12-08",
+        "date_stop": "2026-01-11"
+      }
+    ]
+  },
+  {
+    "id": "6956369609178",
+    "name": "Post: \"Here’s a 3D-printed map of Todmorden I’ve made,...\"",
+    "status": "DELETED",
+    "objective": "MESSAGES",
+    "daily_budget": "400",
+    "budget_remaining": "400",
+    "created_time": "2025-11-29T01:27:36-0800",
+    "start_time": "2025-11-29T01:28:06-0800",
+    "stop_time": "2025-12-06T01:28:06-0800",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "4644",
+        "reach": "2345",
+        "clicks": "225",
+        "spend": "27.17",
+        "ctr": "4.844961",
+        "cpc": "0.120756",
+        "cpp": "11.586354",
+        "cpm": "5.85056",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "39"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "113"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "113"
+          },
+          {
+            "action_type": "comment",
+            "value": "3"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "24"
+          },
+          {
+            "action_type": "photo_view",
+            "value": "50"
+          },
+          {
+            "action_type": "post",
+            "value": "2"
+          },
+          {
+            "action_type": "onsite_conversion.post_save",
+            "value": "1"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "18"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_save",
+            "value": "1"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "18"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.696667"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "1.132083"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.240442"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.240442"
+          }
+        ],
+        "frequency": "1.980384",
+        "date_start": "2025-11-29",
+        "date_stop": "2026-01-03"
+      }
+    ]
+  },
+  {
+    "id": "6955495508378",
+    "name": "New Traffic Campaign with recommended settings",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "budget_remaining": "0",
+    "created_time": "2025-11-27T07:52:42-0800",
+    "start_time": "2025-11-27T07:52:43-0800",
+    "stop_time": "2025-12-10T07:18:00-0800",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "20563",
+        "reach": "15241",
+        "clicks": "1034",
+        "spend": "61.31",
+        "ctr": "5.028449",
+        "cpc": "0.059294",
+        "cpp": "4.022702",
+        "cpm": "2.981569",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "504"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "516"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "314"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "314"
+          },
+          {
+            "action_type": "onsite_conversion.post_unlike",
+            "value": "1"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "516"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "9"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "8"
+          },
+          {
+            "action_type": "video_view",
+            "value": "3"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "9"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "video_view",
+            "value": "20.436667"
+          },
+          {
+            "action_type": "link_click",
+            "value": "0.121647"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "6.812222"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.118818"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.195255"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.118818"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.195255"
+          }
+        ],
+        "frequency": "1.34919",
+        "date_start": "2025-11-27",
+        "date_stop": "2026-01-07"
+      }
+    ]
+  },
+  {
+    "id": "6955237679378",
+    "name": "Post: \"Just finished this 1:1000 scale model of Wrigley...\"",
+    "status": "DELETED",
+    "objective": "LINK_CLICKS",
+    "daily_budget": "400",
+    "budget_remaining": "400",
+    "created_time": "2025-11-26T22:49:34-0800",
+    "start_time": "2025-11-26T22:50:04-0800",
+    "stop_time": "2025-12-03T22:50:04-0800",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "6768",
+        "reach": "5881",
+        "clicks": "906",
+        "spend": "27.67",
+        "ctr": "13.386525",
+        "cpc": "0.030541",
+        "cpp": "4.704982",
+        "cpm": "4.088357",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "346"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "368"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "264"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "264"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "367"
+          },
+          {
+            "action_type": "comment",
+            "value": "1"
+          },
+          {
+            "action_type": "like",
+            "value": "1"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "21"
+          },
+          {
+            "action_type": "post",
+            "value": "3"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "17"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "17"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.079971"
+          },
+          {
+            "action_type": "like",
+            "value": "27.67"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "1.317619"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.075395"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.104811"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.07519"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.104811"
+          }
+        ],
+        "frequency": "1.150825",
+        "date_start": "2025-11-26",
+        "date_stop": "2025-12-31"
+      }
+    ]
+  },
+  {
+    "id": "6952488706178",
+    "name": "Tailored web traffic campaign 21/11/2025 Campaign",
+    "status": "DELETED",
+    "objective": "OUTCOME_TRAFFIC",
+    "budget_remaining": "0",
+    "created_time": "2025-11-21T08:45:59-0800",
+    "start_time": "2025-11-21T08:46:00-0800",
+    "stop_time": "2025-12-08T08:43:00-0800",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "28048",
+        "reach": "19769",
+        "clicks": "1346",
+        "spend": "84.73",
+        "ctr": "4.798916",
+        "cpc": "0.062949",
+        "cpp": "4.286003",
+        "cpm": "3.020893",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "659"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "676"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "394"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "394"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "675"
+          },
+          {
+            "action_type": "comment",
+            "value": "1"
+          },
+          {
+            "action_type": "like",
+            "value": "1"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "14"
+          },
+          {
+            "action_type": "post",
+            "value": "2"
+          },
+          {
+            "action_type": "onsite_conversion.post_save",
+            "value": "2"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "9"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_save",
+            "value": "2"
+          },
+          {
+            "action_type": "video_view",
+            "value": "2"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "9"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "video_view",
+            "value": "42.365"
+          },
+          {
+            "action_type": "link_click",
+            "value": "0.128574"
+          },
+          {
+            "action_type": "like",
+            "value": "84.73"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "6.052143"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.125526"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.215051"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.12534"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.215051"
+          }
+        ],
+        "frequency": "1.418787",
+        "date_start": "2025-11-21",
+        "date_stop": "2026-01-05"
+      }
+    ]
+  },
+  {
+    "id": "6935479233178",
+    "name": "UK Tailored web traffic campaign Campaign",
+    "status": "ARCHIVED",
+    "objective": "OUTCOME_TRAFFIC",
+    "budget_remaining": "0",
+    "created_time": "2025-10-18T00:54:38-0700",
+    "start_time": "2025-10-18T00:54:39-0700",
+    "stop_time": "2025-10-31T00:50:00-0700",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "36477",
+        "reach": "22181",
+        "clicks": "1251",
+        "spend": "63.96",
+        "ctr": "3.429558",
+        "cpc": "0.051127",
+        "cpp": "2.883549",
+        "cpm": "1.753434",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "1163"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "1168"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "856"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "856"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "1168"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "5"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "5"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "5"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.054996"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "12.792"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.05476"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.07472"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.05476"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.07472"
+          }
+        ],
+        "frequency": "1.644516",
+        "date_start": "2025-10-18",
+        "date_stop": "2025-11-28"
+      }
+    ]
+  },
+  {
+    "id": "6925261433778",
+    "name": "Tailored web traffic campaign 23/09/2025 Campaign",
+    "status": "ARCHIVED",
+    "objective": "OUTCOME_TRAFFIC",
+    "budget_remaining": "0",
+    "created_time": "2025-09-23T05:15:23-0700",
+    "start_time": "2025-09-23T05:15:24-0700",
+    "stop_time": "2025-10-07T05:07:00-0700",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "59686",
+        "reach": "41989",
+        "clicks": "2020",
+        "spend": "69.41",
+        "ctr": "3.384378",
+        "cpc": "0.034361",
+        "cpp": "1.653052",
+        "cpm": "1.162919",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "1672"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "1752"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "795"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "795"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "1749"
+          },
+          {
+            "action_type": "like",
+            "value": "3"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "77"
+          },
+          {
+            "action_type": "post",
+            "value": "3"
+          },
+          {
+            "action_type": "onsite_conversion.post_save",
+            "value": "7"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "67"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_save",
+            "value": "7"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "67"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.041513"
+          },
+          {
+            "action_type": "like",
+            "value": "23.136667"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "0.901429"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.039686"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.087308"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.039618"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.087308"
+          }
+        ],
+        "frequency": "1.421468",
+        "date_start": "2025-09-23",
+        "date_stop": "2025-11-04"
+      }
+    ]
+  },
+  {
+    "id": "6923449195578",
+    "name": "Post: \"Check out this demo of a new capability we're...\"",
+    "status": "ARCHIVED",
+    "objective": "LINK_CLICKS",
+    "daily_budget": "2000",
+    "budget_remaining": "2000",
+    "created_time": "2025-09-15T05:23:33-0700",
+    "start_time": "2025-09-15T05:24:03-0700",
+    "stop_time": "2025-09-20T05:24:03-0700",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "27441",
+        "reach": "19732",
+        "clicks": "498",
+        "spend": "99.87",
+        "ctr": "1.814803",
+        "cpc": "0.200542",
+        "cpp": "5.061322",
+        "cpm": "3.639445",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "362"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "370"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "216"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "216"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "370"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "8"
+          },
+          {
+            "action_type": "post",
+            "value": "2"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "6"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "6"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.275884"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "12.48375"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.269919"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.462361"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.269919"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.462361"
+          }
+        ],
+        "frequency": "1.390685",
+        "date_start": "2025-09-15",
+        "date_stop": "2025-10-18"
+      }
+    ]
+  },
+  {
+    "id": "6921532800378",
+    "name": "Post: \"👻✨ New for Halloween – Ghost Bundles! ✨👻\"",
+    "status": "ARCHIVED",
+    "objective": "LINK_CLICKS",
+    "daily_budget": "1000",
+    "budget_remaining": "1000",
+    "created_time": "2025-09-05T09:44:14-0700",
+    "start_time": "2025-09-05T09:44:44-0700",
+    "stop_time": "2025-09-09T09:44:44-0700",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "24982",
+        "reach": "17756",
+        "clicks": "1030",
+        "spend": "39.93",
+        "ctr": "4.122969",
+        "cpc": "0.038767",
+        "cpp": "2.248817",
+        "cpm": "1.598351",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "993"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "998"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "528"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "528"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "998"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "5"
+          },
+          {
+            "action_type": "post",
+            "value": "2"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "3"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "3"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.040211"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "7.986"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.04001"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.075625"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.04001"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.075625"
+          }
+        ],
+        "frequency": "1.406961",
+        "date_start": "2025-09-05",
+        "date_stop": "2025-10-07"
+      }
+    ]
+  },
+  {
+    "id": "6920357212778",
+    "name": "Post: \"Meet our little 3D-printed Surprised Ghosts – the...\"",
+    "status": "ARCHIVED",
+    "objective": "LINK_CLICKS",
+    "daily_budget": "500",
+    "budget_remaining": "500",
+    "created_time": "2025-08-31T02:00:32-0700",
+    "start_time": "2025-08-31T02:01:02-0700",
+    "stop_time": "2025-09-03T02:01:02-0700",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "9248",
+        "reach": "6337",
+        "clicks": "357",
+        "spend": "14.77",
+        "ctr": "3.860294",
+        "cpc": "0.041373",
+        "cpp": "2.330756",
+        "cpm": "1.597102",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "306"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "310"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "182"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "182"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "310"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "4"
+          },
+          {
+            "action_type": "onsite_conversion.post_save",
+            "value": "1"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "3"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_save",
+            "value": "1"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "3"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.048268"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "3.6925"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.047645"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.081154"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.047645"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.081154"
+          }
+        ],
+        "frequency": "1.459366",
+        "date_start": "2025-08-31",
+        "date_stop": "2025-10-01"
+      }
+    ]
+  },
+  {
+    "id": "6882442302178",
+    "name": "Post: \"Just finished this full-colour 3D print of the...\"",
+    "status": "ARCHIVED",
+    "objective": "LINK_CLICKS",
+    "lifetime_budget": "2000",
+    "budget_remaining": "13",
+    "created_time": "2025-07-24T23:52:42-0700",
+    "start_time": "2025-07-24T23:53:12-0700",
+    "stop_time": "2025-07-28T23:53:12-0700",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "165665",
+        "reach": "121520",
+        "clicks": "5474",
+        "spend": "19.87",
+        "ctr": "3.304259",
+        "cpc": "0.00363",
+        "cpp": "0.163512",
+        "cpm": "0.119941",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "5414"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "5486"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "2459"
+          },
+          {
+            "action_type": "app_site_visit",
+            "value": "3"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "2462"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "5486"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "72"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "72"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "72"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.00367"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "0.275972"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.003622"
+          },
+          {
+            "action_type": "app_site_visit",
+            "value": "6.623333"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "0.008081"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.003622"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "0.008071"
+          }
+        ],
+        "frequency": "1.363274",
+        "date_start": "2025-07-24",
+        "date_stop": "2025-08-25"
+      }
+    ]
+  },
+  {
+    "id": "6872472596178",
+    "name": "Post: \"Check out my latest multi-colour 3D print of...\"",
+    "status": "ARCHIVED",
+    "objective": "LINK_CLICKS",
+    "daily_budget": "600",
+    "budget_remaining": "600",
+    "created_time": "2025-07-12T01:31:26-0700",
+    "start_time": "2025-07-12T01:31:56-0700",
+    "stop_time": "2025-07-16T01:31:56-0700",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "43073",
+        "reach": "32223",
+        "clicks": "970",
+        "spend": "23.84",
+        "ctr": "2.251991",
+        "cpc": "0.024577",
+        "cpp": "0.739844",
+        "cpm": "0.553479",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "849"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "869"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "869"
+          },
+          {
+            "action_type": "comment",
+            "value": "1"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "20"
+          },
+          {
+            "action_type": "onsite_conversion.post_save",
+            "value": "1"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "18"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_save",
+            "value": "1"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "18"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.02808"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "1.192"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.027434"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.027434"
+          }
+        ],
+        "frequency": "1.336716",
+        "date_start": "2025-07-12",
+        "date_stop": "2025-08-13"
+      }
+    ]
+  },
+  {
+    "id": "6864896198978",
+    "name": "Website visitors Ad: 📣 New Design Drop! – Princess Tower, Dubai 🏙️",
+    "status": "ARCHIVED",
+    "objective": "LINK_CLICKS",
+    "daily_budget": "400",
+    "budget_remaining": "400",
+    "created_time": "2025-07-01T23:58:58-0700",
+    "start_time": "2025-07-01T23:59:28-0700",
+    "stop_time": "2025-07-08T23:59:28-0700",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "45893",
+        "reach": "32062",
+        "clicks": "901",
+        "spend": "27.98",
+        "ctr": "1.963262",
+        "cpc": "0.031054",
+        "cpp": "0.872684",
+        "cpm": "0.609679",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "886"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "886"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "886"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.03158"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.03158"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.03158"
+          }
+        ],
+        "frequency": "1.431383",
+        "date_start": "2025-07-01",
+        "date_stop": "2025-08-05"
+      }
+    ]
+  },
+  {
+    "id": "6843339654378",
+    "name": "Post: \"This highly detailed 3D-printed model of St....\"",
+    "status": "ARCHIVED",
+    "objective": "LINK_CLICKS",
+    "daily_budget": "75",
+    "budget_remaining": "75",
+    "created_time": "2025-06-09T01:24:45-0700",
+    "start_time": "2025-06-09T01:25:15-0700",
+    "stop_time": "2025-06-09T01:27:24-0700",
+    "adSets": [],
+    "insights": []
+  },
+  {
+    "id": "6843337679178",
+    "name": "Post: \"This highly detailed 3D-printed model of St....\"",
+    "status": "ARCHIVED",
+    "objective": "LINK_CLICKS",
+    "daily_budget": "400",
+    "budget_remaining": "400",
+    "created_time": "2025-06-09T01:23:52-0700",
+    "start_time": "2025-06-09T01:24:22-0700",
+    "stop_time": "2025-06-16T01:24:22-0700",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "24956",
+        "reach": "18757",
+        "clicks": "1106",
+        "spend": "27.8",
+        "ctr": "4.4318",
+        "cpc": "0.025136",
+        "cpp": "1.482113",
+        "cpm": "1.113961",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "540"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "626"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "620"
+          },
+          {
+            "action_type": "comment",
+            "value": "3"
+          },
+          {
+            "action_type": "like",
+            "value": "6"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "80"
+          },
+          {
+            "action_type": "onsite_conversion.post_save",
+            "value": "2"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "75"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_save",
+            "value": "2"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "75"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.051481"
+          },
+          {
+            "action_type": "like",
+            "value": "4.633333"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "0.3475"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.044839"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.044409"
+          }
+        ],
+        "frequency": "1.33049",
+        "date_start": "2025-06-09",
+        "date_stop": "2025-07-14"
+      }
+    ]
+  },
+  {
+    "id": "6801419056978",
+    "name": "Post: \"Check out our latest 3D print: the Willis Tower...\"",
+    "status": "ARCHIVED",
+    "objective": "LINK_CLICKS",
+    "lifetime_budget": "2000",
+    "budget_remaining": "4",
+    "created_time": "2025-05-01T08:56:21-0700",
+    "start_time": "2025-05-01T08:56:51-0700",
+    "stop_time": "2025-05-11T08:56:51-0700",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "39750",
+        "reach": "27349",
+        "clicks": "761",
+        "spend": "19.96",
+        "ctr": "1.914465",
+        "cpc": "0.026229",
+        "cpp": "0.729826",
+        "cpm": "0.502138",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "663"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "674"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "673"
+          },
+          {
+            "action_type": "like",
+            "value": "1"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "10"
+          },
+          {
+            "action_type": "post",
+            "value": "1"
+          },
+          {
+            "action_type": "onsite_conversion.post_save",
+            "value": "2"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "7"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_save",
+            "value": "2"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "7"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.030106"
+          },
+          {
+            "action_type": "like",
+            "value": "19.96"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "1.996"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.029658"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.029614"
+          }
+        ],
+        "frequency": "1.453435",
+        "date_start": "2025-05-01",
+        "date_stop": "2025-06-08"
+      }
+    ]
+  },
+  {
+    "id": "6784139677378",
+    "name": "New Sales campaign",
+    "status": "ARCHIVED",
+    "objective": "OUTCOME_SALES",
+    "lifetime_budget": "2000",
+    "budget_remaining": "2000",
+    "created_time": "2025-04-25T06:12:48-0700",
+    "start_time": "1969-12-31T15:59:59-0800",
+    "adSets": [],
+    "insights": []
+  },
+  {
+    "id": "6776182982578",
+    "name": "Post: \"Just finished printing this monster — the Burj...\"",
+    "status": "ARCHIVED",
+    "objective": "LINK_CLICKS",
+    "lifetime_budget": "1000",
+    "budget_remaining": "2",
+    "created_time": "2025-04-18T12:12:30-0700",
+    "start_time": "2025-04-18T12:13:00-0700",
+    "stop_time": "2025-04-22T12:13:00-0700",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "18925",
+        "reach": "14874",
+        "clicks": "305",
+        "spend": "9.98",
+        "ctr": "1.611625",
+        "cpc": "0.032721",
+        "cpp": "0.670969",
+        "cpm": "0.527345",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "242"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "251"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "251"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "9"
+          },
+          {
+            "action_type": "onsite_conversion.post_save",
+            "value": "1"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "8"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_save",
+            "value": "1"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "8"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.04124"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "1.108889"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.039761"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.039761"
+          }
+        ],
+        "frequency": "1.272354",
+        "date_start": "2025-04-18",
+        "date_stop": "2025-05-20"
+      }
+    ]
+  },
+  {
+    "id": "6776180929578",
+    "name": "Post: \"Just added the Q1 Tower to the 3D print lineup –...\"",
+    "status": "ARCHIVED",
+    "objective": "MESSAGES",
+    "lifetime_budget": "1000",
+    "budget_remaining": "16",
+    "created_time": "2025-04-18T12:08:01-0700",
+    "start_time": "2025-04-18T12:08:31-0700",
+    "stop_time": "2025-04-22T12:08:31-0700",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "6003",
+        "reach": "3391",
+        "clicks": "208",
+        "spend": "9.84",
+        "ctr": "3.464934",
+        "cpc": "0.047308",
+        "cpp": "2.901799",
+        "cpm": "1.63918",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "26"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "48"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "48"
+          },
+          {
+            "action_type": "comment",
+            "value": "1"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "22"
+          },
+          {
+            "action_type": "onsite_conversion.post_save",
+            "value": "1"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "20"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_save",
+            "value": "1"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "20"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.378462"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "0.447273"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.205"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.205"
+          }
+        ],
+        "frequency": "1.770274",
+        "date_start": "2025-04-18",
+        "date_stop": "2025-05-20"
+      }
+    ]
+  },
+  {
+    "id": "6773799066378",
+    "name": "Post: \"This is a pretty nice print...\"",
+    "status": "ARCHIVED",
+    "objective": "MESSAGES",
+    "lifetime_budget": "1000",
+    "budget_remaining": "8",
+    "created_time": "2025-04-12T14:01:17-0700",
+    "start_time": "2025-04-12T14:01:47-0700",
+    "stop_time": "2025-04-22T14:01:47-0700",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "4790",
+        "reach": "2880",
+        "clicks": "260",
+        "spend": "9.92",
+        "ctr": "5.427975",
+        "cpc": "0.038154",
+        "cpp": "3.444444",
+        "cpm": "2.070981",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "39"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "52"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "52"
+          },
+          {
+            "action_type": "comment",
+            "value": "2"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "13"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "11"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "11"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "0.254359"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "0.763077"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.190769"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.190769"
+          }
+        ],
+        "frequency": "1.663194",
+        "date_start": "2025-04-12",
+        "date_stop": "2025-05-20"
+      }
+    ]
+  },
+  {
+    "id": "6593421249178",
+    "name": "Post: \"This International Women's Day, find out what...\"",
+    "status": "ARCHIVED",
+    "objective": "LINK_CLICKS",
+    "lifetime_budget": "2500",
+    "budget_remaining": "0",
+    "created_time": "2024-03-08T03:45:11-0800",
+    "start_time": "2024-03-08T03:45:41-0800",
+    "stop_time": "2024-03-13T04:45:41-0700",
+    "adSets": [],
+    "insights": [
+      {
+        "impressions": "2456",
+        "reach": "1919",
+        "clicks": "44",
+        "spend": "25",
+        "ctr": "1.791531",
+        "cpc": "0.568182",
+        "cpp": "13.027619",
+        "cpm": "10.179153",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "27"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "29"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "29"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "2"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "2"
+          },
+          {
+            "action_type": "click_to_call_call_confirm",
+            "value": "3"
+          },
+          {
+            "action_type": "call_confirm_grouped",
+            "value": "3"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "2"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "call_confirm_grouped",
+            "value": "8.333333"
+          },
+          {
+            "action_type": "click_to_call_call_confirm",
+            "value": "8.333333"
+          },
+          {
+            "action_type": "link_click",
+            "value": "0.925926"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "12.5"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "0.862069"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "0.862069"
+          }
+        ],
+        "frequency": "1.279833",
+        "date_start": "2024-03-08",
+        "date_stop": "2024-04-10"
+      }
+    ]
+  },
+  {
+    "id": "6301344167978",
+    "name": "[Yeti 5.5 (large)] Marketplace listing boosted on 06/07/2022",
+    "status": "ARCHIVED",
+    "objective": "LINK_CLICKS",
+    "daily_budget": "100",
+    "budget_remaining": "100",
+    "created_time": "2022-07-06T06:17:24-0700",
+    "start_time": "2022-07-06T06:17:54-0700",
+    "stop_time": "2022-07-07T06:17:54-0700",
+    "adSets": [],
+    "insights": []
+  },
+  {
+    "id": "6195483218778",
+    "name": "Post: \"Our latest newsletter is hot off the press, if...\"",
+    "status": "ARCHIVED",
+    "objective": "LINK_CLICKS",
+    "lifetime_budget": "1000",
+    "budget_remaining": "1000",
+    "created_time": "2020-06-26T10:57:17-0700",
+    "start_time": "2020-06-26T10:57:27-0700",
+    "stop_time": "2020-07-01T10:57:17-0700",
+    "adSets": [],
+    "insights": []
+  },
+  {
+    "id": "6133711698978",
+    "name": "[23/08/2019] Promoting https://truenorthit.co.uk/national-grid-pas-integration/",
+    "status": "ARCHIVED",
+    "objective": "LINK_CLICKS",
+    "daily_budget": "400",
+    "budget_remaining": "400",
+    "created_time": "2019-08-23T11:16:15-0700",
+    "start_time": "2019-08-23T11:16:45-0700",
+    "stop_time": "2025-11-21T08:46:24-0800",
+    "adSets": [],
+    "insights": []
+  },
+  {
+    "id": "6117478633378",
+    "name": "[08/03/2019] Promoting Learn More",
+    "status": "ARCHIVED",
+    "objective": "LINK_CLICKS",
+    "budget_remaining": "0",
+    "created_time": "2019-03-08T08:51:31-0800",
+    "start_time": "2019-03-08T08:52:01-0800",
+    "stop_time": "2019-03-22T09:52:01-0700",
+    "adSets": [],
+    "insights": []
+  },
+  {
+    "id": "6117478019378",
+    "name": "Post: \"\"",
+    "status": "ARCHIVED",
+    "objective": "POST_ENGAGEMENT",
+    "budget_remaining": "0",
+    "created_time": "2019-03-08T08:41:41-0800",
+    "start_time": "2019-03-08T08:41:50-0800",
+    "stop_time": "2019-03-08T11:43:23-0800",
+    "adSets": [],
+    "insights": []
+  }
+]
