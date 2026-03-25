@@ -1,0 +1,704 @@
+[
+  {
+    "shipping_profile_id": 260719988841,
+    "title": "Standard",
+    "user_id": 1030756788,
+    "origin_country_iso": "GB",
+    "origin_postal_code": "OL148AE",
+    "profile_type": "manual",
+    "is_deleted": false,
+    "domestic_handling_fee": 0,
+    "international_handling_fee": 0,
+    "shipping_profile_destinations": [
+      {
+        "shipping_profile_destination_id": 53073518440,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 1000,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 800,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "international_tracked",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      },
+      {
+        "shipping_profile_destination_id": 53073518438,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "GB",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 300,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 200,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "tracked_48",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      },
+      {
+        "shipping_profile_destination_id": 57124804496,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "US",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 1500,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 1000,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "international_tracked_ddp",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      }
+    ],
+    "shipping_profile_upgrades": [],
+    "listing_count": 40
+  },
+  {
+    "shipping_profile_id": 260719988841,
+    "title": "Standard",
+    "user_id": 1030756788,
+    "origin_country_iso": "GB",
+    "origin_postal_code": "OL148AE",
+    "profile_type": "manual",
+    "is_deleted": false,
+    "domestic_handling_fee": 0,
+    "international_handling_fee": 0,
+    "shipping_profile_destinations": [
+      {
+        "shipping_profile_destination_id": 53073518440,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 1000,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 800,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "international_tracked",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      },
+      {
+        "shipping_profile_destination_id": 53073518438,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "GB",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 300,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 200,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "tracked_48",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      },
+      {
+        "shipping_profile_destination_id": 57124804496,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "US",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 1500,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 1000,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "international_tracked_ddp",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      }
+    ],
+    "shipping_profile_upgrades": [],
+    "listing_count": 1
+  },
+  {
+    "shipping_profile_id": 260719988841,
+    "title": "Standard",
+    "user_id": 1030756788,
+    "origin_country_iso": "GB",
+    "origin_postal_code": "OL148AE",
+    "profile_type": "manual",
+    "is_deleted": false,
+    "domestic_handling_fee": 0,
+    "international_handling_fee": 0,
+    "shipping_profile_destinations": [
+      {
+        "shipping_profile_destination_id": 53073518440,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 1000,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 800,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "international_tracked",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      },
+      {
+        "shipping_profile_destination_id": 53073518438,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "GB",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 300,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 200,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "tracked_48",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      },
+      {
+        "shipping_profile_destination_id": 57124804496,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "US",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 1500,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 1000,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "international_tracked_ddp",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      }
+    ],
+    "shipping_profile_upgrades": [],
+    "listing_count": 1
+  },
+  {
+    "shipping_profile_id": 260719988841,
+    "title": "Standard",
+    "user_id": 1030756788,
+    "origin_country_iso": "GB",
+    "origin_postal_code": "OL148AE",
+    "profile_type": "manual",
+    "is_deleted": false,
+    "domestic_handling_fee": 0,
+    "international_handling_fee": 0,
+    "shipping_profile_destinations": [
+      {
+        "shipping_profile_destination_id": 53073518440,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 1000,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 800,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "international_tracked",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      },
+      {
+        "shipping_profile_destination_id": 53073518438,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "GB",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 300,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 200,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "tracked_48",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      },
+      {
+        "shipping_profile_destination_id": 57124804496,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "US",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 1500,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 1000,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "international_tracked_ddp",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      }
+    ],
+    "shipping_profile_upgrades": [],
+    "listing_count": 1
+  },
+  {
+    "shipping_profile_id": 260719988841,
+    "title": "Standard",
+    "user_id": 1030756788,
+    "origin_country_iso": "GB",
+    "origin_postal_code": "OL148AE",
+    "profile_type": "manual",
+    "is_deleted": false,
+    "domestic_handling_fee": 0,
+    "international_handling_fee": 0,
+    "shipping_profile_destinations": [
+      {
+        "shipping_profile_destination_id": 53073518440,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 1000,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 800,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "international_tracked",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      },
+      {
+        "shipping_profile_destination_id": 53073518438,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "GB",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 300,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 200,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "tracked_48",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      },
+      {
+        "shipping_profile_destination_id": 57124804496,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "US",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 1500,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 1000,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "international_tracked_ddp",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      }
+    ],
+    "shipping_profile_upgrades": [],
+    "listing_count": 1
+  },
+  {
+    "shipping_profile_id": 260719988841,
+    "title": "Standard",
+    "user_id": 1030756788,
+    "origin_country_iso": "GB",
+    "origin_postal_code": "OL148AE",
+    "profile_type": "manual",
+    "is_deleted": false,
+    "domestic_handling_fee": 0,
+    "international_handling_fee": 0,
+    "shipping_profile_destinations": [
+      {
+        "shipping_profile_destination_id": 53073518440,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 1000,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 800,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "international_tracked",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      },
+      {
+        "shipping_profile_destination_id": 53073518438,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "GB",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 300,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 200,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "tracked_48",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      },
+      {
+        "shipping_profile_destination_id": 57124804496,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "US",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 1500,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 1000,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "international_tracked_ddp",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      }
+    ],
+    "shipping_profile_upgrades": [],
+    "listing_count": 1
+  },
+  {
+    "shipping_profile_id": 260719988841,
+    "title": "Standard",
+    "user_id": 1030756788,
+    "origin_country_iso": "GB",
+    "origin_postal_code": "OL148AE",
+    "profile_type": "manual",
+    "is_deleted": false,
+    "domestic_handling_fee": 0,
+    "international_handling_fee": 0,
+    "shipping_profile_destinations": [
+      {
+        "shipping_profile_destination_id": 53073518440,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 1000,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 800,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "international_tracked",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      },
+      {
+        "shipping_profile_destination_id": 53073518438,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "GB",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 300,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 200,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "tracked_48",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      },
+      {
+        "shipping_profile_destination_id": 57124804496,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "US",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 1500,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 1000,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "international_tracked_ddp",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      }
+    ],
+    "shipping_profile_upgrades": [],
+    "listing_count": 1
+  },
+  {
+    "shipping_profile_id": 260719988841,
+    "title": "Standard",
+    "user_id": 1030756788,
+    "origin_country_iso": "GB",
+    "origin_postal_code": "OL148AE",
+    "profile_type": "manual",
+    "is_deleted": false,
+    "domestic_handling_fee": 0,
+    "international_handling_fee": 0,
+    "shipping_profile_destinations": [
+      {
+        "shipping_profile_destination_id": 53073518440,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 1000,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 800,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "international_tracked",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      },
+      {
+        "shipping_profile_destination_id": 53073518438,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "GB",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 300,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 200,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "tracked_48",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      },
+      {
+        "shipping_profile_destination_id": 57124804496,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "US",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 1500,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 1000,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "international_tracked_ddp",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      }
+    ],
+    "shipping_profile_upgrades": [],
+    "listing_count": 1
+  },
+  {
+    "shipping_profile_id": 260719988841,
+    "title": "Standard",
+    "user_id": 1030756788,
+    "origin_country_iso": "GB",
+    "origin_postal_code": "OL148AE",
+    "profile_type": "manual",
+    "is_deleted": false,
+    "domestic_handling_fee": 0,
+    "international_handling_fee": 0,
+    "shipping_profile_destinations": [
+      {
+        "shipping_profile_destination_id": 53073518440,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 1000,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 800,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "international_tracked",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      },
+      {
+        "shipping_profile_destination_id": 53073518438,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "GB",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 300,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 200,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "tracked_48",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      },
+      {
+        "shipping_profile_destination_id": 57124804496,
+        "shipping_profile_id": 260719988841,
+        "origin_country_iso": "GB",
+        "destination_country_iso": "US",
+        "destination_region": "none",
+        "primary_cost": {
+          "amount": 1500,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "secondary_cost": {
+          "amount": 1000,
+          "divisor": 100,
+          "currency_code": "GBP"
+        },
+        "shipping_carrier_id": 34,
+        "mail_class": "international_tracked_ddp",
+        "min_delivery_days": null,
+        "max_delivery_days": null
+      }
+    ],
+    "shipping_profile_upgrades": [],
+    "listing_count": 1
+  }
+]

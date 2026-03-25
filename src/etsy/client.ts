@@ -1,4 +1,5 @@
 import { config } from "../config.js";
+import { getAccessToken } from "./auth.js";
 import { readFile, writeFile, mkdir } from "fs/promises";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
@@ -9,7 +10,7 @@ const LISTINGS_PATH = join(__dirname, "../../data/listings.json");
 const BASE = config.etsy.baseUrl;
 
 function headers(): Record<string, string> {
-  return { "x-api-key": config.etsy.apiKey() };
+  return { "x-api-key": `${config.etsy.apiKey()}:${config.etsy.sharedSecret()}` };
 }
 
 async function etsyFetch<T>(path: string): Promise<T> {
