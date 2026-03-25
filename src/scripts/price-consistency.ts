@@ -93,7 +93,7 @@ function matchBuilding(title: string): string | null {
 }
 
 function parseScale(val: string): { ratio: number; heightCm: number } | null {
-  const m = val.match(/1:(\d+)\s*-\s*([\d.]+)\s*cm/);
+  const m = val.match(/1:(\d+)\s*[-–—]\s*([\d.]+)\s*cm/);
   if (!m) return null;
   return { ratio: parseInt(m[1]), heightCm: parseFloat(m[2]) };
 }

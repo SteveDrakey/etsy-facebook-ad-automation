@@ -45,7 +45,7 @@ function price(o: Offering): number {
 
 function parseScale(val: string): { ratio: number; heightCm: number } | null {
   // e.g. "1:3000 - 27.6 cm" or "1:2000 - 41.4 cm"
-  const m = val.match(/1:(\d+)\s*-\s*([\d.]+)\s*cm/);
+  const m = val.match(/1:(\d+)\s*[-–—]\s*([\d.]+)\s*cm/);
   if (!m) return null;
   return { ratio: parseInt(m[1]), heightCm: parseFloat(m[2]) };
 }

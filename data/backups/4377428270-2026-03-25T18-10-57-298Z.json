@@ -1,0 +1,2171 @@
+{
+  "products": [
+    {
+      "product_id": 27657046098,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27571228258,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            78121279509
+          ],
+          "values": [
+            "Light Grey"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061845499
+          ],
+          "values": [
+            "1:1200 – 26.58 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046106,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27571228266,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            78121279509
+          ],
+          "values": [
+            "Light Grey"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027374
+          ],
+          "values": [
+            "1:1000 – 31.90 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046112,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672585,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 4500,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            78121279509
+          ],
+          "values": [
+            "Light Grey"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027626
+          ],
+          "values": [
+            "1:800 – 39.88 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27281874913,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672587,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 7000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            78121279509
+          ],
+          "values": [
+            "Light Grey"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061846315
+          ],
+          "values": [
+            "1:600 – 53.17 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27281874915,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672591,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            64319470259
+          ],
+          "values": [
+            "Silver"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061845499
+          ],
+          "values": [
+            "1:1200 – 26.58 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27281874919,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27571228284,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            64319470259
+          ],
+          "values": [
+            "Silver"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027374
+          ],
+          "values": [
+            "1:1000 – 31.90 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27281874921,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27571228288,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 4500,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            64319470259
+          ],
+          "values": [
+            "Silver"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027626
+          ],
+          "values": [
+            "1:800 – 39.88 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046124,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27571228290,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 7000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            64319470259
+          ],
+          "values": [
+            "Silver"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061846315
+          ],
+          "values": [
+            "1:600 – 53.17 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046130,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672595,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            57711969219
+          ],
+          "values": [
+            "Grey"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061845499
+          ],
+          "values": [
+            "1:1200 – 26.58 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27281874931,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672597,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            57711969219
+          ],
+          "values": [
+            "Grey"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027374
+          ],
+          "values": [
+            "1:1000 – 31.90 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046132,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27571228302,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 4500,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            57711969219
+          ],
+          "values": [
+            "Grey"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027626
+          ],
+          "values": [
+            "1:800 – 39.88 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046138,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672605,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 7000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            57711969219
+          ],
+          "values": [
+            "Grey"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061846315
+          ],
+          "values": [
+            "1:600 – 53.17 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27281874937,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27571228308,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            73909218150
+          ],
+          "values": [
+            "Bronze"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061845499
+          ],
+          "values": [
+            "1:1200 – 26.58 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27281874939,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27571228312,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            73909218150
+          ],
+          "values": [
+            "Bronze"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027374
+          ],
+          "values": [
+            "1:1000 – 31.90 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27281874943,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672613,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 4500,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            73909218150
+          ],
+          "values": [
+            "Bronze"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027626
+          ],
+          "values": [
+            "1:800 – 39.88 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046150,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27571228316,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 7000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            73909218150
+          ],
+          "values": [
+            "Bronze"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061846315
+          ],
+          "values": [
+            "1:600 – 53.17 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27281874949,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672617,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            108597000705
+          ],
+          "values": [
+            "Ash Gray"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061845499
+          ],
+          "values": [
+            "1:1200 – 26.58 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046154,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672621,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            108597000705
+          ],
+          "values": [
+            "Ash Gray"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027374
+          ],
+          "values": [
+            "1:1000 – 31.90 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046156,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672623,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 4500,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            108597000705
+          ],
+          "values": [
+            "Ash Gray"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027626
+          ],
+          "values": [
+            "1:800 – 39.88 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046164,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672627,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 7000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            108597000705
+          ],
+          "values": [
+            "Ash Gray"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061846315
+          ],
+          "values": [
+            "1:600 – 53.17 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046170,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672631,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            116812355577
+          ],
+          "values": [
+            "Blue Gray"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061845499
+          ],
+          "values": [
+            "1:1200 – 26.58 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27281874957,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27571228330,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            116812355577
+          ],
+          "values": [
+            "Blue Gray"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027374
+          ],
+          "values": [
+            "1:1000 – 31.90 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27281874961,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672639,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 4500,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            116812355577
+          ],
+          "values": [
+            "Blue Gray"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027626
+          ],
+          "values": [
+            "1:800 – 39.88 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046178,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672643,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 7000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            116812355577
+          ],
+          "values": [
+            "Blue Gray"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061846315
+          ],
+          "values": [
+            "1:600 – 53.17 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27281874967,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672645,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            87184624942
+          ],
+          "values": [
+            "Cyan"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061845499
+          ],
+          "values": [
+            "1:1200 – 26.58 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27281874973,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27571228338,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            87184624942
+          ],
+          "values": [
+            "Cyan"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027374
+          ],
+          "values": [
+            "1:1000 – 31.90 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046180,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672653,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 4500,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            87184624942
+          ],
+          "values": [
+            "Cyan"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027626
+          ],
+          "values": [
+            "1:800 – 39.88 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27281874977,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672655,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 7000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            87184624942
+          ],
+          "values": [
+            "Cyan"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061846315
+          ],
+          "values": [
+            "1:600 – 53.17 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27281874981,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672659,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            998338653444
+          ],
+          "values": [
+            "Jade White"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061845499
+          ],
+          "values": [
+            "1:1200 – 26.58 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046188,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672663,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            998338653444
+          ],
+          "values": [
+            "Jade White"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027374
+          ],
+          "values": [
+            "1:1000 – 31.90 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046192,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27571228350,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 4500,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            998338653444
+          ],
+          "values": [
+            "Jade White"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027626
+          ],
+          "values": [
+            "1:800 – 39.88 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27281874991,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27571228352,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 7000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            998338653444
+          ],
+          "values": [
+            "Jade White"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061846315
+          ],
+          "values": [
+            "1:600 – 53.17 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046200,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672675,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            56848081195
+          ],
+          "values": [
+            "Tan"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061845499
+          ],
+          "values": [
+            "1:1200 – 26.58 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046202,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672677,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            56848081195
+          ],
+          "values": [
+            "Tan"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027374
+          ],
+          "values": [
+            "1:1000 – 31.90 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046208,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27571228364,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 4500,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            56848081195
+          ],
+          "values": [
+            "Tan"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027626
+          ],
+          "values": [
+            "1:800 – 39.88 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27281875003,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672685,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 7000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            56848081195
+          ],
+          "values": [
+            "Tan"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061846315
+          ],
+          "values": [
+            "1:600 – 53.17 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27281875009,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27571228372,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            56600657156
+          ],
+          "values": [
+            "Black"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061845499
+          ],
+          "values": [
+            "1:1200 – 26.58 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046220,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27571228374,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            56600657156
+          ],
+          "values": [
+            "Black"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027374
+          ],
+          "values": [
+            "1:1000 – 31.90 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046224,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672693,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 4500,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            56600657156
+          ],
+          "values": [
+            "Black"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027626
+          ],
+          "values": [
+            "1:800 – 39.88 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27281875015,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27571228384,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 7000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            56600657156
+          ],
+          "values": [
+            "Black"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061846315
+          ],
+          "values": [
+            "1:600 – 53.17 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27281875019,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672697,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            64320040137
+          ],
+          "values": [
+            "Blue"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061845499
+          ],
+          "values": [
+            "1:1200 – 26.58 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046234,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672701,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            64320040137
+          ],
+          "values": [
+            "Blue"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027374
+          ],
+          "values": [
+            "1:1000 – 31.90 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046236,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27571228394,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 4500,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            64320040137
+          ],
+          "values": [
+            "Blue"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027626
+          ],
+          "values": [
+            "1:800 – 39.88 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046240,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27571228396,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 7000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            64320040137
+          ],
+          "values": [
+            "Blue"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061846315
+          ],
+          "values": [
+            "1:600 – 53.17 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046242,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672713,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            105241708264
+          ],
+          "values": [
+            "Transparent Blue"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061845499
+          ],
+          "values": [
+            "1:1200 – 26.58 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046246,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672717,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 3000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            105241708264
+          ],
+          "values": [
+            "Transparent Blue"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027374
+          ],
+          "values": [
+            "1:1000 – 31.90 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27281875035,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27571228404,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 4500,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            105241708264
+          ],
+          "values": [
+            "Transparent Blue"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1416818027626
+          ],
+          "values": [
+            "1:800 – 39.88 cm"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 27657046254,
+      "sku": "DRAK-004",
+      "is_deleted": false,
+      "offerings": [
+        {
+          "offering_id": 27455672723,
+          "quantity": 4,
+          "is_enabled": true,
+          "is_deleted": false,
+          "price": {
+            "amount": 7000,
+            "divisor": 100,
+            "currency_code": "GBP"
+          },
+          "readiness_state_id": 1402849608497
+        }
+      ],
+      "property_values": [
+        {
+          "property_id": 200,
+          "property_name": "Primary color",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            105241708264
+          ],
+          "values": [
+            "Transparent Blue"
+          ]
+        },
+        {
+          "property_id": 514,
+          "property_name": "Scale",
+          "scale_id": null,
+          "scale_name": null,
+          "value_ids": [
+            1417061846315
+          ],
+          "values": [
+            "1:600 – 53.17 cm"
+          ]
+        }
+      ]
+    }
+  ],
+  "price_on_property": [
+    514
+  ],
+  "quantity_on_property": [],
+  "sku_on_property": [],
+  "readiness_state_on_property": [],
+  "listing": null
+}
