@@ -1,0 +1,40 @@
+[
+  {
+    "name": "St. Peter's Basilica (Facade)",
+    "listingId": 4307031320,
+    "realHeightM": 48,
+    "realWidthM": 114,
+    "widthFactor": 3.0,
+    "type": "facade",
+    "stlDimensions": null,
+    "notes": "Single size listing, 18cm wide (~1:500). No scale variations."
+  },
+  {
+    "name": "Santa Ana Cathedral (Facade)",
+    "listingId": 4486855593,
+    "location": "Santa Ana, El Salvador",
+    "realHeightM": 34,
+    "realWidthM": null,
+    "widthFactor": 3.0,
+    "type": "facade",
+    "style": "Neo-Gothic",
+    "built": "1906-1959",
+    "stlDimensions": {
+      "source": "printables.com/model/1678793",
+      "widthMm": 100.1,
+      "depthMm": 28.9,
+      "heightMm": 125.337,
+      "volumeMm3": 157832,
+      "triangles": 578020,
+      "widthToHeight": 0.799,
+      "depthToHeight": 0.231
+    },
+    "facadeFeatures": [
+      "Two neo-Gothic bell towers",
+      "Rose window",
+      "Three entrance doors (central: Puerta del Perdon)",
+      "Intricate Gothic tracery"
+    ],
+    "notes": "Facade only. Max print height ~28cm to fit bed width (~22cm). Real tower height estimated at 34m (unconfirmed)."
+  }
+]

@@ -108,6 +108,8 @@ const BUILDINGS: Record<string, BuildingProfile> = {
   "Shanghai Tower": { realHeightM: 632, widthFactor: 1.3, multiColour: false, type: "tower" },
   "Jeddah Tower": { realHeightM: 1000, widthFactor: 0.8, multiColour: false, type: "tower" },
   "Lotte World Tower": { realHeightM: 555, widthFactor: 0.9, multiColour: false, type: "tower" },
+  "Grollo Tower (1997)": { realHeightM: 678, widthFactor: 0.9, multiColour: false, type: "tower" },
+  "Grollo Tower (2001)": { realHeightM: 560, widthFactor: 0.9, multiColour: false, type: "tower" },
   "One World Trade Center": { realHeightM: 541, widthFactor: 1.1, multiColour: false, type: "tower" },
   "Taipei 101": { realHeightM: 508, widthFactor: 1.3, multiColour: false, type: "tower" },
   "China Zun (CITIC Tower)": { realHeightM: 528, widthFactor: 1.1, multiColour: false, type: "tower" },
@@ -150,6 +152,7 @@ const BUILDINGS: Record<string, BuildingProfile> = {
   "St. Peter's Basilica (Facade)": { realHeightM: 136, widthFactor: 3.0, multiColour: false, type: "landmark" },
   "St. Peter's Basilica & Square": { realHeightM: 136, widthFactor: 5.0, multiColour: false, type: "landmark" },
   "Lotus Temple": { realHeightM: 34, widthFactor: 4.0, multiColour: false, type: "landmark" },
+  "Santa Ana Cathedral (Facade)": { realHeightM: 34, widthFactor: 3.0, multiColour: false, type: "landmark" },
   "World Trade Center (Twin Towers)": { realHeightM: 417, widthFactor: 2.5, multiColour: false, type: "pair" },
   "Wrigley Field Stadium": { realHeightM: 30, widthFactor: 8.0, multiColour: false, type: "stadium" },
 };
