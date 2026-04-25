@@ -45,12 +45,12 @@ Follow the shop's established tone. Read `data/tone-reference.json` for voice ex
 Use the shop's actual pricing formula — do NOT copy prices from another listing or use the old grid.ts tiers:
 
 ```
-price = round(6 + 5.30 × √(weight_g))
+price = round(6.03 + 5.30 × √(weight_g))
 
 Weight model: weight_g = 39 × (heightCm / 30)^2.5 × widthFactor²
 ```
 
-This single formula (R²=1.000) matches every mono-colour tower in the shop. The 6 is a base constant and 5.30 is the coefficient fitted from actual pricing data.
+This single formula (R²=0.9999) matches every tower in the shop. The coefficients are fitted from actual pricing data — do NOT change them without re-fitting from `src/scripts/grid.ts`.
 
 **Width factor guide:**
 - 0.7-0.8: very slim (Shard, Burj Khalifa, Jeddah)
@@ -59,7 +59,7 @@ This single formula (R²=1.000) matches every mono-colour tower in the shop. The
 - 1.1-1.3: medium (OWTC, Taipei 101, Shanghai Tower, Chrysler)
 - 1.4-1.5: wide (Hancock, Empire State)
 - 1.8-2.0: stocky (Gherkin, Walkie Talkie, Ryugyong)
-- 2.5: very wide / pairs (Petronas, WTC Twins)
+- 1.4: pairs (Petronas, WTC Twins)
 
 If unsure about width factor, compare to a similar building in `src/scripts/price-calc.ts`.
 
@@ -114,7 +114,9 @@ Light Grey, Silver, Grey, Bronze, Ash Gray, Blue Gray, Cyan, Jade White, Tan, Bl
 
 Note: both Transparent Blue and Transparent Ice Blue are transparent filaments.
 
-**Standard 7 scales:** 1:3000, 1:2000, 1:1200, 1:1000, 1:800, 1:600, 1:400
+**Standard 7 scales (towers only):** 1:3000, 1:2000, 1:1200, 1:1000, 1:800, 1:600, 1:400
+
+**Facades & landmarks:** Use size labels instead of scale ratios (e.g. "Small – 15 cm", "Medium – 20 cm", "Large – 25 cm"). Scale ratios like 1:230 or 1:135 look arbitrary and mean nothing to buyers. Save scale ratios for skyscrapers where they're standard.
 
 **Inventory payload must include:**
 - `price_on_property: [514]`

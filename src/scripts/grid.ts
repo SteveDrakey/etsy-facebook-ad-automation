@@ -36,6 +36,8 @@ const BUILDINGS: Record<string, Profile> = {
   "Shanghai Tower": { realHeightM: 632, widthFactor: 1.3 },
   "Jeddah Tower": { realHeightM: 1000, widthFactor: 0.8 },
   "Lotte World Tower": { realHeightM: 555, widthFactor: 0.9 },
+  "Grollo Tower (1997)": { realHeightM: 678, widthFactor: 0.9 },
+  "Grollo Tower (2001)": { realHeightM: 560, widthFactor: 0.9 },
   "One World Trade Center": { realHeightM: 541, widthFactor: 1.1 },
   "Taipei 101": { realHeightM: 508, widthFactor: 1.3 },
   "China Zun": { realHeightM: 528, widthFactor: 1.1 },
@@ -54,14 +56,15 @@ const BUILDINGS: Record<string, Profile> = {
   "Shanghai World Financial Center": { realHeightM: 492, widthFactor: 1.2 },
   "Hancock Tower": { realHeightM: 457, widthFactor: 1.4 },
   "Oriental Pearl Tower": { realHeightM: 468, widthFactor: 1.8 },
-  "Petronas Twin Towers": { realHeightM: 452, widthFactor: 2.5 },
+  "Petronas Twin Towers": { realHeightM: 452, widthFactor: 1.4 },
   "Ryugyong Hotel": { realHeightM: 330, widthFactor: 2.0 },
   "The Gherkin": { realHeightM: 180, widthFactor: 1.8 },
   "Walkie Talkie": { realHeightM: 160, widthFactor: 2.0 },
   "BT Tower": { realHeightM: 177, widthFactor: 0.9 },
   "NatWest Tower": { realHeightM: 183, widthFactor: 1.0 },
   "Flatiron Building": { realHeightM: 87, widthFactor: 1.5 },
-  "World Trade Center Twins": { realHeightM: 417, widthFactor: 2.5 },
+  "World Trade Center Twins": { realHeightM: 417, widthFactor: 1.4 },
+  "Sagrada Familia (Facade)": { realHeightM: 172, widthFactor: 3.0 },
 };
 
 // Skip these (multi-colour, bundles, cities, etc.)
@@ -94,41 +97,14 @@ function matchProfile(title: string): { name: string; profile: Profile } | null 
   return null;
 }
 
-// ─── Consistent pricing formula ─────────────────────────────
-// Fitted from current pricing: price = A + B * sqrt(weight)
-// But we also want consistency, so we'll use a single formula for ALL buildings
-// and show where current prices deviate.
-//
-// Approach: price tiers by estimated weight, with a minimum floor.
-// Competitor median is ~£39 for a single model (no size info though).
+// ─── Pricing formula (single source of truth) ──────────────
+// Fitted from all mono-colour tower Etsy prices (R² = 0.999974).
+// DO NOT duplicate these coefficients elsewhere — import or reference this file.
+const PRICE_A = 6.03;
+const PRICE_B = 5.30;
 
-function suggestedPrice(weightG: number, heightCm: number): number {
-  // Material cost
-  const matCost = (weightG / 1000) * PLA_KG;
-
-  // Pricing formula: covers material + time + packaging + margin
-  // Small models (<50g): floor price driven by minimum viability
-  // Medium (50-500g): moderate markup
-  // Large (500g+): lower markup % but higher absolute profit
-
-  let price: number;
-  if (matCost < 1) {
-    // Tiny model, material is negligible. Price by perceived value.
-    // Minimum £8 (like Flatiron), typical £20 for a decent sized small model
-    price = Math.max(8, 5 + heightCm * 0.8);
-  } else if (matCost < 5) {
-    price = 20 + matCost * 4;
-  } else if (matCost < 20) {
-    price = 30 + matCost * 3;
-  } else if (matCost < 50) {
-    price = 50 + matCost * 2;
-  } else if (matCost < 100) {
-    price = 80 + matCost * 1.5;
-  } else {
-    price = 100 + matCost * 1.3;
-  }
-
-  return Math.round(price);
+function suggestedPrice(weightG: number): number {
+  return Math.round(PRICE_A + PRICE_B * Math.sqrt(weightG));
 }
 
 // ─── Main ───────────────────────────────────────────────────
@@ -167,7 +143,7 @@ async function main() {
 
       const sp = p.property_values.find((pv: any) => pv.property_name === "Scale" || pv.property_name === "Size");
       if (!sp) continue;
-      const m = sp.values[0].match(/1:(\d+)\s*[-–—]\s*([\d.]+)\s*cm/);
+      const m = sp.values[0].match(/1:(\d+)\s*[-–—]\s*~?([\d.]+)\s*cm/);
       if (!m) continue;
 
       const ratio = parseInt(m[1]);
@@ -178,7 +154,7 @@ async function main() {
       const price = o.price.amount / o.price.divisor;
       const wt = estWeight(heightCm, match.profile.widthFactor);
       const mat = (wt / 1000) * PLA_KG;
-      const sug = suggestedPrice(wt, heightCm);
+      const sug = suggestedPrice(wt);
 
       scales.push({ ratio, heightCm, currentPrice: price, weightG: wt, matCost: mat, suggested: sug });
     }

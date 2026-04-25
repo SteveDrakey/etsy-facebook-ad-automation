@@ -133,7 +133,7 @@ const BUILDINGS: Record<string, BuildingProfile> = {
 
   // Wide / complex
   "Oriental Pearl Tower": { realHeightM: 468, widthFactor: 1.8, multiColour: false, type: "tower" },
-  "Petronas Twin Towers": { realHeightM: 452, widthFactor: 2.5, multiColour: false, type: "pair" },
+  "Petronas Twin Towers": { realHeightM: 452, widthFactor: 1.4, multiColour: false, type: "pair" },
   "Willis Tower": { realHeightM: 442, widthFactor: 2.2, multiColour: true, type: "tower" },
   "Ryugyong Hotel": { realHeightM: 330, widthFactor: 2.0, multiColour: false, type: "tower" },
 
@@ -159,7 +159,8 @@ const BUILDINGS: Record<string, BuildingProfile> = {
   "St. Peter's Basilica & Square": { realHeightM: 136, widthFactor: 5.0, multiColour: false, type: "landmark" },
   "Lotus Temple": { realHeightM: 34, widthFactor: 4.0, multiColour: false, type: "landmark" },
   "Santa Ana Cathedral (Facade)": { realHeightM: 34, widthFactor: 3.0, multiColour: false, type: "landmark" },
-  "World Trade Center (Twin Towers)": { realHeightM: 417, widthFactor: 2.5, multiColour: false, type: "pair" },
+  "Sagrada Familia (Facade)": { realHeightM: 172, widthFactor: 3.0, multiColour: false, type: "landmark" },
+  "World Trade Center (Twin Towers)": { realHeightM: 417, widthFactor: 1.4, multiColour: false, type: "pair" },
   "Wrigley Field Stadium": { realHeightM: 30, widthFactor: 8.0, multiColour: false, type: "stadium" },
 };
 
@@ -283,7 +284,7 @@ function matchBuilding(title: string): string | null {
 }
 
 function parseScale(val: string): { ratio: number; heightCm: number } | null {
-  const m = val.match(/1:(\d+)\s*[-–—]\s*([\d.]+)\s*cm/);
+  const m = val.match(/1:(\d+)\s*[-–—]\s*~?([\d.]+)\s*cm/);
   if (!m) return null;
   return { ratio: parseInt(m[1]), heightCm: parseFloat(m[2]) };
 }
