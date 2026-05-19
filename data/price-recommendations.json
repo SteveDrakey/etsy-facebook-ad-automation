@@ -1,0 +1,1653 @@
+[
+  {
+    "listingId": 1888876448,
+    "name": "Burj Khalifa",
+    "widthFactor": 0.8,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 27.6,
+        "currentPrice": 30,
+        "suggestedPrice": 27,
+        "diff": 3,
+        "estimatedWeightG": 20,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 41.4,
+        "currentPrice": 46,
+        "suggestedPrice": 24,
+        "diff": 22,
+        "estimatedWeightG": 56,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 69,
+        "currentPrice": 81,
+        "suggestedPrice": 36,
+        "diff": 45,
+        "estimatedWeightG": 200,
+        "materialCostGBP": 4
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 82.8,
+        "currentPrice": 100,
+        "suggestedPrice": 49,
+        "diff": 51,
+        "estimatedWeightG": 316,
+        "materialCostGBP": 6
+      },
+      {
+        "ratio": 800,
+        "heightCm": 103.5,
+        "currentPrice": 131,
+        "suggestedPrice": 63,
+        "diff": 68,
+        "estimatedWeightG": 552,
+        "materialCostGBP": 11
+      },
+      {
+        "ratio": 600,
+        "heightCm": 138,
+        "currentPrice": 184,
+        "suggestedPrice": 95,
+        "diff": 89,
+        "estimatedWeightG": 1133,
+        "materialCostGBP": 23
+      },
+      {
+        "ratio": 400,
+        "heightCm": 207,
+        "currentPrice": 302,
+        "suggestedPrice": 174,
+        "diff": 128,
+        "estimatedWeightG": 3122,
+        "materialCostGBP": 62
+      }
+    ]
+  },
+  {
+    "listingId": 4443853105,
+    "name": "China Zun",
+    "widthFactor": 1.1,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 17.6,
+        "currentPrice": 25,
+        "suggestedPrice": 19,
+        "diff": 6,
+        "estimatedWeightG": 12,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 26.4,
+        "currentPrice": 37,
+        "suggestedPrice": 26,
+        "diff": 11,
+        "estimatedWeightG": 34,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 44,
+        "currentPrice": 65,
+        "suggestedPrice": 30,
+        "diff": 35,
+        "estimatedWeightG": 123,
+        "materialCostGBP": 2
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 52.8,
+        "currentPrice": 80,
+        "suggestedPrice": 36,
+        "diff": 44,
+        "estimatedWeightG": 194,
+        "materialCostGBP": 4
+      },
+      {
+        "ratio": 800,
+        "heightCm": 66,
+        "currentPrice": 104,
+        "suggestedPrice": 50,
+        "diff": 54,
+        "estimatedWeightG": 339,
+        "materialCostGBP": 7
+      },
+      {
+        "ratio": 600,
+        "heightCm": 88,
+        "currentPrice": 146,
+        "suggestedPrice": 72,
+        "diff": 74,
+        "estimatedWeightG": 695,
+        "materialCostGBP": 14
+      },
+      {
+        "ratio": 400,
+        "heightCm": 132,
+        "currentPrice": 238,
+        "suggestedPrice": 127,
+        "diff": 111,
+        "estimatedWeightG": 1916,
+        "materialCostGBP": 38
+      }
+    ]
+  },
+  {
+    "listingId": 4377428270,
+    "name": "Chrysler Building",
+    "widthFactor": 1.3,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 10.6,
+        "currentPrice": 18,
+        "suggestedPrice": 13,
+        "diff": 5,
+        "estimatedWeightG": 5,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 16,
+        "currentPrice": 26,
+        "suggestedPrice": 18,
+        "diff": 8,
+        "estimatedWeightG": 14,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 26.58,
+        "currentPrice": 43,
+        "suggestedPrice": 26,
+        "diff": 17,
+        "estimatedWeightG": 49,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 31.9,
+        "currentPrice": 52,
+        "suggestedPrice": 26,
+        "diff": 26,
+        "estimatedWeightG": 77,
+        "materialCostGBP": 2
+      },
+      {
+        "ratio": 800,
+        "heightCm": 39.88,
+        "currentPrice": 67,
+        "suggestedPrice": 31,
+        "diff": 36,
+        "estimatedWeightG": 134,
+        "materialCostGBP": 3
+      },
+      {
+        "ratio": 600,
+        "heightCm": 53.17,
+        "currentPrice": 94,
+        "suggestedPrice": 47,
+        "diff": 47,
+        "estimatedWeightG": 276,
+        "materialCostGBP": 6
+      },
+      {
+        "ratio": 400,
+        "heightCm": 79.8,
+        "currentPrice": 152,
+        "suggestedPrice": 76,
+        "diff": 76,
+        "estimatedWeightG": 761,
+        "materialCostGBP": 15
+      }
+    ]
+  },
+  {
+    "listingId": 4342054584,
+    "name": "Empire State",
+    "widthFactor": 1.5,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 14.8,
+        "currentPrice": 26,
+        "suggestedPrice": 17,
+        "diff": 9,
+        "estimatedWeightG": 15,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 22.2,
+        "currentPrice": 40,
+        "suggestedPrice": 23,
+        "diff": 17,
+        "estimatedWeightG": 41,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 36.1,
+        "currentPrice": 70,
+        "suggestedPrice": 31,
+        "diff": 39,
+        "estimatedWeightG": 139,
+        "materialCostGBP": 3
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 44.3,
+        "currentPrice": 87,
+        "suggestedPrice": 39,
+        "diff": 48,
+        "estimatedWeightG": 233,
+        "materialCostGBP": 5
+      },
+      {
+        "ratio": 800,
+        "heightCm": 55.4,
+        "currentPrice": 113,
+        "suggestedPrice": 54,
+        "diff": 59,
+        "estimatedWeightG": 407,
+        "materialCostGBP": 8
+      },
+      {
+        "ratio": 600,
+        "heightCm": 73.9,
+        "currentPrice": 159,
+        "suggestedPrice": 80,
+        "diff": 79,
+        "estimatedWeightG": 836,
+        "materialCostGBP": 17
+      },
+      {
+        "ratio": 400,
+        "heightCm": 110.8,
+        "currentPrice": 260,
+        "suggestedPrice": 142,
+        "diff": 118,
+        "estimatedWeightG": 2300,
+        "materialCostGBP": 46
+      }
+    ]
+  },
+  {
+    "listingId": 4374780060,
+    "name": "Flatiron Building",
+    "widthFactor": 1.5,
+    "scales": [
+      {
+        "ratio": 1000,
+        "heightCm": 8.69,
+        "currentPrice": 17,
+        "suggestedPrice": 12,
+        "diff": 5,
+        "estimatedWeightG": 4,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 800,
+        "heightCm": 10.86,
+        "currentPrice": 20,
+        "suggestedPrice": 14,
+        "diff": 6,
+        "estimatedWeightG": 7,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 600,
+        "heightCm": 14.48,
+        "currentPrice": 26,
+        "suggestedPrice": 17,
+        "diff": 9,
+        "estimatedWeightG": 14,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 400,
+        "heightCm": 21.73,
+        "currentPrice": 39,
+        "suggestedPrice": 22,
+        "diff": 17,
+        "estimatedWeightG": 39,
+        "materialCostGBP": 1
+      }
+    ]
+  },
+  {
+    "listingId": 4405247320,
+    "name": "Gevora Hotel",
+    "widthFactor": 0.9,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 11.9,
+        "currentPrice": 15,
+        "suggestedPrice": 15,
+        "diff": 0,
+        "estimatedWeightG": 3,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 17.8,
+        "currentPrice": 22,
+        "suggestedPrice": 19,
+        "diff": 3,
+        "estimatedWeightG": 9,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 29.7,
+        "currentPrice": 35,
+        "suggestedPrice": 29,
+        "diff": 6,
+        "estimatedWeightG": 31,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 35.6,
+        "currentPrice": 43,
+        "suggestedPrice": 33,
+        "diff": 10,
+        "estimatedWeightG": 48,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 800,
+        "heightCm": 44.5,
+        "currentPrice": 55,
+        "suggestedPrice": 27,
+        "diff": 28,
+        "estimatedWeightG": 85,
+        "materialCostGBP": 2
+      },
+      {
+        "ratio": 600,
+        "heightCm": 59.3,
+        "currentPrice": 76,
+        "suggestedPrice": 34,
+        "diff": 42,
+        "estimatedWeightG": 174,
+        "materialCostGBP": 3
+      },
+      {
+        "ratio": 400,
+        "heightCm": 89,
+        "currentPrice": 122,
+        "suggestedPrice": 59,
+        "diff": 63,
+        "estimatedWeightG": 479,
+        "materialCostGBP": 10
+      }
+    ]
+  },
+  {
+    "listingId": 4386384037,
+    "name": "Goldin Finance 117",
+    "widthFactor": 1,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 19.9,
+        "currentPrice": 26,
+        "suggestedPrice": 21,
+        "diff": 5,
+        "estimatedWeightG": 14,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 29.85,
+        "currentPrice": 39,
+        "suggestedPrice": 29,
+        "diff": 10,
+        "estimatedWeightG": 39,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 49.75,
+        "currentPrice": 68,
+        "suggestedPrice": 31,
+        "diff": 37,
+        "estimatedWeightG": 138,
+        "materialCostGBP": 3
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 59.7,
+        "currentPrice": 84,
+        "suggestedPrice": 37,
+        "diff": 47,
+        "estimatedWeightG": 218,
+        "materialCostGBP": 4
+      },
+      {
+        "ratio": 800,
+        "heightCm": 74.63,
+        "currentPrice": 109,
+        "suggestedPrice": 53,
+        "diff": 56,
+        "estimatedWeightG": 381,
+        "materialCostGBP": 8
+      },
+      {
+        "ratio": 600,
+        "heightCm": 99.5,
+        "currentPrice": 154,
+        "suggestedPrice": 77,
+        "diff": 77,
+        "estimatedWeightG": 781,
+        "materialCostGBP": 16
+      },
+      {
+        "ratio": 400,
+        "heightCm": 149.3,
+        "currentPrice": 252,
+        "suggestedPrice": 136,
+        "diff": 116,
+        "estimatedWeightG": 2155,
+        "materialCostGBP": 43
+      }
+    ]
+  },
+  {
+    "listingId": 4410415496,
+    "name": "Hancock Tower",
+    "widthFactor": 1.4,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 15.2,
+        "currentPrice": 26,
+        "suggestedPrice": 17,
+        "diff": 9,
+        "estimatedWeightG": 14,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 22.9,
+        "currentPrice": 39,
+        "suggestedPrice": 23,
+        "diff": 16,
+        "estimatedWeightG": 39,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 38.1,
+        "currentPrice": 68,
+        "suggestedPrice": 31,
+        "diff": 37,
+        "estimatedWeightG": 139,
+        "materialCostGBP": 3
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 45.7,
+        "currentPrice": 84,
+        "suggestedPrice": 38,
+        "diff": 46,
+        "estimatedWeightG": 219,
+        "materialCostGBP": 4
+      },
+      {
+        "ratio": 800,
+        "heightCm": 57.1,
+        "currentPrice": 110,
+        "suggestedPrice": 53,
+        "diff": 57,
+        "estimatedWeightG": 382,
+        "materialCostGBP": 8
+      },
+      {
+        "ratio": 600,
+        "heightCm": 76.2,
+        "currentPrice": 155,
+        "suggestedPrice": 77,
+        "diff": 78,
+        "estimatedWeightG": 786,
+        "materialCostGBP": 16
+      },
+      {
+        "ratio": 400,
+        "heightCm": 114.3,
+        "currentPrice": 253,
+        "suggestedPrice": 137,
+        "diff": 116,
+        "estimatedWeightG": 2166,
+        "materialCostGBP": 43
+      }
+    ]
+  },
+  {
+    "listingId": 4423565972,
+    "name": "Jeddah Tower",
+    "widthFactor": 0.8,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 33.3,
+        "currentPrice": 36,
+        "suggestedPrice": 32,
+        "diff": 4,
+        "estimatedWeightG": 32,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 50,
+        "currentPrice": 56,
+        "suggestedPrice": 27,
+        "diff": 29,
+        "estimatedWeightG": 90,
+        "materialCostGBP": 2
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 83.3,
+        "currentPrice": 101,
+        "suggestedPrice": 49,
+        "diff": 52,
+        "estimatedWeightG": 321,
+        "materialCostGBP": 6
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 100,
+        "currentPrice": 125,
+        "suggestedPrice": 60,
+        "diff": 65,
+        "estimatedWeightG": 506,
+        "materialCostGBP": 10
+      },
+      {
+        "ratio": 800,
+        "heightCm": 125,
+        "currentPrice": 164,
+        "suggestedPrice": 83,
+        "diff": 81,
+        "estimatedWeightG": 885,
+        "materialCostGBP": 18
+      },
+      {
+        "ratio": 600,
+        "heightCm": 166.7,
+        "currentPrice": 232,
+        "suggestedPrice": 123,
+        "diff": 109,
+        "estimatedWeightG": 1817,
+        "materialCostGBP": 36
+      },
+      {
+        "ratio": 400,
+        "heightCm": 250,
+        "currentPrice": 381,
+        "suggestedPrice": 230,
+        "diff": 151,
+        "estimatedWeightG": 5004,
+        "materialCostGBP": 100
+      }
+    ]
+  },
+  {
+    "listingId": 4296343052,
+    "name": "Jin Mao Tower",
+    "widthFactor": 1.2,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 14,
+        "currentPrice": 21,
+        "suggestedPrice": 16,
+        "diff": 5,
+        "estimatedWeightG": 8,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 21,
+        "currentPrice": 32,
+        "suggestedPrice": 22,
+        "diff": 10,
+        "estimatedWeightG": 23,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 35,
+        "currentPrice": 54,
+        "suggestedPrice": 27,
+        "diff": 27,
+        "estimatedWeightG": 83,
+        "materialCostGBP": 2
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 42,
+        "currentPrice": 67,
+        "suggestedPrice": 30,
+        "diff": 37,
+        "estimatedWeightG": 130,
+        "materialCostGBP": 3
+      },
+      {
+        "ratio": 800,
+        "heightCm": 52.5,
+        "currentPrice": 86,
+        "suggestedPrice": 38,
+        "diff": 48,
+        "estimatedWeightG": 228,
+        "materialCostGBP": 5
+      },
+      {
+        "ratio": 600,
+        "heightCm": 70,
+        "currentPrice": 121,
+        "suggestedPrice": 58,
+        "diff": 63,
+        "estimatedWeightG": 467,
+        "materialCostGBP": 9
+      },
+      {
+        "ratio": 400,
+        "heightCm": 105.3,
+        "currentPrice": 197,
+        "suggestedPrice": 102,
+        "diff": 95,
+        "estimatedWeightG": 1296,
+        "materialCostGBP": 26
+      }
+    ]
+  },
+  {
+    "listingId": 1853095071,
+    "name": "Lotte World Tower",
+    "widthFactor": 0.9,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 18.5,
+        "currentPrice": 22,
+        "suggestedPrice": 20,
+        "diff": 2,
+        "estimatedWeightG": 9,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 27.75,
+        "currentPrice": 33,
+        "suggestedPrice": 27,
+        "diff": 6,
+        "estimatedWeightG": 26,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 46.25,
+        "currentPrice": 57,
+        "suggestedPrice": 27,
+        "diff": 30,
+        "estimatedWeightG": 93,
+        "materialCostGBP": 2
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 55.5,
+        "currentPrice": 70,
+        "suggestedPrice": 32,
+        "diff": 38,
+        "estimatedWeightG": 147,
+        "materialCostGBP": 3
+      },
+      {
+        "ratio": 800,
+        "heightCm": 69.38,
+        "currentPrice": 91,
+        "suggestedPrice": 45,
+        "diff": 46,
+        "estimatedWeightG": 257,
+        "materialCostGBP": 5
+      },
+      {
+        "ratio": 600,
+        "heightCm": 92.5,
+        "currentPrice": 128,
+        "suggestedPrice": 62,
+        "diff": 66,
+        "estimatedWeightG": 527,
+        "materialCostGBP": 11
+      },
+      {
+        "ratio": 400,
+        "heightCm": 138.8,
+        "currentPrice": 208,
+        "suggestedPrice": 108,
+        "diff": 100,
+        "estimatedWeightG": 1455,
+        "materialCostGBP": 29
+      }
+    ]
+  },
+  {
+    "listingId": 1887980746,
+    "name": "Merdeka 118",
+    "widthFactor": 1,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 22.63,
+        "currentPrice": 29,
+        "suggestedPrice": 23,
+        "diff": 6,
+        "estimatedWeightG": 19,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 33.95,
+        "currentPrice": 45,
+        "suggestedPrice": 24,
+        "diff": 21,
+        "estimatedWeightG": 53,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 56.58,
+        "currentPrice": 79,
+        "suggestedPrice": 35,
+        "diff": 44,
+        "estimatedWeightG": 191,
+        "materialCostGBP": 4
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 67.9,
+        "currentPrice": 98,
+        "suggestedPrice": 48,
+        "diff": 50,
+        "estimatedWeightG": 301,
+        "materialCostGBP": 6
+      },
+      {
+        "ratio": 800,
+        "heightCm": 84.88,
+        "currentPrice": 127,
+        "suggestedPrice": 62,
+        "diff": 65,
+        "estimatedWeightG": 525,
+        "materialCostGBP": 11
+      },
+      {
+        "ratio": 600,
+        "heightCm": 113.17,
+        "currentPrice": 180,
+        "suggestedPrice": 93,
+        "diff": 87,
+        "estimatedWeightG": 1078,
+        "materialCostGBP": 22
+      },
+      {
+        "ratio": 400,
+        "heightCm": 169.5,
+        "currentPrice": 295,
+        "suggestedPrice": 169,
+        "diff": 126,
+        "estimatedWeightG": 2959,
+        "materialCostGBP": 59
+      }
+    ]
+  },
+  {
+    "listingId": 4342092939,
+    "name": "One World Trade Center",
+    "widthFactor": 1.1,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 18,
+        "currentPrice": 25,
+        "suggestedPrice": 19,
+        "diff": 6,
+        "estimatedWeightG": 13,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 27.07,
+        "currentPrice": 38,
+        "suggestedPrice": 27,
+        "diff": 11,
+        "estimatedWeightG": 36,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 45.11,
+        "currentPrice": 67,
+        "suggestedPrice": 30,
+        "diff": 37,
+        "estimatedWeightG": 131,
+        "materialCostGBP": 3
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 54.13,
+        "currentPrice": 82,
+        "suggestedPrice": 37,
+        "diff": 45,
+        "estimatedWeightG": 206,
+        "materialCostGBP": 4
+      },
+      {
+        "ratio": 800,
+        "heightCm": 67.66,
+        "currentPrice": 107,
+        "suggestedPrice": 52,
+        "diff": 55,
+        "estimatedWeightG": 360,
+        "materialCostGBP": 7
+      },
+      {
+        "ratio": 600,
+        "heightCm": 90.22,
+        "currentPrice": 150,
+        "suggestedPrice": 74,
+        "diff": 76,
+        "estimatedWeightG": 740,
+        "materialCostGBP": 15
+      },
+      {
+        "ratio": 400,
+        "heightCm": 135.33,
+        "currentPrice": 245,
+        "suggestedPrice": 132,
+        "diff": 113,
+        "estimatedWeightG": 2040,
+        "materialCostGBP": 41
+      }
+    ]
+  },
+  {
+    "listingId": 4296348807,
+    "name": "Oriental Pearl Tower",
+    "widthFactor": 1.8,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 15.6,
+        "currentPrice": 32,
+        "suggestedPrice": 17,
+        "diff": 15,
+        "estimatedWeightG": 25,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 23.4,
+        "currentPrice": 50,
+        "suggestedPrice": 25,
+        "diff": 25,
+        "estimatedWeightG": 68,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 39,
+        "currentPrice": 89,
+        "suggestedPrice": 39,
+        "diff": 50,
+        "estimatedWeightG": 243,
+        "materialCostGBP": 5
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 46.8,
+        "currentPrice": 110,
+        "suggestedPrice": 53,
+        "diff": 57,
+        "estimatedWeightG": 384,
+        "materialCostGBP": 8
+      },
+      {
+        "ratio": 800,
+        "heightCm": 58.5,
+        "currentPrice": 143,
+        "suggestedPrice": 70,
+        "diff": 73,
+        "estimatedWeightG": 671,
+        "materialCostGBP": 13
+      },
+      {
+        "ratio": 600,
+        "heightCm": 78,
+        "currentPrice": 203,
+        "suggestedPrice": 105,
+        "diff": 98,
+        "estimatedWeightG": 1377,
+        "materialCostGBP": 28
+      },
+      {
+        "ratio": 400,
+        "heightCm": 117,
+        "currentPrice": 333,
+        "suggestedPrice": 194,
+        "diff": 139,
+        "estimatedWeightG": 3796,
+        "materialCostGBP": 76
+      }
+    ]
+  },
+  {
+    "listingId": 4449043063,
+    "name": "Petronas Twin Towers",
+    "widthFactor": 2.5,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 15.1,
+        "currentPrice": 26,
+        "suggestedPrice": 17,
+        "diff": 9,
+        "estimatedWeightG": 44,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 22.6,
+        "currentPrice": 39,
+        "suggestedPrice": 30,
+        "diff": 9,
+        "estimatedWeightG": 120,
+        "materialCostGBP": 2
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 37.7,
+        "currentPrice": 68,
+        "suggestedPrice": 56,
+        "diff": 12,
+        "estimatedWeightG": 432,
+        "materialCostGBP": 9
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 45.2,
+        "currentPrice": 83,
+        "suggestedPrice": 71,
+        "diff": 12,
+        "estimatedWeightG": 679,
+        "materialCostGBP": 14
+      },
+      {
+        "ratio": 800,
+        "heightCm": 56.5,
+        "currentPrice": 108,
+        "suggestedPrice": 97,
+        "diff": 11,
+        "estimatedWeightG": 1186,
+        "materialCostGBP": 24
+      },
+      {
+        "ratio": 600,
+        "heightCm": 75.3,
+        "currentPrice": 152,
+        "suggestedPrice": 147,
+        "diff": 5,
+        "estimatedWeightG": 2433,
+        "materialCostGBP": 49
+      },
+      {
+        "ratio": 400,
+        "heightCm": 113,
+        "currentPrice": 249,
+        "suggestedPrice": 275,
+        "diff": -26,
+        "estimatedWeightG": 6712,
+        "materialCostGBP": 134
+      }
+    ]
+  },
+  {
+    "listingId": 4328792291,
+    "name": "Princess Tower",
+    "widthFactor": 0.9,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 13.8,
+        "currentPrice": 17,
+        "suggestedPrice": 16,
+        "diff": 1,
+        "estimatedWeightG": 5,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 20.7,
+        "currentPrice": 25,
+        "suggestedPrice": 22,
+        "diff": 3,
+        "estimatedWeightG": 12,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 34.5,
+        "currentPrice": 41,
+        "suggestedPrice": 33,
+        "diff": 8,
+        "estimatedWeightG": 45,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 41.4,
+        "currentPrice": 51,
+        "suggestedPrice": 26,
+        "diff": 25,
+        "estimatedWeightG": 71,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 800,
+        "heightCm": 51.75,
+        "currentPrice": 65,
+        "suggestedPrice": 30,
+        "diff": 35,
+        "estimatedWeightG": 123,
+        "materialCostGBP": 2
+      },
+      {
+        "ratio": 600,
+        "heightCm": 69,
+        "currentPrice": 90,
+        "suggestedPrice": 45,
+        "diff": 45,
+        "estimatedWeightG": 253,
+        "materialCostGBP": 5
+      },
+      {
+        "ratio": 400,
+        "heightCm": 103.5,
+        "currentPrice": 146,
+        "suggestedPrice": 72,
+        "diff": 74,
+        "estimatedWeightG": 698,
+        "materialCostGBP": 14
+      }
+    ]
+  },
+  {
+    "listingId": 1904555245,
+    "name": "Q1 Tower",
+    "widthFactor": 0.9,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 10.75,
+        "currentPrice": 14,
+        "suggestedPrice": 14,
+        "diff": 0,
+        "estimatedWeightG": 2,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 16.13,
+        "currentPrice": 20,
+        "suggestedPrice": 18,
+        "diff": 2,
+        "estimatedWeightG": 7,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 26.88,
+        "currentPrice": 32,
+        "suggestedPrice": 27,
+        "diff": 5,
+        "estimatedWeightG": 24,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 32.25,
+        "currentPrice": 39,
+        "suggestedPrice": 31,
+        "diff": 8,
+        "estimatedWeightG": 38,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 800,
+        "heightCm": 40.31,
+        "currentPrice": 49,
+        "suggestedPrice": 25,
+        "diff": 24,
+        "estimatedWeightG": 66,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 600,
+        "heightCm": 53.8,
+        "currentPrice": 68,
+        "suggestedPrice": 31,
+        "diff": 37,
+        "estimatedWeightG": 136,
+        "materialCostGBP": 3
+      },
+      {
+        "ratio": 400,
+        "heightCm": 80.8,
+        "currentPrice": 109,
+        "suggestedPrice": 53,
+        "diff": 56,
+        "estimatedWeightG": 376,
+        "materialCostGBP": 8
+      }
+    ]
+  },
+  {
+    "listingId": 4428180735,
+    "name": "Ryugyong Hotel",
+    "widthFactor": 2,
+    "scales": [
+      {
+        "ratio": 2000,
+        "heightCm": 16.5,
+        "currentPrice": 35,
+        "suggestedPrice": 18,
+        "diff": 17,
+        "estimatedWeightG": 35,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 27.5,
+        "currentPrice": 45,
+        "suggestedPrice": 30,
+        "diff": 15,
+        "estimatedWeightG": 126,
+        "materialCostGBP": 3
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 33,
+        "currentPrice": 60,
+        "suggestedPrice": 36,
+        "diff": 24,
+        "estimatedWeightG": 198,
+        "materialCostGBP": 4
+      }
+    ]
+  },
+  {
+    "listingId": 4296407975,
+    "name": "Shanghai Tower",
+    "widthFactor": 1.3,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 21.07,
+        "currentPrice": 34,
+        "suggestedPrice": 22,
+        "diff": 12,
+        "estimatedWeightG": 27,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 31.6,
+        "currentPrice": 52,
+        "suggestedPrice": 26,
+        "diff": 26,
+        "estimatedWeightG": 75,
+        "materialCostGBP": 2
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 52.67,
+        "currentPrice": 93,
+        "suggestedPrice": 46,
+        "diff": 47,
+        "estimatedWeightG": 269,
+        "materialCostGBP": 5
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 63.2,
+        "currentPrice": 115,
+        "suggestedPrice": 55,
+        "diff": 60,
+        "estimatedWeightG": 425,
+        "materialCostGBP": 8
+      },
+      {
+        "ratio": 800,
+        "heightCm": 79,
+        "currentPrice": 150,
+        "suggestedPrice": 75,
+        "diff": 75,
+        "estimatedWeightG": 742,
+        "materialCostGBP": 15
+      },
+      {
+        "ratio": 600,
+        "heightCm": 105.3,
+        "currentPrice": 213,
+        "suggestedPrice": 111,
+        "diff": 102,
+        "estimatedWeightG": 1521,
+        "materialCostGBP": 30
+      },
+      {
+        "ratio": 400,
+        "heightCm": 158,
+        "currentPrice": 349,
+        "suggestedPrice": 206,
+        "diff": 143,
+        "estimatedWeightG": 4196,
+        "materialCostGBP": 84
+      }
+    ]
+  },
+  {
+    "listingId": 4296350083,
+    "name": "Shanghai World Financial Center",
+    "widthFactor": 1.2,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 16.4,
+        "currentPrice": 25,
+        "suggestedPrice": 18,
+        "diff": 7,
+        "estimatedWeightG": 12,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 24.6,
+        "currentPrice": 37,
+        "suggestedPrice": 25,
+        "diff": 12,
+        "estimatedWeightG": 34,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 41,
+        "currentPrice": 65,
+        "suggestedPrice": 30,
+        "diff": 35,
+        "estimatedWeightG": 123,
+        "materialCostGBP": 2
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 49.2,
+        "currentPrice": 80,
+        "suggestedPrice": 35,
+        "diff": 45,
+        "estimatedWeightG": 193,
+        "materialCostGBP": 4
+      },
+      {
+        "ratio": 800,
+        "heightCm": 61.5,
+        "currentPrice": 103,
+        "suggestedPrice": 50,
+        "diff": 53,
+        "estimatedWeightG": 338,
+        "materialCostGBP": 7
+      },
+      {
+        "ratio": 600,
+        "heightCm": 82,
+        "currentPrice": 146,
+        "suggestedPrice": 72,
+        "diff": 74,
+        "estimatedWeightG": 694,
+        "materialCostGBP": 14
+      },
+      {
+        "ratio": 400,
+        "heightCm": 123,
+        "currentPrice": 238,
+        "suggestedPrice": 126,
+        "diff": 112,
+        "estimatedWeightG": 1912,
+        "materialCostGBP": 38
+      }
+    ]
+  },
+  {
+    "listingId": 1889436528,
+    "name": "Taipei 101",
+    "widthFactor": 1.3,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 16.93,
+        "currentPrice": 27,
+        "suggestedPrice": 19,
+        "diff": 8,
+        "estimatedWeightG": 16,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 25.4,
+        "currentPrice": 41,
+        "suggestedPrice": 25,
+        "diff": 16,
+        "estimatedWeightG": 43,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 42.33,
+        "currentPrice": 72,
+        "suggestedPrice": 32,
+        "diff": 40,
+        "estimatedWeightG": 156,
+        "materialCostGBP": 3
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 50.8,
+        "currentPrice": 89,
+        "suggestedPrice": 40,
+        "diff": 49,
+        "estimatedWeightG": 246,
+        "materialCostGBP": 5
+      },
+      {
+        "ratio": 800,
+        "heightCm": 63.5,
+        "currentPrice": 116,
+        "suggestedPrice": 56,
+        "diff": 60,
+        "estimatedWeightG": 430,
+        "materialCostGBP": 9
+      },
+      {
+        "ratio": 600,
+        "heightCm": 84.7,
+        "currentPrice": 163,
+        "suggestedPrice": 83,
+        "diff": 80,
+        "estimatedWeightG": 883,
+        "materialCostGBP": 18
+      },
+      {
+        "ratio": 400,
+        "heightCm": 127,
+        "currentPrice": 267,
+        "suggestedPrice": 147,
+        "diff": 120,
+        "estimatedWeightG": 2430,
+        "materialCostGBP": 49
+      }
+    ]
+  },
+  {
+    "listingId": 4297239042,
+    "name": "The Gherkin",
+    "widthFactor": 1.8,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 6,
+        "currentPrice": 14,
+        "suggestedPrice": 10,
+        "diff": 4,
+        "estimatedWeightG": 2,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 9,
+        "currentPrice": 19,
+        "suggestedPrice": 12,
+        "diff": 7,
+        "estimatedWeightG": 6,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 15,
+        "currentPrice": 31,
+        "suggestedPrice": 17,
+        "diff": 14,
+        "estimatedWeightG": 22,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 18,
+        "currentPrice": 37,
+        "suggestedPrice": 19,
+        "diff": 18,
+        "estimatedWeightG": 35,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 800,
+        "heightCm": 22.5,
+        "currentPrice": 48,
+        "suggestedPrice": 25,
+        "diff": 23,
+        "estimatedWeightG": 62,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 600,
+        "heightCm": 30,
+        "currentPrice": 66,
+        "suggestedPrice": 30,
+        "diff": 36,
+        "estimatedWeightG": 126,
+        "materialCostGBP": 3
+      },
+      {
+        "ratio": 400,
+        "heightCm": 45,
+        "currentPrice": 105,
+        "suggestedPrice": 51,
+        "diff": 54,
+        "estimatedWeightG": 348,
+        "materialCostGBP": 7
+      }
+    ]
+  },
+  {
+    "listingId": 4297238931,
+    "name": "The Shard",
+    "widthFactor": 0.7,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 10.33,
+        "currentPrice": 12,
+        "suggestedPrice": 13,
+        "diff": -1,
+        "estimatedWeightG": 1,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 15.5,
+        "currentPrice": 16,
+        "suggestedPrice": 17,
+        "diff": -1,
+        "estimatedWeightG": 4,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 25.83,
+        "currentPrice": 25,
+        "suggestedPrice": 26,
+        "diff": -1,
+        "estimatedWeightG": 13,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 31,
+        "currentPrice": 30,
+        "suggestedPrice": 30,
+        "diff": 0,
+        "estimatedWeightG": 21,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 800,
+        "heightCm": 38.75,
+        "currentPrice": 38,
+        "suggestedPrice": 36,
+        "diff": 2,
+        "estimatedWeightG": 36,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 600,
+        "heightCm": 51.7,
+        "currentPrice": 52,
+        "suggestedPrice": 26,
+        "diff": 26,
+        "estimatedWeightG": 75,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 400,
+        "heightCm": 77.5,
+        "currentPrice": 82,
+        "suggestedPrice": 36,
+        "diff": 46,
+        "estimatedWeightG": 205,
+        "materialCostGBP": 4
+      }
+    ]
+  },
+  {
+    "listingId": 4297237780,
+    "name": "Walkie Talkie",
+    "widthFactor": 2,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 5.33,
+        "currentPrice": 14,
+        "suggestedPrice": 9,
+        "diff": 5,
+        "estimatedWeightG": 2,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 2000,
+        "heightCm": 8,
+        "currentPrice": 19,
+        "suggestedPrice": 11,
+        "diff": 8,
+        "estimatedWeightG": 6,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 1200,
+        "heightCm": 13.33,
+        "currentPrice": 30,
+        "suggestedPrice": 16,
+        "diff": 14,
+        "estimatedWeightG": 21,
+        "materialCostGBP": 0
+      },
+      {
+        "ratio": 1000,
+        "heightCm": 16,
+        "currentPrice": 36,
+        "suggestedPrice": 18,
+        "diff": 18,
+        "estimatedWeightG": 32,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 800,
+        "heightCm": 20,
+        "currentPrice": 46,
+        "suggestedPrice": 25,
+        "diff": 21,
+        "estimatedWeightG": 57,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 600,
+        "heightCm": 26.7,
+        "currentPrice": 63,
+        "suggestedPrice": 29,
+        "diff": 34,
+        "estimatedWeightG": 117,
+        "materialCostGBP": 2
+      },
+      {
+        "ratio": 400,
+        "heightCm": 40,
+        "currentPrice": 101,
+        "suggestedPrice": 49,
+        "diff": 52,
+        "estimatedWeightG": 320,
+        "materialCostGBP": 6
+      }
+    ]
+  },
+  {
+    "listingId": 4426197221,
+    "name": "World Trade Center Twins",
+    "widthFactor": 2.5,
+    "scales": [
+      {
+        "ratio": 3000,
+        "heightCm": 13.9,
+        "currentPrice": 24,
+        "suggestedPrice": 16,
+        "diff": 8,
+        "estimatedWeightG": 36,
+        "materialCostGBP": 1
+      },
+      {
+        "ratio": 600,
+        "heightCm": 69.5,
+        "currentPrice": 138,
+        "suggestedPrice": 130,
+        "diff": 8,
+        "estimatedWeightG": 1991,
+        "materialCostGBP": 40
+      },
+      {
+        "ratio": 400,
+        "heightCm": 104.3,
+        "currentPrice": 226,
+        "suggestedPrice": 243,
+        "diff": -17,
+        "estimatedWeightG": 5494,
+        "materialCostGBP": 110
+      }
+    ]
+  }
+]

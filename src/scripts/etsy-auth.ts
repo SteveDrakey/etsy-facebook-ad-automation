@@ -17,7 +17,7 @@ const ENV_PATH = join(__dirname, "../../.env");
 
 const CLIENT_ID = process.env.ETSY_API_KEY!;
 const REDIRECT_URI = "http://localhost:3456/callback";
-const SCOPES = "listings_r listings_w";
+const SCOPES = "listings_r listings_w shops_r shops_w";
 const PORT = 3456;
 
 // ─── PKCE helpers ───────────────────────────────────────────

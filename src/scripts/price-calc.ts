@@ -113,6 +113,10 @@ const BUILDINGS: Record<string, BuildingProfile> = {
   "One World Trade Center": { realHeightM: 541, widthFactor: 1.1, multiColour: false, type: "tower" },
   "Taipei 101": { realHeightM: 508, widthFactor: 1.3, multiColour: false, type: "tower" },
   "China Zun (CITIC Tower)": { realHeightM: 528, widthFactor: 1.1, multiColour: false, type: "tower" },
+  "Ping An Finance Center": { realHeightM: 599, widthFactor: 1.1, multiColour: false, type: "tower" },
+  "International Commerce Centre": { realHeightM: 484, widthFactor: 1.2, multiColour: false, type: "tower" },
+  "Two International Finance Centre": { realHeightM: 415, widthFactor: 1.2, multiColour: false, type: "tower" },
+  "HSBC Main Building": { realHeightM: 178.8, widthFactor: 1.6, multiColour: false, type: "tower" },
   "Goldin Finance 117": { realHeightM: 597, widthFactor: 1.0, multiColour: false, type: "tower" },
   "Princess Tower Dubai": { realHeightM: 414, widthFactor: 0.9, multiColour: false, type: "tower" },
   "Gevora Hotel": { realHeightM: 356, widthFactor: 0.9, multiColour: false, type: "tower" },
@@ -136,6 +140,8 @@ const BUILDINGS: Record<string, BuildingProfile> = {
   // Stocky
   "The Gherkin": { realHeightM: 180, widthFactor: 1.8, multiColour: false, type: "tower" },
   "Walkie Talkie Building": { realHeightM: 160, widthFactor: 2.0, multiColour: false, type: "tower" },
+  "BT Tower": { realHeightM: 177, widthFactor: 0.9, multiColour: false, type: "tower" },
+  "NatWest Tower": { realHeightM: 183, widthFactor: 1.0, multiColour: false, type: "tower" },
   "Flatiron Building": { realHeightM: 87, widthFactor: 1.5, multiColour: false, type: "tower" },
   "Leadenhall Building": { realHeightM: 225, widthFactor: 1.6, multiColour: true, type: "tower" },
 
