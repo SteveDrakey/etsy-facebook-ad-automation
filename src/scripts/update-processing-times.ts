@@ -11,10 +11,14 @@
  * Tier processing_min/processing_max on all active building listings by
  * computed print weight at the LARGEST scale variation in each listing.
  *
- * Tiers (g = computed grams; all figures are Etsy "business days"):
- *   weight <= 150g  -> 3-5  business days
- *   weight <= 500g  -> 5-10 business days
- *   weight >  500g  -> 10-15 business days
+ * Tiers (g = computed grams):
+ *   weight <= 150g  -> 3-5 business days   (Etsy displays as "3-5 days")
+ *   weight <= 500g  -> 7-14 days           (Etsy displays as "1-2 weeks")
+ *   weight >  500g  -> 10-15 days          (Etsy displays as "2-3 weeks")
+ *
+ * The faster prints stay in days because Etsy applies the shop's
+ * "weekends off" rule there; the larger tiers are picked so Etsy
+ * surfaces them to buyers as weeks rather than long day-counts.
  *
  * Weight formula (mirrors price-calc.ts / recommend-processing-times.ts):
  *   weight = 39g * (heightCm/30)^2.5 * widthFactor^2 * (multiColour ? 1.5 : 1)
@@ -178,10 +182,11 @@ function largestScaleHeightCm(inventory: any): number | null {
 // ─── Tiering ────────────────────────────────────────────────
 
 interface Tier { min: number; max: number; label: string }
-// Etsy treats these as business days; the shop has weekends marked "don't make"
-// in Shop Manager, so 3-5 here ≈ 1 calendar week including a weekend.
+// Small tier stays in days (Etsy honours the shop's "weekends off" rule
+// for short ranges). Medium uses 7-14 so Etsy displays "1-2 weeks" to
+// buyers instead of a long day-count. Large left at the existing week range.
 const TIER_SMALL: Tier = { min: 3, max: 5, label: "3-5 days" };
-const TIER_MEDIUM: Tier = { min: 5, max: 10, label: "5-10 days" };
+const TIER_MEDIUM: Tier = { min: 7, max: 14, label: "1-2 weeks (7-14d)" };
 const TIER_LARGE: Tier = { min: 10, max: 15, label: "10-15 days" };
 
 function pickTier(weightG: number): Tier {
