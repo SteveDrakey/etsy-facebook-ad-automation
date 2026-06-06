@@ -128,9 +128,18 @@ Note: both Transparent Blue and Transparent Ice Blue are transparent filaments.
 
 **Always dry-run first**, show the user the full breakdown (scales, prices, processing tiers, tags, description), then apply with `--apply`.
 
-## Step 7: Register in price-calc.ts
+## Step 7: Register in the BUILDINGS dictionaries
 
-Add the building to the `BUILDINGS` dictionary in `src/scripts/price-calc.ts` and `src/scripts/grid.ts` so future pricing reviews include it. Also add to `src/scripts/assign-processing.ts` BUILDINGS dictionary.
+Add the building profile (realHeightM, widthFactor, multiColour) to every `BUILDINGS` dict so pricing, grid, and processing tools recognise it:
+
+- `src/scripts/price-calc.ts` — pricing formula source-of-truth
+- `src/scripts/grid.ts` — pricing review grid
+- `src/scripts/assign-processing.ts` — processing-time assignment
+- `src/scripts/update-processing-times.ts` — processing-time bulk updater
+- `src/scripts/weight-grid.ts` — per-variation weight diagnostic
+- `src/scripts/recommend-processing-times.ts` — read-only recommender
+
+These are duplicated dicts (intentional — keeps scripts self-contained). When you add a profile, search-and-add to all six.
 
 ## Reminders
 
