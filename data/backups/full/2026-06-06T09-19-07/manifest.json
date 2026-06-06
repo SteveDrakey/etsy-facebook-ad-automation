@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-06-06T09:24:47.689Z",
+  "shop_id": 56796619,
+  "shop_name": "Drakey3DPrints",
+  "counts": {
+    "active_listings": 59,
+    "draft_listings": 2,
+    "total_listings": 61,
+    "inventories": 61,
+    "image_records": 427,
+    "images_downloaded": 427,
+    "images_failed": 0
+  },
+  "bytes_downloaded": 295886768,
+  "bytes_downloaded_mb": 282.2,
+  "images_skipped": false,
+  "etsy_api_version": "v3",
+  "files": [
+    "shop.json",
+    "shipping-profiles.json",
+    "sections.json",
+    "production-partners.json",
+    "listings.json",
+    "inventories.json",
+    "images-meta.json",
+    "images/{listing_id}/{image_id}.jpg"
+  ]
+}

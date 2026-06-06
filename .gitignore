@@ -6,3 +6,7 @@ data/listings.json
 *.tmp
 *.jpg
 *.png
+
+# Allow images inside full backups
+!data/backups/full/**/images/**/*.jpg
+!data/backups/full/**/images/**/*.png
