@@ -11,8 +11,8 @@
  * Tier processing_min/processing_max on all active building listings by
  * computed print weight at the LARGEST scale variation in each listing.
  *
- * Tiers (g = computed grams):
- *   weight <= 150g  -> 1-5 business days
+ * Tiers (g = computed grams; all figures are Etsy "business days"):
+ *   weight <= 150g  -> 3-5  business days
  *   weight <= 500g  -> 5-10 business days
  *   weight >  500g  -> 10-15 business days
  *
@@ -178,7 +178,9 @@ function largestScaleHeightCm(inventory: any): number | null {
 // ─── Tiering ────────────────────────────────────────────────
 
 interface Tier { min: number; max: number; label: string }
-const TIER_SMALL: Tier = { min: 1, max: 5, label: "1-5 days" };
+// Etsy treats these as business days; the shop has weekends marked "don't make"
+// in Shop Manager, so 3-5 here ≈ 1 calendar week including a weekend.
+const TIER_SMALL: Tier = { min: 3, max: 5, label: "3-5 days" };
 const TIER_MEDIUM: Tier = { min: 5, max: 10, label: "5-10 days" };
 const TIER_LARGE: Tier = { min: 10, max: 15, label: "10-15 days" };
 
