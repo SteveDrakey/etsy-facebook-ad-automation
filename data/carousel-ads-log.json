@@ -1,0 +1,188 @@
+[
+  {
+    "createdAt": "2026-06-06T07:53:43.887Z",
+    "script": "create-carousel-showcase-v2",
+    "campaignId": "52572688116182",
+    "campaignName": "Drakey3DPrints — Shop Showcase 20 v2",
+    "adSetId": "52572688165982",
+    "adSetName": "Showcase 20 v2 — EU27+UK+US+CA+AU+NZ+JP+CH+NO+IS+LI",
+    "dailyBudgetGBP": 5,
+    "status": "ACTIVE",
+    "objective": "OUTCOME_TRAFFIC",
+    "optimizationGoal": "LANDING_PAGE_VIEWS",
+    "targeting": {
+      "countries": [
+        "US",
+        "GB",
+        "IE",
+        "CA",
+        "AU",
+        "NZ",
+        "JP",
+        "CH",
+        "NO",
+        "IS",
+        "LI",
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ],
+      "interests": [
+        "Building (architecture)"
+      ],
+      "advantageAudience": true,
+      "ageRange": "18-65",
+      "publisherPlatforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "messenger"
+      ]
+    },
+    "ads": [
+      {
+        "adId": "52572688221782",
+        "adName": "Showcase C — Full-Colour Editions",
+        "creativeId": "1537714194410090",
+        "creativeName": "Shop Showcase C — Full-Colour Editions",
+        "message": "Full-colour 3D printed buildings — from Chicago supertalls to Barcelona basilica facades, printed to order in your choice of colour and size. Tap any model to see it in the shop.",
+        "landingLink": "https://www.etsy.com/shop/Drakey3DPrints",
+        "listings": [
+          {
+            "listingId": 4377435439,
+            "headline": "Chrysler Full Colour",
+            "title": "Chrysler Building – Fulll colour- 3D Printed Skyscraper Model"
+          },
+          {
+            "listingId": 4298120344,
+            "headline": "Willis Tower FC",
+            "title": "Willis Tower – Full-Colour  3D Printed Skyscraper Model"
+          },
+          {
+            "listingId": 4419072894,
+            "headline": "Shanghai WFC FC",
+            "title": "Shanghai World Financial Center – Full Colour - 3D Printed Skyscraper Model"
+          },
+          {
+            "listingId": 4420044814,
+            "headline": "One WTC Full Colour",
+            "title": "One World Trade Center – Full Colour - 3D Printed Model Skyscraper"
+          },
+          {
+            "listingId": 4475385059,
+            "headline": "Merdeka 118 Shiny",
+            "title": "Merdeka 118 – Shiny multi colour - 3D Printed Skyscraper Model"
+          },
+          {
+            "listingId": 4300220861,
+            "headline": "Lotte World Multi",
+            "title": "Lotte World Tower – Multi-Colour 3D Printed Skyscraper Model | Architectural Display"
+          },
+          {
+            "listingId": 4334171055,
+            "headline": "Gherkin in Colour",
+            "title": "The Gherkin in colour - 3D Printed Model"
+          },
+          {
+            "listingId": 4340595685,
+            "headline": "Leadenhall FC",
+            "title": "Leadenhall Building - 3D Printed - Full Colour Model"
+          },
+          {
+            "listingId": 4316928048,
+            "headline": "St Peter's & Square",
+            "title": "St. Peter’s Basilica & Square – 3D Printed Model"
+          },
+          {
+            "listingId": 4368628516,
+            "headline": "NYC Times Square",
+            "title": "New York City Times Square Skyline– 3D Printed Cityscape Model"
+          }
+        ]
+      },
+      {
+        "adId": "52572688361582",
+        "adName": "Showcase D — Landmarks & Variety",
+        "creativeId": "1008675728242350",
+        "creativeName": "Shop Showcase D — Landmarks & Variety",
+        "message": "Full-colour 3D printed buildings — from Chicago supertalls to Barcelona basilica facades, printed to order in your choice of colour and size. Tap any model to see it in the shop.",
+        "landingLink": "https://www.etsy.com/shop/Drakey3DPrints",
+        "listings": [
+          {
+            "listingId": 4374780060,
+            "headline": "Flatiron Building",
+            "title": "Flatiron Building – 3D Printed Skyscraper Model"
+          },
+          {
+            "listingId": 4486855593,
+            "headline": "Santa Ana Cathedral",
+            "title": "Santa Ana Cathedral (Facade) – El Salvador | 3D Printed Landmark"
+          },
+          {
+            "listingId": 4487013910,
+            "headline": "Sagrada Familia",
+            "title": "Sagrada Familia (Facade) – Barcelona | 3D Printed Landmark"
+          },
+          {
+            "listingId": 4297236300,
+            "headline": "Wrigley Field",
+            "title": "Wrigley Field Stadium –  3D Printed  Model"
+          },
+          {
+            "listingId": 4410415496,
+            "headline": "Hancock Tower",
+            "title": "Hancock Tower – 3D Printed Skyscraper Model"
+          },
+          {
+            "listingId": 4405247320,
+            "headline": "Gevora Hotel",
+            "title": "Gevora Hotel – 3D Printed Skyscraper Model"
+          },
+          {
+            "listingId": 4328792291,
+            "headline": "Princess Tower",
+            "title": "Princess Tower Dubai - 3D Printed Skyscraper Model"
+          },
+          {
+            "listingId": 4296343052,
+            "headline": "Jin Mao Tower",
+            "title": "Jin Mao Tower – 3D Printed Skyscraper Model"
+          },
+          {
+            "listingId": 4485639625,
+            "headline": "Grollo Tower 1997",
+            "title": "Grollo Tower (1997) – 3D Printed Skyscraper Model"
+          },
+          {
+            "listingId": 4485639629,
+            "headline": "Grollo Tower 2001",
+            "title": "Grollo Tower (2001) – 3D Printed Skyscraper Model"
+          }
+        ]
+      }
+    ]
+  }
+]
